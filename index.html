@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>First Light Civil — Marketing Plan & Complaint Mining Hub</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap');
+  :root {
+    /* FLC Brand Palette — cool dark slate */
+    --bg:#0A0B0F;
+    --bg2:#11131A;
+    --card:#161922;
+    --surface:#1E2230;
+    --cream:#E6EAF2;
+    --tan:#6FA8DC;
+    --tan-bright:#8EC5FC;
+    --brown:#4A5568;
+    --rust:#5DADE2;
+    --gold:#A5D8FF;
+    --green:#4FD1C5;
+    --red:#E57373;
+    --text:#EEF1F7;
+    --text2:#C5CAD6;
+    --muted:#7A8294;
+    --border:#262B38;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+  .topbar{background:var(--bg2);border-bottom:2px solid var(--tan);padding:14px 24px;display:flex;align-items:center;gap:8px;position:sticky;top:0;z-index:50;overflow-x:auto;flex-wrap:nowrap;}
+  .logo{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:700;white-space:nowrap;margin-right:12px;color:var(--cream);}
+  .logo span{color:var(--tan-bright);}
+  .tab-btn{background:none;border:none;color:var(--muted);font-family:'DM Sans',sans-serif;font-size:14px;font-weight:600;padding:10px 10px;cursor:pointer;white-space:nowrap;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .2s;}
+  .tab-btn:hover{color:var(--text2);}
+  .tab-btn.active{color:var(--tan-bright);border-bottom-color:var(--tan-bright);}
+  .container{max-width:1300px;margin:0 auto;padding:32px 24px 80px;}
+  .tab-content{display:none;}
+  .tab-content.active{display:block;}
+  .badge-section{display:inline-block;background:linear-gradient(135deg,var(--tan-bright),var(--rust));color:var(--bg);font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:5px 12px;border-radius:4px;margin-bottom:12px;}
+  h2{font-family:'Space Grotesk',sans-serif;font-size:26px;font-weight:700;margin-bottom:8px;color:var(--cream);}
+  h2 span{color:var(--tan-bright);}
+  h3{font-family:'Space Grotesk',sans-serif;font-size:16px;margin-bottom:8px;color:var(--cream);}
+  .lead{color:var(--text2);font-size:14px;max-width:850px;margin-bottom:24px;}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:14px;}
+  .card p,.card li{color:var(--text2);font-size:13px;line-height:1.7;}
+  .card ul{padding-left:16px;}
+  .card li{margin-bottom:4px;}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
+  .three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:16px;}
+  .section-h{font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:700;margin:24px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--border);color:var(--tan-bright);}
+  .tip{background:rgba(240,178,58,0.08);border:1px solid rgba(240,178,58,0.25);border-radius:8px;padding:10px 14px;font-size:12px;color:var(--gold);margin-top:10px;}
+  .warn{background:rgba(194,69,69,0.08);border:1px solid rgba(194,69,69,0.25);border-radius:8px;padding:10px 14px;font-size:12px;color:var(--red);margin-top:10px;}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:20px;}
+  th{background:var(--surface);color:var(--tan-bright);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;padding:10px 12px;text-align:left;border-bottom:2px solid var(--border);}
+  td{padding:10px 12px;border-bottom:1px solid var(--border);color:var(--text2);vertical-align:top;}
+  tr:hover td{background:rgba(196,168,130,0.04);}
+  .badge{display:inline-block;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;text-transform:uppercase;letter-spacing:0.5px;}
+  .badge-hot{background:rgba(184,92,46,0.18);color:var(--rust);border:1px solid rgba(184,92,46,0.4);}
+  .badge-warm{background:rgba(240,178,58,0.15);color:var(--gold);border:1px solid rgba(240,178,58,0.35);}
+  .badge-au{background:rgba(123,160,91,0.15);color:var(--green);border:1px solid rgba(123,160,91,0.35);}
+  .badge-fb{background:rgba(74,159,255,0.12);color:#6BB0FF;border:1px solid rgba(74,159,255,0.3);}
+  .pain-card{background:var(--card);border:1px solid var(--border);border-left:3px solid var(--rust);border-radius:10px;padding:18px 22px;margin-bottom:14px;}
+  .pain-card h3{color:var(--rust);font-size:15px;margin-bottom:6px;}
+  .pain-card .quote{background:var(--surface);border-left:3px solid var(--brown);border-radius:6px;padding:10px 14px;margin:10px 0;font-size:13px;font-style:italic;color:var(--text2);}
+  .pain-card .source{font-size:11px;color:var(--muted);margin-top:6px;}
+  .pain-card .flc-edge{margin-top:10px;padding:10px 12px;background:rgba(123,160,91,0.08);border-left:3px solid var(--green);border-radius:6px;font-size:12px;color:var(--text2);}
+  .pain-card .flc-edge strong{color:var(--green);}
+  .stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px;}
+  .stat{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px 20px;}
+  .stat .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;}
+  .stat .value{font-family:'Space Grotesk',sans-serif;font-size:26px;font-weight:700;color:var(--tan-bright);}
+  .stat .note{font-size:11px;color:var(--muted);margin-top:2px;}
+  a.join{color:var(--tan-bright);font-weight:700;text-decoration:none;}
+  a.join:hover{color:var(--gold);text-decoration:underline;}
+  .script-block{background:var(--surface);border-radius:8px;padding:14px 16px;font-size:13px;color:var(--text2);line-height:1.8;margin:10px 0;white-space:pre-line;border-left:3px solid var(--tan);}
+  .copy-btn{margin-top:8px;background:rgba(196,168,130,0.12);border:1px solid rgba(196,168,130,0.4);color:var(--tan-bright);font-size:11px;font-weight:700;padding:5px 12px;border-radius:5px;cursor:pointer;}
+  .copy-btn:hover{background:rgba(196,168,130,0.25);}
+  .sunrise-bar{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px 24px;margin-bottom:24px;}
+  @media(max-width:768px){.two-col,.three-col,.stat-grid{grid-template-columns:1fr;}.container{padding:16px 12px;}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="logo">First<span>Light</span>Civil</div>
+  <button class="tab-btn active" onclick="switchTab('overview')">📋 Overview</button>
+  <button class="tab-btn" onclick="switchTab('customer')">🎯 Target Customer</button>
+  <button class="tab-btn" onclick="switchTab('painpoints')">⛏️ Pain Points</button>
+  <button class="tab-btn" onclick="switchTab('groups')">🌍 FB Groups</button>
+  <button class="tab-btn" onclick="switchTab('responses')">💬 Response Templates</button>
+  <button class="tab-btn" onclick="switchTab('postingplan')">📅 30-Day Plan</button>
+  <button class="tab-btn" onclick="switchTab('differentiators')">⭐ FLC Edge</button>
+</div>
+
+<div class="container">
+
+<!-- ═══ TAB: OVERVIEW ═══ -->
+<div id="tab-overview" class="tab-content active">
+  <div class="badge-section">FLC Marketing HQ</div>
+  <h2>First Light Civil — <span>Marketing & Complaint Mining Plan</span></h2>
+  <p class="lead">Brisbane & Moreton Bay earthmoving crew specialising in residential / civil projects — Site Cuts, Levelling, Pools, Retaining Walls, and Site Prep. This is the daily marketing playbook — find homeowners frustrated with cowboy contractors, hidden costs, and ghosting tradies, and show up with the answer.</p>
+
+  <div class="sunrise-bar">
+    <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+      <img src="flc-logo.png" alt="FLC" style="width:64px;height:64px;border-radius:8px;object-fit:cover;">
+      <div style="flex:1;">
+        <div style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:700;color:var(--cream);">The First Light Promise</div>
+        <p style="font-size:13px;color:var(--text2);margin-top:4px;">Reliable. On time. Quoted properly. Family-run, QBCC-licensed, 10+ years experience. Treating your site like our own — every single day.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat">
+      <div class="label">FB Groups Targeted</div>
+      <div class="value">26</div>
+      <div class="note">Brisbane + Moreton Bay verified</div>
+    </div>
+    <div class="stat">
+      <div class="label">Homeowner Pain Points</div>
+      <div class="value">12</div>
+      <div class="note">Documented from real sources</div>
+    </div>
+    <div class="stat">
+      <div class="label">Services Offered</div>
+      <div class="value">5</div>
+      <div class="note">Residential earthworks specialists</div>
+    </div>
+    <div class="stat">
+      <div class="label">Service Area</div>
+      <div class="value" style="font-size:18px;">Bris + MB</div>
+      <div class="note">Brisbane + all Moreton Bay</div>
+    </div>
+  </div>
+
+  <div class="section-h">What's In Each Tab</div>
+  <div class="card" style="border-left:4px solid var(--tan);">
+    <div class="two-col">
+      <div>
+        <p><strong style="color:var(--tan-bright);">🎯 Target Customer</strong> — Who we're going after: owner-builders, knockdown rebuilders, pool buyers, renovators, granny flat builders, rural property owners</p>
+        <p style="margin-top:8px;"><strong style="color:var(--rust);">⛏️ Pain Points</strong> — 12 documented homeowner frustrations: cowboy contractors, ghosting, hidden costs, rock clauses, drainage failures. With verbatim quotes from real forum sources.</p>
+        <p style="margin-top:8px;"><strong style="color:var(--gold);">🌍 FB Groups</strong> — 26 verified Brisbane & Moreton Bay Facebook groups with direct join links. Sorted by HOT/WARM priority.</p>
+        <p style="margin-top:8px;"><strong style="color:var(--green);">💬 Response Templates</strong> — Copy-paste responses for the 7 most common posts you'll see (recommendation requests, contractor complaints, etc.)</p>
+      </div>
+      <div>
+        <p><strong style="color:var(--tan-bright);">📅 30-Day Plan</strong> — Daily posting schedule, what to post when, where to post it. 30 minutes per day = 60+ leads per month at industry conversion rates.</p>
+        <p style="margin-top:8px;"><strong style="color:var(--gold);">⭐ FLC Edge</strong> — Your differentiators on a single page. Why FLC wins against the cowboys. Use these in every post and quote.</p>
+        <p style="margin-top:8px;"><strong style="color:var(--green);">📞 Quick Contact</strong> — 0420 683 648 · firstlightcivil@gmail.com · Mon–Sun 6am–6pm</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-h">Daily Workflow (30 minutes)</div>
+  <div class="card" style="border-left:4px solid var(--green);">
+    <p style="line-height:2;">
+      <strong style="color:var(--tan-bright);">Step 1 (10 min):</strong> Morning scan — open the top 10 HOT FB groups. Search "earthworks" / "excavation" / "pool dig" / "retaining wall" / "site cut" / "recommendation" in each group's search bar.<br>
+      <strong style="color:var(--tan-bright);">Step 2 (5 min):</strong> Identify 3-5 posts where someone is asking for a quote, complaining about a contractor, or asking for recommendations.<br>
+      <strong style="color:var(--tan-bright);">Step 3 (10 min):</strong> Use the response templates in the 💬 tab. Personalise with the homeowner's actual situation. Mention QBCC licence, 10+ years experience, family-run.<br>
+      <strong style="color:var(--tan-bright);">Step 4 (5 min):</strong> Post your value content of the day from the 📅 30-Day Plan into 1-2 groups.<br>
+      <strong style="color:var(--tan-bright);">Target:</strong> 5 quality responses per day = 25 touchpoints per week = 8-12 quote requests per month at 10-15% conversion.
+    </p>
+  </div>
+
+  <div class="section-h">FLC Profile at a Glance</div>
+  <table>
+    <thead><tr><th>Field</th><th>Detail</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Business</strong></td><td>First Light Civil</td></tr>
+      <tr><td><strong>Owner</strong></td><td>Family-run business</td></tr>
+      <tr><td><strong>Service Area</strong></td><td>Brisbane + Moreton Bay (all suburbs) — based in Caboolture / North Brisbane</td></tr>
+      <tr><td><strong>Hours</strong></td><td>Monday–Sunday, 6:00 AM – 6:00 PM</td></tr>
+      <tr><td><strong>Phone</strong></td><td><a href="tel:0420683648" class="join">0420 683 648</a></td></tr>
+      <tr><td><strong>Email</strong></td><td><a href="mailto:firstlightcivil@gmail.com" class="join">firstlightcivil@gmail.com</a></td></tr>
+      <tr><td><strong>Domain</strong></td><td>firstlightcivil.com.au</td></tr>
+      <tr><td><strong>QBCC Licence</strong></td><td>#76041 (expires 16/03/2027)</td></tr>
+      <tr><td><strong>Master Builders</strong></td><td>Member (number pending)</td></tr>
+      <tr><td><strong>Experience</strong></td><td>10+ years hands-on</td></tr>
+      <tr><td><strong>Services</strong></td><td>Site Cuts · Levelling · Pool Digs · Retaining Walls · Site Prep</td></tr>
+      <tr><td><strong>Plant</strong></td><td>Excavators (multiple sizes) · Bobcats / Skid Steers · Tippers · Truck and Dog combinations</td></tr>
+      <tr><td><strong>Facebook</strong></td><td><a href="https://www.facebook.com/profile.php?id=61576791593986" target="_blank" class="join">First Light Civil FB Page</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ═══ TAB: TARGET CUSTOMER ═══ -->
+<div id="tab-customer" class="tab-content">
+  <div class="badge-section">Who We're Targeting</div>
+  <h2>The Residential Earthworks <span>Customer Map</span></h2>
+  <p class="lead">FLC's sweet spot is Brisbane & Moreton Bay homeowners who need earthworks done properly the first time. Here are the 7 customer types — and where they hang out online.</p>
+
+  <div class="three-col">
+    <div class="card" style="border-left:4px solid var(--tan-bright);">
+      <h3 style="color:var(--tan-bright);">🏗️ 1. Owner-Builders</h3>
+      <p>People building their own home — managing trades themselves. They are <strong>cost-conscious, knowledge-hungry, and burned often</strong> by cowboy operators. They post "what should I expect to pay for site cut?" all the time.</p>
+      <p style="margin-top:8px;"><strong>FLC Pitch:</strong> Detailed quote breakdowns, rock clause transparency, QBCC licence. Sell certainty.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--rust);">
+      <h3 style="color:var(--rust);">🔨 2. Knockdown Rebuilders</h3>
+      <p>Bought a tired house on a great block. Need <strong>full demolition + site cut + clearing</strong>. Often working with a custom builder who quoted "site costs TBC". This is FLC's highest-value customer — multi-service jobs.</p>
+      <p style="margin-top:8px;"><strong>FLC Pitch:</strong> Single contractor for demo + clear + site cut + retaining = no coordination headaches, no finger-pointing.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--gold);">
+      <h3 style="color:var(--gold);">🏊 3. Pool Buyers</h3>
+      <p>Bought a pool from a major brand, but need to organise the dig themselves. <strong>Tight access is the killer</strong>. Hate getting "rock surprises" mid-job.</p>
+      <p style="margin-top:8px;"><strong>FLC Pitch:</strong> Tight-access excavator experience, fixed quote with rock allowance disclosed upfront, work with all major pool brands.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--green);">
+      <h3 style="color:var(--green);">🏡 4. Renovators</h3>
+      <p>Adding a deck, extension, or reconfiguring the yard. Need <strong>retaining walls, drainage fixes, clearing</strong>. They're already deep into a project and need someone reliable NOW.</p>
+      <p style="margin-top:8px;"><strong>FLC Pitch:</strong> Fast turnaround, weekend availability (you operate 7 days), local Moreton Bay knowledge.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--brown);">
+      <h3 style="color:var(--brown);">🏠 5. Granny Flat Builders</h3>
+      <p>Adding a granny flat for family or rental income. Need <strong>site cut + slab prep + trenching for services</strong>. This is a huge growing market in SEQ.</p>
+      <p style="margin-top:8px;"><strong>FLC Pitch:</strong> Full prep package — site cut, trenching, retaining if needed. One contractor handles the whole earthworks scope.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--tan);">
+      <h3 style="color:var(--tan);">🌳 6. Rural / Acreage Owners</h3>
+      <p>Moreton Bay region has thousands of acreage blocks. Need <strong>rural driveways, dam construction, clearing, trenching for water/power</strong>. Often brand new to earthworks and don't know what to ask.</p>
+      <p style="margin-top:8px;"><strong>FLC Pitch:</strong> Rural specialist services (driveways, dams) listed openly. Free site visit for acreage projects.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--rust);">
+      <h3 style="color:var(--rust);">📈 7. Property Investors</h3>
+      <p>Renovating or developing rentals. Need <strong>cost-effective, fast, reliable</strong> earthworks. Often have multiple jobs across the year — repeat business gold.</p>
+      <p style="margin-top:8px;"><strong>FLC Pitch:</strong> Investor-friendly pricing for repeat work, reliable scheduling, clear invoicing.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--gold);">
+      <h3 style="color:var(--gold);">⭐ Bonus: Builders & Tradies</h3>
+      <p>Other builders and landscapers who need a sub-contractor for the earthworks portion of their jobs. <strong>B2B referral channel</strong> — once they trust you, they'll use you on every job.</p>
+      <p style="margin-top:8px;"><strong>FLC Pitch:</strong> Reliable sub-contractor, won't make their builder look bad, on-time on-budget.</p>
+    </div>
+  </div>
+
+  <div class="section-h">Where Each Customer Hangs Out</div>
+  <table>
+    <thead><tr><th>Customer Type</th><th>Best FB Groups</th><th>Search Terms to Watch</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Owner-Builders</strong></td><td>Owner Builders Australia, The Owner-Builder Network, New Home Builders Brisbane</td><td>"site costs", "rock clause", "earthworks quote", "owner builder excavator"</td></tr>
+      <tr><td><strong>Knockdown Rebuilders</strong></td><td>Brisbane Renovators, New Home Builders Brisbane, Brisbane Builders and Renovators</td><td>"knockdown", "demo + slab", "site cut", "soil removal"</td></tr>
+      <tr><td><strong>Pool Buyers</strong></td><td>Brisbane Renovators, New Home Builders Brisbane, Granny Flat group (post-pool common)</td><td>"pool excavation", "pool dig", "tight access excavator", "rock removal pool"</td></tr>
+      <tr><td><strong>Renovators</strong></td><td>Brisbane Renovators, Brisbane Builders and Renovators, local BSS groups</td><td>"retaining wall", "drainage", "level the yard", "tree removal stump"</td></tr>
+      <tr><td><strong>Granny Flat Builders</strong></td><td>Building a Granny Flat in Brisbane (5558945374127580), Granny Flat for Rent QLD</td><td>"granny flat slab", "secondary dwelling", "site prep"</td></tr>
+      <tr><td><strong>Rural / Acreage</strong></td><td>Bribie Island Community, Moreton Bay groups, Caboolture BSS</td><td>"driveway", "dam", "clearing acreage", "trenching"</td></tr>
+      <tr><td><strong>Property Investors</strong></td><td>AUS Property Investors, Brisbane Property Group, Queensland Landlords, Brisbane Real Estate Insights</td><td>"reno cost", "site costs blowout", "before sale earthworks"</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ═══ TAB: PAIN POINTS ═══ -->
+<div id="tab-painpoints" class="tab-content">
+  <div class="badge-section">Complaint Mining</div>
+  <h2>What Brisbane Homeowners Are <span>Complaining About</span></h2>
+  <p class="lead">Every pain point below is sourced from real Australian forums (Whirlpool, Mumsnet, Homeone, Master Builders, Brisbane City Council, QBCC, retaining wall lawyers). These are the conversations FLC needs to show up in.</p>
+
+  <div class="stat-grid">
+    <div class="stat"><div class="label">Pain Points</div><div class="value">12</div><div class="note">All sourced</div></div>
+    <div class="stat"><div class="label">Top Frustration</div><div class="value" style="font-size:16px;">Ghosting</div><div class="note">Tradies disappearing post-quote</div></div>
+    <div class="stat"><div class="label">Costliest Surprise</div><div class="value" style="font-size:16px;">Rock Clauses</div><div class="note">$20K+ overruns</div></div>
+    <div class="stat"><div class="label">Highest Risk</div><div class="value" style="font-size:16px;">Unlicensed</div><div class="note">"Cowboy operators"</div></div>
+  </div>
+
+  <div class="section-h">🔥 Top 12 Pain Points (by frequency)</div>
+
+  <div class="pain-card">
+    <h3>1. Tradies Ghosting After Quote Visit</h3>
+    <p><span class="badge badge-hot">CRITICAL</span> The single most-discussed frustration in Brisbane homeowner forums. Contractors arrive for a site visit, promise a quote within days, then vanish. No callback, no email, nothing.</p>
+    <div class="quote">"Sourcing tradies for small jobs in SE Queensland is a nightmare. Some even turn up, quote you, get agreement, then ghost you completely when you try to contact them."</div>
+    <div class="source">Source: Whirlpool Forums — "Tradesmen NEVER turn up?!" (forums.whirlpool.net.au/archive/2458094)</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Quote within 48 hours. Phone callback always. If FLC says they'll ring back, they ring back. Make this a public promise on every post.</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>2. "Rock Clause" Cost Blowouts</h3>
+    <p><span class="badge badge-hot">CRITICAL</span> Builders quote a small "provisional amount" for site works that's never enough. Then rock is found and the homeowner is hit with $20K+ in variations. Soil tests can't reliably predict rock.</p>
+    <div class="quote">"Rock removal is generally charged at around $250 per cubic metre, which can equal $20,000 for the average pool if it was completely in rock."</div>
+    <div class="source">Source: Build in Oz / Stroud Homes / Whirlpool building forum</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Disclose rock allowance UPFRONT in every quote. Refundable if not encountered. Show the homeowner the calc. This builds trust faster than any other tactic.</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>3. Cowboy / Unlicensed Operators</h3>
+    <p><span class="badge badge-hot">CRITICAL</span> Inexperienced earthmoving contractors causing damage to underground utilities, foundations, and neighbours' fences. Walls collapsing within months.</p>
+    <div class="quote">"There are a lot of cowboy landscapers out there without a licence and operating illegally. An inexperienced unqualified handyman could build a small retaining wall under $3,300 but if it's not properly constructed it could begin to lean and eventually collapse within a few short months."</div>
+    <div class="source">Source: Concrete Sleeper Retaining Walls Brisbane / Brisbane City Council complaints data</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Lead with QBCC Licence #76041 in every post and every quote. Master Builders membership. Public liability insurance disclosed. "Licence number on every invoice."</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>4. Hidden Site Costs Blowing Out Budgets</h3>
+    <p><span class="badge badge-hot">HIGH</span> The #1 surprise for Queensland new home builders. Builders bury earthworks in vague "site costs TBC". Homeowners commit to a fixed price, then get crushed.</p>
+    <div class="quote">"Builders typically only include a small 'provisional amount' for site works, and it is never enough. It's not hard to rack up an extra $50K if you wanted everything finished."</div>
+    <div class="source">Source: Davolyn Constructions / Whirlpool "advice needed new home hidden costs"</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Itemised quotes — every line transparent. Site cut, soil disposal, rock allowance, retaining, trenching all priced separately. No "TBC" lines.</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>5. Underground Utility Strikes</h3>
+    <p><span class="badge badge-hot">HIGH</span> Cowboy operators digging without DBYD checks, hitting water/sewer/gas lines and electrical. Massive fines, project delays, real injury risk.</p>
+    <div class="quote">"It is very common for homeowners to encounter underground utilities, and accidentally striking them can damage utilities, force the project on hold, lead to fines, and even cause serious injury or death."</div>
+    <div class="source">Source: Ryno Hire / Master Builders Queensland — Excavation hazards guide</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> "Dial Before You Dig" check on every job, every time. Document it. Show the homeowner the DBYD report.</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>6. Retaining Wall Failures from Bad Drainage</h3>
+    <p><span class="badge badge-hot">HIGH</span> Walls cracking, bulging, and collapsing because the contractor skipped weep holes, gravel backfill, or aggdrain. Brisbane's clay soils make this brutal.</p>
+    <div class="quote">"Inadequate drainage is one of the leading causes of retaining wall failure. When water accumulates without proper drainage, it creates excessive hydrostatic pressure, causing the wall to crack, bulge, or collapse."</div>
+    <div class="source">Source: KG Landscape / Queensland Retaining Wall Lawyers</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Every retaining wall job includes proper aggdrain, gravel backfill, geomesh, and weep holes — show photos of this in posts. Educate the market.</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>7. Variations Not Documented in Writing</h3>
+    <p><span class="badge badge-warm">MEDIUM-HIGH</span> Contractors making verbal "while we're here" upgrades, then billing for them. Massive QBCC and QCAT dispute volumes.</p>
+    <div class="quote">"Any variation to your contract must be documented in writing and approved by both you and your contractor before work commences."</div>
+    <div class="source">Source: Construction Lawyer Brisbane / QBCC Variation Regulations</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Written variation forms before any extra work. Photo evidence of original scope vs change. Sent via SMS for instant approval.</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>8. Pool Excavation Surprise Costs</h3>
+    <p><span class="badge badge-warm">MEDIUM-HIGH</span> Pool buyers caught out by tight access, rock, soil disposal, and crane requirements. $5-20K of surprise costs are common.</p>
+    <div class="quote">"As most inner-city properties require smaller machinery for tight access, it is common to add an additional $5,000 - $10,000 for extra time and soil removal."</div>
+    <div class="source">Source: Plunge Pools Brisbane / Norfolk Pools / Microex Pool Excavation</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Tight-access excavator capability advertised. Free pre-dig site visit included. Spoils disposal price disclosed per cubic metre upfront.</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>9. Brisbane Clay & Sandy Soil Instability</h3>
+    <p><span class="badge badge-warm">MEDIUM</span> Brisbane's geology is brutal — sandy soil drains too fast, clay expands and contracts. Affects foundations, retaining walls, drainage.</p>
+    <div class="quote">"Sandy soil is quick to drain but often provides insufficient support, while clay soil retains water that can cause it to expand and contract, impacting the foundation's stability."</div>
+    <div class="source">Source: Ryno Hire excavation challenges guide</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Local Moreton Bay/Brisbane soil knowledge. 10+ years working in this exact geology. Know which suburbs have reactive clay vs sandstone.</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>10. Neighbour Disputes Over Retaining Walls</h3>
+    <p><span class="badge badge-warm">MEDIUM</span> Brisbane City Council retaining wall disputes are constant. Who pays, who's responsible, what's the council requirement under 1m vs over 1m. People get burned.</p>
+    <div class="quote">"One family spent $25,000 replacing a wall they didn't need to — proper legal advice could have saved them the full amount."</div>
+    <div class="source">Source: Queensland Retaining Wall Lawyers</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Free advice on what the council actually requires. Help homeowners avoid unnecessary work. Build long-term trust over short-term margin.</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>11. Damage to Fences, Foundations & Neighbours' Property</h3>
+    <p><span class="badge badge-warm">MEDIUM</span> Inexperienced operators causing thousands in damage to underground utilities, structural foundations, and neighbours' property — then dragging it through QBCC.</p>
+    <div class="quote">"Inexperienced earthmoving contractors can result in thousands of dollars in damage to underground utilities, structural foundations, or neighbouring fences."</div>
+    <div class="source">Source: Microex Brisbane / Master Builders QLD safety guidance</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Public liability insurance disclosed. 10+ years of incident-free work. "We've never had a QBCC claim against us."</div>
+  </div>
+
+  <div class="pain-card">
+    <h3>12. Tradies Refusing Small Residential Jobs</h3>
+    <p><span class="badge badge-warm">MEDIUM</span> Big earthworks companies don't want $2-5K residential jobs. Homeowners can't get anyone to even quote a small site cut or levelling job.</p>
+    <div class="quote">"Local or smaller tradies won't want to take on jobs worth just a couple hundred dollars as it's not worth their time with overhead costs."</div>
+    <div class="source">Source: Whirlpool Forums "Tradesmen NEVER turn up?!" thread</div>
+    <div class="flc-edge"><strong>FLC EDGE:</strong> Welcome small jobs. Half-day rates published. Bobcat + operator hourly clearly listed. Build relationships now → repeat business later.</div>
+  </div>
+
+  <div class="section-h">Top 6 Trending Themes Across All Complaints</div>
+  <div class="three-col">
+    <div class="card" style="border-left:3px solid var(--rust);">
+      <h3 style="color:var(--rust);">#1 Communication Failures</h3>
+      <p>Ghosting, no callbacks, no follow-through on quotes. <strong>FLC Promise: Quote in 48 hours, callback always.</strong></p>
+    </div>
+    <div class="card" style="border-left:3px solid var(--rust);">
+      <h3 style="color:var(--rust);">#2 Surprise Costs</h3>
+      <p>"Provisional" site costs that blow out. Rock, soil disposal, access surprises. <strong>FLC Promise: Itemised quote, rock allowance disclosed, no TBC lines.</strong></p>
+    </div>
+    <div class="card" style="border-left:3px solid var(--gold);">
+      <h3 style="color:var(--gold);">#3 Licensing & Insurance Gaps</h3>
+      <p>Cowboys without QBCC licence or public liability. <strong>FLC Promise: QBCC #76041 on every invoice, MBA member.</strong></p>
+    </div>
+    <div class="card" style="border-left:3px solid var(--gold);">
+      <h3 style="color:var(--gold);">#4 Drainage & Engineering Skipped</h3>
+      <p>Walls failing because contractor cut corners. <strong>FLC Promise: Aggdrain, gravel backfill, weep holes — show photos.</strong></p>
+    </div>
+    <div class="card" style="border-left:3px solid var(--green);">
+      <h3 style="color:var(--green);">#5 Big Companies Ignoring Small Jobs</h3>
+      <p>Major earthworks companies won't quote sub-$5K residential. <strong>FLC Promise: Small jobs welcome, half-day rates listed.</strong></p>
+    </div>
+    <div class="card" style="border-left:3px solid var(--green);">
+      <h3 style="color:var(--green);">#6 No Local Knowledge</h3>
+      <p>Brisbane geology is brutal. Out-of-area contractors don't know which suburbs have reactive clay. <strong>FLC Promise: 10+ years local Brisbane + Moreton Bay.</strong></p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ TAB: FB GROUPS ═══ -->
+<div id="tab-groups" class="tab-content">
+  <div class="badge-section">Facebook Groups</div>
+  <h2>26 Brisbane & Moreton Bay <span>FB Groups to Join</span></h2>
+  <p class="lead">All groups verified. Use Glenn's personal profile (NOT a business page — most groups ban business pages). Join all HOT groups this week. Lurk for 3-5 days, then engage.</p>
+
+  <div class="card" style="border-left:4px solid var(--green);">
+    <h3 style="color:var(--green);">The FLC Personal Profile Setup</h3>
+    <p><strong>Bio:</strong> "Family-run earthworks contractor — Brisbane & Moreton Bay · QBCC #76041 · 10+ years · Reliable. On time. Quoted properly. · firstlightcivil.com.au"</p>
+    <p style="margin-top:8px;"><strong>Profile photo:</strong> Friendly face shot — NOT a logo. People trust faces, not brands, in community groups.</p>
+    <p style="margin-top:8px;"><strong>Cover photo:</strong> An action shot of the excavator on a job, FLC livery visible.</p>
+    <p style="margin-top:8px;"><strong>The 80/20 rule:</strong> 80% pure value (tips, education, helpful answers). 20% gentle pitch when someone is genuinely asking for a contractor.</p>
+  </div>
+
+  <!-- HOT GROUPS — RENO/BUILD -->
+  <div class="section-h">🔨 Renovation, Build & Owner-Builder Groups (HOT)</div>
+  <table>
+    <thead><tr><th>#</th><th>Group</th><th>Size</th><th>Location</th><th>Priority</th><th>Why It Matters</th><th>Join</th></tr></thead>
+    <tbody>
+      <tr style="background:rgba(196,168,130,0.05);"><td>01</td><td><strong>Brisbane Renovators</strong></td><td>Large</td><td>🏙️ Brisbane</td><td><span class="badge badge-hot">HOT</span></td><td>The #1 Brisbane reno community. Recommendation requests for tradies posted daily. Highest-intent group on this list.</td><td><a href="https://www.facebook.com/groups/BrisbaneRenovators/" target="_blank" class="join">Join</a></td></tr>
+      <tr style="background:rgba(196,168,130,0.05);"><td>02</td><td><strong>New Home Builders Brisbane</strong></td><td>Large</td><td>🏙️ Brisbane</td><td><span class="badge badge-hot">HOT</span></td><td>Knockdown rebuild + new build community. Site cut, demolition, earthworks questions constant.</td><td><a href="https://www.facebook.com/groups/newhomebuilders/" target="_blank" class="join">Join</a></td></tr>
+      <tr style="background:rgba(196,168,130,0.05);"><td>03</td><td><strong>The Owner-Builder Network</strong></td><td>390K+</td><td>🇦🇺 Australia</td><td><span class="badge badge-hot">HOT</span></td><td>Massive owner-builder community. Even small % of Brisbane traffic = huge lead pool. Educational content gold here.</td><td><a href="https://www.facebook.com/TheOwnerBuilderNetwork/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>04</td><td><strong>Owner Builders Australia</strong></td><td>Large</td><td>🇦🇺 Australia</td><td><span class="badge badge-hot">HOT</span></td><td>Active discussion group. Owner-builders constantly ask "what should I expect to pay for site cut".</td><td><a href="https://www.facebook.com/groups/OwnerBuildersAustralia/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>05</td><td><strong>Brisbane Builders and Renovators</strong></td><td>Medium</td><td>🏙️ East Brisbane</td><td><span class="badge badge-hot">HOT</span></td><td>Mix of tradies + homeowners. B2B and B2C opportunity in one group.</td><td><a href="https://www.facebook.com/BrisbaneBuildersAndRenovators/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>06</td><td><strong>New Home Builders Brisbane (Public)</strong></td><td>Medium</td><td>🏙️ Brisbane</td><td><span class="badge badge-warm">WARM</span></td><td>Secondary new home group. Less active but worth monitoring.</td><td><a href="https://www.facebook.com/groups/1171265709976585/" target="_blank" class="join">Join</a></td></tr>
+    </tbody>
+  </table>
+
+  <!-- GRANNY FLAT / SPECIALTY -->
+  <div class="section-h">🏠 Granny Flats & Secondary Dwellings (HOT — Growth Market)</div>
+  <table>
+    <thead><tr><th>#</th><th>Group</th><th>Size</th><th>Location</th><th>Priority</th><th>Why It Matters</th><th>Join</th></tr></thead>
+    <tbody>
+      <tr style="background:rgba(196,168,130,0.05);"><td>07</td><td><strong>Building a Granny Flat in Brisbane (Australia-wide group)</strong></td><td>Large</td><td>🏙️ Brisbane focus</td><td><span class="badge badge-hot">HOT</span></td><td>Entire group is people building granny flats — every one needs site prep + slab earthworks. Highest-intent niche.</td><td><a href="https://www.facebook.com/groups/5558945374127580/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>08</td><td><strong>Granny Flat for Rent QLD</strong></td><td>Medium</td><td>🏖️ QLD</td><td><span class="badge badge-warm">WARM</span></td><td>Renters AND landlords. Investors who own granny flats build more = repeat earthworks customers.</td><td><a href="https://www.facebook.com/groups/grannyflatforrentbrisbane/" target="_blank" class="join">Join</a></td></tr>
+    </tbody>
+  </table>
+
+  <!-- MORETON BAY / NORTH BRISBANE LOCAL -->
+  <div class="section-h">🏖️ Moreton Bay & North Brisbane Local Groups (HOT — Home Turf)</div>
+  <table>
+    <thead><tr><th>#</th><th>Group</th><th>Size</th><th>Location</th><th>Priority</th><th>Why It Matters</th><th>Join</th></tr></thead>
+    <tbody>
+      <tr style="background:rgba(196,168,130,0.05);"><td>09</td><td><strong>What's On | Moreton Bay Region</strong></td><td>Large</td><td>🏖️ Moreton Bay</td><td><span class="badge badge-hot">HOT</span></td><td>FLC's home turf. Recommendation posts for local tradies common. Community trust matters here.</td><td><a href="https://www.facebook.com/groups/WhatsOnMoretonBayRegion/" target="_blank" class="join">Join</a></td></tr>
+      <tr style="background:rgba(196,168,130,0.05);"><td>10</td><td><strong>What's On | Moreton Bay</strong></td><td>Large</td><td>🏖️ Moreton Bay</td><td><span class="badge badge-hot">HOT</span></td><td>Sister group — slightly different audience. Both worth being in.</td><td><a href="https://www.facebook.com/groups/whatsonmoretonbay/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>11</td><td><strong>Caboolture Buy, Swap, Sell, Give-Away</strong></td><td>Large</td><td>📍 Caboolture</td><td><span class="badge badge-hot">HOT</span></td><td>FLC's literal hometown. Local trust = instant credibility. People love hiring local.</td><td><a href="https://www.facebook.com/groups/CabooltureBSS" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>12</td><td><strong>Redcliffe Qld Community Noticeboard</strong></td><td>Large</td><td>📍 Redcliffe</td><td><span class="badge badge-hot">HOT</span></td><td>Affluent peninsula community. Lots of pool digs, retaining walls, granny flats happening.</td><td><a href="https://www.facebook.com/groups/redcliffenoticeboard/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>13</td><td><strong>Redcliffe Peninsula Community</strong></td><td>Medium</td><td>📍 Redcliffe</td><td><span class="badge badge-warm">WARM</span></td><td>Secondary Redcliffe group. Both worth being in for cross-coverage.</td><td><a href="https://www.facebook.com/groups/1833752586658380/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>14</td><td><strong>Bribie Island Community</strong></td><td>Large</td><td>🏝️ Bribie</td><td><span class="badge badge-warm">WARM</span></td><td>Acreage and waterfront properties = rural driveways, dam construction, retaining walls.</td><td><a href="https://www.facebook.com/groups/BribieIsland/" target="_blank" class="join">Join</a></td></tr>
+    </tbody>
+  </table>
+
+  <!-- BRISBANE BUY/SELL/COMMUNITY -->
+  <div class="section-h">🏙️ Brisbane Suburb & Community Buy/Sell Groups (WARM)</div>
+  <table>
+    <thead><tr><th>#</th><th>Group</th><th>Size</th><th>Location</th><th>Priority</th><th>Why It Matters</th><th>Join</th></tr></thead>
+    <tbody>
+      <tr><td>15</td><td><strong>Northside Brisbane Buy Swap And Sell</strong></td><td>Large</td><td>🏙️ North Bris</td><td><span class="badge badge-warm">WARM</span></td><td>Massive northside community. Mostly buy/sell but recommendation posts get high engagement.</td><td><a href="https://www.facebook.com/groups/northsidebuyswapsell/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>16</td><td><strong>Brisbane Northside, Buy, Sell and Trade</strong></td><td>Large</td><td>🏙️ North Bris</td><td><span class="badge badge-warm">WARM</span></td><td>Sister northside group. Local recommendation requests common.</td><td><a href="https://www.facebook.com/groups/Brisbane.northside.buy.sell.trade/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>17</td><td><strong>Brisbane Northside Buy, Swap And Sell (alt)</strong></td><td>Medium</td><td>🏙️ North Bris</td><td><span class="badge badge-warm">WARM</span></td><td>Third northside group — different members, broader coverage.</td><td><a href="https://www.facebook.com/groups/1791725047529623/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>18</td><td><strong>Brisbane Swap, Buy & Sell</strong></td><td>Large</td><td>🏙️ Brisbane</td><td><span class="badge badge-warm">WARM</span></td><td>City-wide group. Recommendation posts surface daily.</td><td><a href="https://www.facebook.com/groups/1650834661865447/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>19</td><td><strong>Brisbane Southside Buy Swap Sell</strong></td><td>Large</td><td>🏙️ South Bris</td><td><span class="badge badge-warm">WARM</span></td><td>Southside coverage. FLC services all of Brisbane — don't ignore the south.</td><td><a href="https://www.facebook.com/groups/1508335699410253/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>20</td><td><strong>The Gap Brisbane 4061 Buy & Sell</strong></td><td>Medium</td><td>📍 The Gap</td><td><span class="badge badge-warm">WARM</span></td><td>Affluent western suburb. Lots of pools, retaining walls, knockdown rebuilds happening.</td><td><a href="https://www.facebook.com/groups/thegapbuyandsell4061/" target="_blank" class="join">Join</a></td></tr>
+    </tbody>
+  </table>
+
+  <!-- PROPERTY INVESTMENT -->
+  <div class="section-h">💰 Property Investor Groups (WARM — Repeat Business Gold)</div>
+  <table>
+    <thead><tr><th>#</th><th>Group</th><th>Size</th><th>Location</th><th>Priority</th><th>Why It Matters</th><th>Join</th></tr></thead>
+    <tbody>
+      <tr><td>21</td><td><strong>AUS Property Investors</strong></td><td>Large</td><td>🇦🇺 Australia</td><td><span class="badge badge-warm">WARM</span></td><td>Investors do MULTIPLE renos per year. One happy investor = 5+ jobs. Highest LTV customer type.</td><td><a href="https://www.facebook.com/groups/Auspropertyinvestorsgroup/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>22</td><td><strong>Brisbane Property Group, Buy, Sell, Rent & Investment</strong></td><td>Medium</td><td>🏙️ Brisbane</td><td><span class="badge badge-warm">WARM</span></td><td>Brisbane-specific investor community. Direct local match.</td><td><a href="https://www.facebook.com/groups/506955723340327/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>23</td><td><strong>Queensland Landlords</strong></td><td>Medium</td><td>🏖️ QLD</td><td><span class="badge badge-warm">WARM</span></td><td>Landlords prepping properties between tenants. Earthworks for retaining wall repairs, drainage fixes, yard tidying.</td><td><a href="https://www.facebook.com/groups/queenslandlandlords/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>24</td><td><strong>Brisbane Real Estate Insights</strong></td><td>Medium</td><td>🏙️ Brisbane</td><td><span class="badge badge-warm">WARM</span></td><td>Discussion-heavy investor group. Educational content performs.</td><td><a href="https://www.facebook.com/groups/BrisbaneRealEstateInsights/" target="_blank" class="join">Join</a></td></tr>
+      <tr><td>25</td><td><strong>Brisbane Property Rentals</strong></td><td>Large</td><td>🏙️ Brisbane</td><td><span class="badge badge-warm">WARM</span></td><td>Rental-focused but landlords lurk. Useful for landlord outreach posts.</td><td><a href="https://www.facebook.com/groups/1846665562223610/" target="_blank" class="join">Join</a></td></tr>
+    </tbody>
+  </table>
+
+  <!-- TRADIES B2B -->
+  <div class="section-h">🛠️ Tradie / B2B Groups (WARM — Sub-Contract Channel)</div>
+  <table>
+    <thead><tr><th>#</th><th>Group</th><th>Size</th><th>Location</th><th>Priority</th><th>Why It Matters</th><th>Join</th></tr></thead>
+    <tbody>
+      <tr><td>26</td><td><strong>Tradies in Australia</strong></td><td>Large</td><td>🇦🇺 Australia</td><td><span class="badge badge-warm">WARM</span></td><td>Other tradies looking for reliable subbies. Builders needing earthworks subbies. B2B referral channel — once one builder trusts you, they'll use you on every job.</td><td><a href="https://www.facebook.com/groups/tradiesaustralia/" target="_blank" class="join">Join</a></td></tr>
+    </tbody>
+  </table>
+
+  <div class="card" style="border-left:3px solid var(--gold);margin-top:16px;">
+    <h3 style="color:var(--gold);">How to Find More Groups Yourself</h3>
+    <ul>
+      <li>In the Facebook search bar, type: <em>"Brisbane suburb name + community"</em> (e.g. "Bracken Ridge community", "Strathpine community", "Burpengary community"). Almost every Brisbane suburb has a 5-15K member community group.</li>
+      <li>Search: <em>"[suburb] noticeboard"</em>, <em>"[suburb] buy sell"</em>, <em>"What's on [suburb]"</em></li>
+      <li>Search: <em>"Brisbane pool"</em>, <em>"Brisbane retaining wall"</em>, <em>"Brisbane landscape"</em> — niche groups exist for each</li>
+      <li>Target: 40+ groups over 60 days. Add 2-3 new ones per week.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══ TAB: RESPONSE TEMPLATES ═══ -->
+<div id="tab-responses" class="tab-content">
+  <div class="badge-section">Copy-Paste Responses</div>
+  <h2>What to Say When You <span>Find a Post</span></h2>
+  <p class="lead">7 templates for the most common posts you'll see in FB groups. Always personalise — never copy verbatim. Reference what the homeowner actually said. Be human, be local, be brief.</p>
+
+  <div class="card" style="border-left:4px solid var(--green);margin-bottom:24px;">
+    <h3 style="color:var(--green);">The 5 Golden Rules</h3>
+    <ul>
+      <li><strong>Always disclose you're a contractor.</strong> Group admins ban people who pretend to be random satisfied customers. Lead with "I run an earthworks business — happy to help if useful…"</li>
+      <li><strong>Add value FIRST, pitch second.</strong> Answer the actual question. Then mention you can help if relevant.</li>
+      <li><strong>Stay in your lane.</strong> If they're asking about plumbing, don't pitch. Tag a plumber friend instead. People notice and remember.</li>
+      <li><strong>Move to DM for the close.</strong> Public comment = soft offer. DM = real conversation. Always say "happy to chat further over PM if you'd like".</li>
+      <li><strong>Don't spam.</strong> Max 5-8 quality responses per day. Group admins watch for spammers.</li>
+    </ul>
+  </div>
+
+  <!-- Template 1 -->
+  <div class="card" style="border-left:4px solid var(--rust);">
+    <h3 style="color:var(--rust);">Template #1 — Recommendation Request ("Anyone know a good earthworks contractor?")</h3>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:6px;"><strong>WHEN TO USE:</strong> Someone is openly asking for an earthworks / excavation / site cut / pool dig / retaining wall recommendation in any group.</p>
+    <div class="script-block">Hey [name] — I run First Light Civil, family-run earthworks contractor based in Caboolture, servicing all of Brisbane and Moreton Bay.
+
+QBCC licensed (#76041), Master Builders, 10+ years experience. Happy to come out and give you a free quote if you like — we cover [their service: site cut / pool dig / retaining wall / etc.].
+
+A few things we always do that you should look for in any quote: itemised line items (not "TBC"), rock allowance disclosed upfront and refunded if not encountered, DBYD checks before any digging, and proper aggdrain on every retaining wall.
+
+Drop me a PM with the suburb and what you're trying to do and I'll get back to you within 24 hours. Or call/text 0420 683 648.</div>
+    <button class="copy-btn" onclick="copyText(this)">📋 Copy Response</button>
+  </div>
+
+  <!-- Template 2 -->
+  <div class="card" style="border-left:4px solid var(--rust);">
+    <h3 style="color:var(--rust);">Template #2 — Contractor Ghosted Me</h3>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:6px;"><strong>WHEN TO USE:</strong> Homeowner venting about a contractor who didn't show up, didn't return calls, didn't send a quote.</p>
+    <div class="script-block">Mate, this is the #1 complaint I hear and it drives me nuts. I run an earthworks business in Caboolture (First Light Civil) and we have a hard rule: if we say we'll quote in 48 hours, we quote in 48 hours. If we say we'll ring you back, we ring you back.
+
+It's such a low bar but the industry is full of people who can't clear it.
+
+If you still need someone for [their job], shoot me a PM with the suburb and what you need. QBCC licensed, 10+ years, no BS. 0420 683 648.</div>
+    <button class="copy-btn" onclick="copyText(this)">📋 Copy Response</button>
+  </div>
+
+  <!-- Template 3 -->
+  <div class="card" style="border-left:4px solid var(--gold);">
+    <h3 style="color:var(--gold);">Template #3 — "What Should Site Costs Be?"</h3>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:6px;"><strong>WHEN TO USE:</strong> Owner-builder or new home buyer asking what to expect for site cut / earthworks costs. Educational angle.</p>
+    <div class="script-block">Great question — and this is where most builders bury you with "TBC" or "provisional" line items. I run an earthworks business so I'll give you the honest version.
+
+For a typical residential site cut in Brisbane/Moreton Bay, you should be asking about:
+1) Site cut (cubic metres of soil removed × rate)
+2) Soil disposal (per cubic metre — varies by suburb)
+3) Rock allowance (refundable if no rock encountered)
+4) Tight access surcharge (if applicable)
+5) Retaining requirements (if cutting into a slope)
+6) DBYD check + utility location
+
+Anyone who quotes you a single "site costs $XX,XXX" without itemising those is hiding something. Get an itemised quote from at least 2 contractors.
+
+Happy to give you a no-obligation second opinion on any quote you've already received. Drop me a PM. — Glenn / First Light Civil / QBCC #76041 / 0420 683 648</div>
+    <button class="copy-btn" onclick="copyText(this)">📋 Copy Response</button>
+  </div>
+
+  <!-- Template 4 -->
+  <div class="card" style="border-left:4px solid var(--gold);">
+    <h3 style="color:var(--gold);">Template #4 — Pool Dig Question</h3>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:6px;"><strong>WHEN TO USE:</strong> Someone asking about pool excavation cost, tight access, or rock surprises.</p>
+    <div class="script-block">Pool digs are our bread and butter — happy to share what I'd look out for.
+
+Three things that catch most people:
+1) Tight access — if your pool is going behind the house, you need a contractor with a small enough excavator to fit through the side gate. Costs $5-10K extra in time and soil cartage if not planned for.
+2) Rock — Brisbane has some properties with sandstone shelves you don't know about until you start digging. Always ask for a rock allowance in the quote (refundable if not used).
+3) Spoil disposal — soil removal is priced per cubic metre and should be itemised separately.
+
+We run tight-access excavators and quote pool digs with all three of those disclosed upfront. PM me your suburb and the pool brand you're going with and I can give you a ballpark same-day. — Glenn / First Light Civil / 0420 683 648</div>
+    <button class="copy-btn" onclick="copyText(this)">📋 Copy Response</button>
+  </div>
+
+  <!-- Template 5 -->
+  <div class="card" style="border-left:4px solid var(--green);">
+    <h3 style="color:var(--green);">Template #5 — Retaining Wall Question</h3>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:6px;"><strong>WHEN TO USE:</strong> Someone asking about retaining wall costs, failures, neighbour disputes, or council requirements.</p>
+    <div class="script-block">Retaining walls are where most cowboy contractors get exposed. Here's what to insist on:
+
+1) Aggdrain (slotted pipe) behind the wall — non-negotiable
+2) Drainage gravel backfill — not just dirt
+3) Geotextile fabric to stop the gravel clogging
+4) Weep holes through the wall face
+5) Proper engineer-spec'd footings if over 1m
+
+If a contractor skips any of those to be "cheap", the wall will lean within 2 wet seasons. Brisbane's clay soils are brutal on under-drained walls.
+
+Also worth knowing: under 1m doesn't need council approval, over 1m does. If your neighbour is involved, the cost-share rules are tricky — happy to explain.
+
+We do retaining walls across Brisbane and Moreton Bay, QBCC licensed, can quote whatever you're planning. PM or text 0420 683 648. — Glenn / First Light Civil</div>
+    <button class="copy-btn" onclick="copyText(this)">📋 Copy Response</button>
+  </div>
+
+  <!-- Template 6 -->
+  <div class="card" style="border-left:4px solid var(--green);">
+    <h3 style="color:var(--green);">Template #6 — New Build Site Prep</h3>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:6px;"><strong>WHEN TO USE:</strong> Someone asking about site prep cost for a new build, or about a builder's "site costs TBC" line.</p>
+    <div class="script-block">The biggest hidden cost trap on a new build is the "site costs TBC" line in your builder's quote. Usually that's site cut, levelling, and site prep — and it can blow out by 5 figures if no one's actually been on the block.
+
+We handle the earthworks side: site cut → levelling → site prep → retaining if the block falls away. One contractor, one itemised quote, no surprises.
+
+QBCC licensed (#76041), Master Builders, 10+ years. All of Brisbane + Moreton Bay.
+
+Happy to come out for a free site visit before you sign off on your builder's "site costs TBC" number — so you know what you're actually walking into. PM me. — Glenn / First Light Civil / 0420 683 648</div>
+    <button class="copy-btn" onclick="copyText(this)">📋 Copy Response</button>
+  </div>
+
+  <!-- Template 7 -->
+  <div class="card" style="border-left:4px solid var(--tan-bright);">
+    <h3 style="color:var(--tan-bright);">Template #7 — Granny Flat / Secondary Dwelling</h3>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:6px;"><strong>WHEN TO USE:</strong> Someone asking about granny flat builder, site prep, or whether their block is suitable.</p>
+    <div class="script-block">We do a LOT of granny flat earthworks across Brisbane and Moreton Bay so happy to share.
+
+What you'll need for the earthworks side:
+- Site cut + level (depending on the block slope)
+- Slab / site prep
+- Possibly retaining if the block falls away
+
+We package all of that as one job which makes it cleaner for the builder. If you're getting quotes from a granny flat company, ask them to break out the earthworks line items so you can compare.
+
+PM me the suburb and any photos of the block and I can give you a rough idea same-day. — Glenn / First Light Civil / QBCC #76041 / 0420 683 648</div>
+    <button class="copy-btn" onclick="copyText(this)">📋 Copy Response</button>
+  </div>
+</div>
+
+<!-- ═══ TAB: 30 DAY POSTING PLAN ═══ -->
+<div id="tab-postingplan" class="tab-content">
+  <div class="badge-section">30-Day Marketing Plan</div>
+  <h2>30 Days of Posts — <span>Set the Foundation</span></h2>
+  <p class="lead">One value post per day. 30 minutes total per day (10 min scanning groups, 10 min responding, 10 min posting your content of the day). After 30 days, FLC will be a recognised name in 26 Brisbane FB groups.</p>
+
+  <div class="section-h">Week 1 — Foundation (Build Trust)</div>
+  <table>
+    <thead><tr><th>Day</th><th>Post Topic</th><th>Where to Post</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr><td>Mon</td><td>Intro post: "Hi, I'm Glenn from First Light Civil — happy to be in the group, here to help with any earthworks questions"</td><td>Brisbane Renovators, New Home Builders Brisbane, Caboolture BSS</td><td>Intro</td></tr>
+      <tr><td>Tue</td><td>"5 questions to ask before hiring an earthworks contractor" — educational carousel/text</td><td>Owner-Builder Network, Owner Builders Australia</td><td>Educational</td></tr>
+      <tr><td>Wed</td><td>Action photo: excavator on a job + one-line caption "Site cut day in [suburb] — love this part of the job"</td><td>Brisbane Renovators, FLC FB page</td><td>Photo</td></tr>
+      <tr><td>Thu</td><td>"Why I started First Light Civil" — short founder story (family, 10+ years, fed up with cowboys)</td><td>Caboolture BSS, Redcliffe Noticeboard, Moreton Bay groups</td><td>Story</td></tr>
+      <tr><td>Fri</td><td>"What's a 'rock clause' and why should you care?" — educational explainer</td><td>New Home Builders Brisbane, Owner-Builder Network</td><td>Educational</td></tr>
+      <tr><td>Sat</td><td>Weekend tip: "Planning a pool? Here's the 3 hidden costs no one warns you about"</td><td>Brisbane Renovators, The Gap BSS</td><td>Educational</td></tr>
+      <tr><td>Sun</td><td>Photo of finished retaining wall + "Proper drainage = wall lasts 30 years. No drainage = wall lasts 2 wet seasons. Always insist on aggdrain."</td><td>FLC FB page, Brisbane Renovators</td><td>Educational + Photo</td></tr>
+    </tbody>
+  </table>
+
+  <div class="section-h">Week 2 — Authority (Position as the Expert)</div>
+  <table>
+    <thead><tr><th>Day</th><th>Post Topic</th><th>Where to Post</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr><td>Mon</td><td>"What does QBCC #76041 actually mean for you?" — explainer on why licensing matters</td><td>Brisbane Renovators, Owner Builders Australia</td><td>Trust</td></tr>
+      <tr><td>Tue</td><td>"Brisbane soil 101 — why your block matters more than you think"</td><td>New Home Builders Brisbane, AUS Property Investors</td><td>Educational</td></tr>
+      <tr><td>Wed</td><td>Action shot: bobcat clearing acreage in Moreton Bay</td><td>Bribie Island, Caboolture BSS, FLC FB</td><td>Photo</td></tr>
+      <tr><td>Thu</td><td>"5 things to do BEFORE your builder gives you a 'site costs' number"</td><td>Owner-Builder Network, New Home Builders Brisbane</td><td>Educational</td></tr>
+      <tr><td>Fri</td><td>Customer story (with permission) — "Kim in Strathpine needed a granny flat slab prep — here's how we did it"</td><td>Granny Flat group, Brisbane Renovators</td><td>Case study</td></tr>
+      <tr><td>Sat</td><td>"How long does a site cut actually take? Most homeowners are surprised."</td><td>Brisbane Renovators, Owner-Builder Network</td><td>Educational</td></tr>
+      <tr><td>Sun</td><td>"Sunday thoughts: I treat every site like it's my own family's yard. That's it. That's the post."</td><td>Caboolture BSS, Redcliffe Noticeboard, Moreton Bay groups</td><td>Brand</td></tr>
+    </tbody>
+  </table>
+
+  <div class="section-h">Week 3 — Engagement (Drive Conversations)</div>
+  <table>
+    <thead><tr><th>Day</th><th>Post Topic</th><th>Where to Post</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr><td>Mon</td><td>Poll: "What's your biggest frustration with hiring tradies in Brisbane?" — comments will reveal pain points</td><td>Brisbane Renovators, Brisbane Northside BSS</td><td>Poll</td></tr>
+      <tr><td>Tue</td><td>"Drop your earthworks questions below — I'll answer them all today" — engagement post</td><td>Owner-Builder Network, Owner Builders Australia</td><td>Q&A</td></tr>
+      <tr><td>Wed</td><td>Action photo: tipper truck loading + "The unsexy part of earthworks: getting the dirt OUT"</td><td>FLC FB page, Brisbane Renovators</td><td>Photo</td></tr>
+      <tr><td>Thu</td><td>"Free quote week — first 5 PMs get a no-obligation site visit this Saturday"</td><td>Caboolture BSS, Redcliffe Noticeboard, Brisbane Renovators</td><td>Offer</td></tr>
+      <tr><td>Fri</td><td>"Friday fact: Brisbane City Council gets X complaints/year about cowboy contractors. Here's how to not be one of them."</td><td>Brisbane Renovators, AUS Property Investors</td><td>Educational</td></tr>
+      <tr><td>Sat</td><td>Behind-the-scenes: "Saturday morning — quoting a knockdown rebuild in [suburb]. Here's what I look for on a site visit"</td><td>FLC FB page, New Home Builders Brisbane</td><td>BTS</td></tr>
+      <tr><td>Sun</td><td>"Anyone in [Brisbane suburb] need help with anything earthworks-related this week? DM me."</td><td>Local suburb groups</td><td>Direct CTA</td></tr>
+    </tbody>
+  </table>
+
+  <div class="section-h">Week 4 — Conversion (Drive Quote Requests)</div>
+  <table>
+    <thead><tr><th>Day</th><th>Post Topic</th><th>Where to Post</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr><td>Mon</td><td>"4 weeks ago I joined this group. Here's what I've learned about Brisbane homeowners' biggest earthworks frustrations." — recap post</td><td>Brisbane Renovators</td><td>Recap</td></tr>
+      <tr><td>Tue</td><td>Educational: "Pool dig vs site cut — what's the difference and why does it matter for pricing?"</td><td>Brisbane Renovators, New Home Builders Brisbane</td><td>Educational</td></tr>
+      <tr><td>Wed</td><td>Action shot of completed job + before/after if possible</td><td>FLC FB page, all HOT groups</td><td>Photo</td></tr>
+      <tr><td>Thu</td><td>"Reminder: I'm Glenn at First Light Civil — Caboolture-based earthworks, all of Brisbane + Moreton Bay. QBCC #76041. Here to help."</td><td>All warm groups</td><td>Soft re-intro</td></tr>
+      <tr><td>Fri</td><td>"Booking my next month — got space for [N] residential earthworks jobs in May. PM if you're planning anything."</td><td>Brisbane Renovators, Caboolture BSS, Moreton Bay groups</td><td>Booking CTA</td></tr>
+      <tr><td>Sat</td><td>Weekend educational: "Site prep for a granny flat — what most homeowners don't know"</td><td>Granny Flat group, Brisbane Renovators</td><td>Educational</td></tr>
+      <tr><td>Sun</td><td>"30 days in this group. Thanks for having me. Here's a free guide: 'The Brisbane Earthworks Quote Checklist' — DM and I'll send it"</td><td>Brisbane Renovators, Owner-Builder Network</td><td>Lead magnet</td></tr>
+    </tbody>
+  </table>
+
+  <div class="card" style="border-left:3px solid var(--tan-bright);margin-top:16px;">
+    <h3 style="color:var(--tan-bright);">After 30 Days — Expected Results</h3>
+    <ul>
+      <li><strong>~25 quote requests</strong> based on industry conversion rates (5 quality responses/day × 30 days × ~17% engagement → DM rate)</li>
+      <li><strong>5-8 actual jobs booked</strong> at 30% close rate from quotes</li>
+      <li><strong>Recognised in 26 groups</strong> as "the earthworks guy" — stops being a stranger</li>
+      <li><strong>3-5 builder/landscaper B2B relationships</strong> from the Tradies Australia group</li>
+      <li><strong>Snowball effect</strong> — happy customers tag you in future posts, free word-of-mouth marketing in the same groups</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══ TAB: DIFFERENTIATORS ═══ -->
+<div id="tab-differentiators" class="tab-content">
+  <div class="badge-section">Why FLC Wins</div>
+  <h2>The First Light <span>Edge</span></h2>
+  <p class="lead">Every pain point in the industry has a FLC answer. Use these 8 differentiators in every post, every quote, every conversation.</p>
+
+  <div class="three-col">
+    <div class="card" style="border-left:4px solid var(--tan-bright);">
+      <h3 style="color:var(--tan-bright);">⏰ 1. We Quote in 48 Hours</h3>
+      <p>The #1 industry frustration is contractors who ghost. FLC's hard rule: every quote returned within 48 hours of the site visit. If we say we'll ring back, we ring back.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--tan-bright);">
+      <h3 style="color:var(--tan-bright);">📋 2. Itemised Quotes — No "TBC"</h3>
+      <p>Every line item priced. Site cut, soil disposal, rock allowance, retaining, trenching — all separate. No vague "provisional" lump sums. You know what you're paying for.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--tan-bright);">
+      <h3 style="color:var(--tan-bright);">🪨 3. Rock Allowance Disclosed Upfront</h3>
+      <p>We tell you exactly how much rock we've allowed for and at what rate. If we don't hit it, you get refunded the difference. No surprises mid-job.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--rust);">
+      <h3 style="color:var(--rust);">🏛️ 4. QBCC Licensed #76041</h3>
+      <p>Our QBCC licence number is on every quote, every invoice, every public post. Master Builders member. Public liability insurance disclosed on request. Zero claims history.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--rust);">
+      <h3 style="color:var(--rust);">👨‍👩‍👧 5. Family-Run, Local</h3>
+      <p>Not a faceless corporate contractor. Caboolture-based, family-owned, you'll deal with the same people every time. We treat your site like our own family's yard.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--rust);">
+      <h3 style="color:var(--rust);">🎯 6. Brisbane Soil Knowledge</h3>
+      <p>10+ years in Brisbane and Moreton Bay specifically. We know which suburbs have reactive clay, which have sandstone, which have water table issues. Not learning on your job.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--gold);">
+      <h3 style="color:var(--gold);">🛠️ 7. One Contractor, Full Scope</h3>
+      <p>Demo, clear, site cut, trench, retaining, drainage — all done by one contractor. No coordination headaches, no finger-pointing between trades, no "that's not my job" excuses.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--gold);">
+      <h3 style="color:var(--gold);">📞 8. Small Jobs Welcome</h3>
+      <p>Most big earthworks companies won't touch sub-$5K residential work. We will. Half-day rates available. Building relationships now → repeat business later.</p>
+    </div>
+    <div class="card" style="border-left:4px solid var(--green);">
+      <h3 style="color:var(--green);">🌅 Bonus: 7 Days a Week, 6am-6pm</h3>
+      <p>We work weekends. Saturday is one of our biggest days. Most contractors won't even quote on a weekend. We'll do the work too.</p>
+    </div>
+  </div>
+
+  <div class="section-h">The "Cowboys vs FLC" Comparison Table</div>
+  <table>
+    <thead><tr><th>Industry Norm</th><th>First Light Civil</th></tr></thead>
+    <tbody>
+      <tr><td>❌ Quote "soon" — never sent</td><td>✅ Quote within 48 hours, guaranteed</td></tr>
+      <tr><td>❌ "Site costs $XX,XXX" lump sum</td><td>✅ Itemised line items — every cost transparent</td></tr>
+      <tr><td>❌ Surprise rock variations mid-job</td><td>✅ Rock allowance disclosed upfront, refunded if not used</td></tr>
+      <tr><td>❌ No QBCC licence (or expired)</td><td>✅ QBCC #76041 on every invoice</td></tr>
+      <tr><td>❌ Public liability "yeah we have it" (verbal only)</td><td>✅ Insurance certificate provided on request</td></tr>
+      <tr><td>❌ Verbal variations billed later</td><td>✅ Written variation forms before any extra work</td></tr>
+      <tr><td>❌ Skip aggdrain on retaining walls</td><td>✅ Aggdrain, gravel, geomesh, weep holes — every wall</td></tr>
+      <tr><td>❌ No DBYD utility check</td><td>✅ DBYD on every job, documented</td></tr>
+      <tr><td>❌ "Too small" for residential jobs</td><td>✅ Welcome small jobs — half-day rates available</td></tr>
+      <tr><td>❌ Weekday only, business hours</td><td>✅ Mon-Sun, 6am-6pm</td></tr>
+      <tr><td>❌ Different contractor for every step</td><td>✅ One contractor: demo, clear, cut, retain, trench</td></tr>
+      <tr><td>❌ Out-of-area contractors guessing at Brisbane soils</td><td>✅ Local Brisbane + Moreton Bay knowledge, 10+ years</td></tr>
+    </tbody>
+  </table>
+
+  <div class="card" style="border-left:4px solid var(--green);margin-top:24px;">
+    <h3 style="color:var(--green);">The One-Sentence Pitch</h3>
+    <p style="font-size:15px;line-height:1.8;color:var(--text);"><em>"First Light Civil — Brisbane and Moreton Bay's family-run earthworks contractor. QBCC licensed, 10+ years experience, itemised quotes within 48 hours, and we treat every site like it's our own."</em></p>
+    <p style="margin-top:8px;font-size:12px;color:var(--muted);">Memorise this. Use it in every group intro post, every quote intro, every voicemail. Repetition builds recognition.</p>
+  </div>
+</div>
+
+</div><!-- /container -->
+
+<script>
+function switchTab(id){
+  document.querySelectorAll('.tab-content').forEach(e=>e.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(e=>e.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  event.target.classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function copyText(btn){
+  const c=btn.closest('.card');
+  const t=c.querySelector('.script-block');
+  if(t){navigator.clipboard.writeText(t.innerText).then(()=>{const o=btn.textContent;btn.textContent='✅ Copied!';setTimeout(()=>btn.textContent=o,2000);});}
+}
+</script>
+</body>
+</html>
