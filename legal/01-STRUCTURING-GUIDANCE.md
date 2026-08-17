@@ -382,15 +382,31 @@ At **$70/hr**, 4.5 hours costs $315 in wages plus $38 super = **$353**. On a $7,
 that's 4.7% — inside the envelope. On a $20,000 job it's 1.8%, so the completion payment
 tops him up the rest of the way to the full 5%.
 
-### 4.3B The insight that makes this easy
+### 4.3B In plain terms: he gets 5%, and the hourly rate is just backup
 
-Because of the completion payment in clause 6.4, **on any job where the hours cost less
-than the envelope, Alistair receives exactly 5% — no more, no less.** The Hourly Rate only
-matters in the rare case where hours *exceed* the envelope.
+**Alistair gets 5% of every job. That is what he is paid.**
 
-So the Hourly Rate is not really the pay mechanism. **It's a safety floor.** Set it low
-enough that it never binds on a normal job, and the 5% works exactly as you intended,
-every time.
+The hourly rate exists for one reason: the law says you must pay an employee for their
+time. So you track his hours and pay them as you go, then top him up to the full 5% when
+the job finishes.
+
+**A $20,000 wall:**
+
+| | |
+|---|---|
+| 5% of the job | **$1,000** — this is the budget |
+| Superannuation takes | $107 |
+| Leaving, in wages | $893 |
+| He works 4.5 hours at $70, paid along the way | $315 |
+| Top-up paid at completion | **$578** |
+| **What he receives** | **$893 wages + $107 super = $1,000** |
+
+The hourly rate only becomes the bigger of the two numbers if a job blows out badly and he
+spends far more time than planned. At $70/hr that can't happen on any job over about
+$7,000 — so on FLC's jobs, it never happens.
+
+**In short: he gets 5%. The hourly rate is paperwork that keeps you both safe.** That's
+why the rate should be set low enough that it never comes into play.
 
 The break-even — the job size at which 4.5 hours exactly consumes the envelope:
 
