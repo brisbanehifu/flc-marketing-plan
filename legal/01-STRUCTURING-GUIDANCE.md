@@ -220,10 +220,8 @@ What actually works, cheapest first:
    loan is a liability dragging NTA down. Converting it to share capital removes the
    liability without anyone finding new money. This is the most common fix and usually the
    easiest.
-2. **Move plant into the company.** FLC is an earthworks business — an excavator, bobcat
-   or truck owned outright covers $12,000 several times over at written-down value. If the
-   gear sits in a director's name or a family trust rather than in FLC Pty Ltd, that alone
-   may be the whole problem. Watch the offset: financed plant brings its liability with it.
+2. ~~**Move plant into the company.**~~ **Not available to FLC — plant is hired, not
+   owned.** See §2.7E.
 3. **Inject capital.** A director puts cash into the company as equity. $12,000 sitting in
    the business account is a tangible asset. Blunt, but immediate.
 4. **Pay down liabilities**, or **retain profits** instead of drawing them out.
@@ -301,6 +299,50 @@ source. If there's no wall work in the pipeline for the next few months, retaine
 alone are fine and cost nothing.
 
 **Either way, the sequencing rule is the same: licence first, wall contracts second.**
+
+### 2.7E FLC hires its plant — what that means for the balance sheet
+
+FLC hires all plant rather than owning it. That's a perfectly sound way to run an
+earthworks business, and for MFR purposes it's actually *cleaner* than financed plant — no
+asset, but no finance liability either. It does change how FLC has to manage NTA.
+
+**FLC's NTA is essentially working capital.** With no plant on the books, net tangible
+assets come down to:
+
+```
+cash at bank + trade debtors + retention/WIP  −  trade creditors − hire invoices
+  − GST payable − PAYG withholding − super payable − tax provision
+```
+
+Three consequences.
+
+**1. BAS liabilities are the hidden killer.** GST collected, PAYG withheld and super
+payable are all current liabilities sitting on the balance sheet until they're paid. A
+profitable asset-light business routinely shows near-zero NTA the week before a BAS is
+paid. Nothing has gone wrong — but if that's the moment someone looks, FLC fails. Your
+accountant needs to be reading NTA *net of* those provisions, not off the bank balance.
+
+**2. NTA will swing hard between quarters,** because there's no fixed-asset ballast
+smoothing it. This is why the $18,000–$20,000 target in §2.7C matters more for FLC than it
+would for a business with an excavator on the books. Don't run close to the line.
+
+**3. ⚠️ Don't declare NTA at a high-water mark.** The 30% rule measures a fall against
+*the figure you last reported to QBCC*. Declare $25,000 on a day when a big debtor has just
+paid and the BAS hasn't gone out, and a perfectly normal trough of $17,000 is a 32% fall —
+triggering a mandatory MFR report within 30 days and the accountant's fee that goes with
+it. **Declare a realistic sustainable figure, not your best day.** Have the accountant pick
+a normal point in the cycle.
+
+**And don't buy plant to fix NTA.** Financed plant brings its loan with it — in year one
+the deposit leaves the bank, the liability lands in full, and NTA typically goes *down*,
+not up. If FLC ever buys gear, do it because the numbers on hire vs buy justify it, never
+as an MFR strategy. Keep hiring.
+
+**One timing note:** hiring means no depreciation deduction and higher operating costs, so
+retained profit accumulates more slowly than it would in an asset-owning business. Ask the
+accountant for a realistic month-by-month projection to $16,000–$24,000 retained, so you
+know when FLC can actually apply — and how long the §2.7D restriction on taking wall work
+has to hold.
 
 **The costs.** I could not retrieve current dollar figures — `qbcc.qld.gov.au` is blocked
 from this session, and fees were increased on 1 July 2026 so any older figure would be
