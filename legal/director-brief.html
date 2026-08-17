@@ -1,0 +1,273 @@
+<title>FLC Retaining Wall Licence</title>
+<style>
+  :root {
+    --ground:#F4F6F5; --surface:#FFFFFF; --sunk:#EBEFEE;
+    --ink:#141E1F; --muted:#5A6A6B; --faint:#8B9A9A;
+    --accent:#0F5257; --accent-soft:#E2EDED;
+    --amber:#8F5E0A; --amber-soft:#F7EEDC;
+    --red:#8E2626; --red-soft:#F8E7E7;
+    --rule:#D6DDDC; --rule-strong:#B9C4C3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:#0D1516; --surface:#141F20; --sunk:#101A1B;
+      --ink:#E4EBEA; --muted:#9DACAC; --faint:#6F7E7E;
+      --accent:#6FBEC3; --accent-soft:#17302F;
+      --amber:#D9A441; --amber-soft:#2B2415;
+      --red:#E58080; --red-soft:#2E1A1A;
+      --rule:#253435; --rule-strong:#35494A;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#0D1516; --surface:#141F20; --sunk:#101A1B;
+    --ink:#E4EBEA; --muted:#9DACAC; --faint:#6F7E7E;
+    --accent:#6FBEC3; --accent-soft:#17302F;
+    --amber:#D9A441; --amber-soft:#2B2415;
+    --red:#E58080; --red-soft:#2E1A1A;
+    --rule:#253435; --rule-strong:#35494A;
+  }
+
+  body{background:var(--ground);color:var(--ink);
+    font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
+    font-size:17.5px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:52rem;margin:0 auto;padding:3rem 1.5rem 5rem;
+    display:flex;flex-direction:column;gap:2.6rem}
+  .sans{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+
+  .masthead{display:flex;flex-direction:column;gap:.75rem;
+    padding-bottom:1.5rem;border-bottom:2px solid var(--ink)}
+  .kicker{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:.7rem;
+    font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+  h1{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:clamp(1.9rem,5.5vw,2.7rem);font-weight:700;letter-spacing:-.025em;
+    line-height:1.06;text-wrap:balance;margin:0}
+  .standfirst{font-size:1.1rem;color:var(--muted);max-width:44ch;margin:0}
+
+  section{display:flex;flex-direction:column;gap:.9rem}
+  .sec-head{display:flex;align-items:baseline;gap:.8rem;
+    padding-bottom:.5rem;border-bottom:1px solid var(--rule-strong)}
+  .sec-num{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    font-size:.8rem;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums}
+  h2{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.28rem;
+    font-weight:700;letter-spacing:-.012em;margin:0;text-wrap:balance}
+  p{margin:0;max-width:64ch}
+  p+p{margin-top:.75rem}
+  a{color:var(--accent);text-underline-offset:2px}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+  .scroll{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:.88rem;line-height:1.45}
+  th{text-align:left;font-weight:700;font-size:.68rem;letter-spacing:.09em;
+    text-transform:uppercase;color:var(--muted);padding:0 .7rem .45rem;
+    border-bottom:1px solid var(--rule-strong);white-space:nowrap}
+  td{padding:.55rem .7rem;border-bottom:1px solid var(--rule);vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  th:first-child,td:first-child{padding-left:0}
+  th:last-child,td:last-child{padding-right:0}
+  .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .row-em td{background:var(--accent-soft);font-weight:700}
+  .idx{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    color:var(--faint);font-variant-numeric:tabular-nums;width:1.9rem}
+
+  .note{background:var(--surface);border:1px solid var(--rule);
+    border-left:3px solid var(--accent);padding:.95rem 1.1rem;
+    display:flex;flex-direction:column;gap:.4rem}
+  .note.warn{border-left-color:var(--red)}
+  .note.money{border-left-color:var(--amber)}
+  .note-label{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:.67rem;
+    font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
+  .note p{font-size:.95rem}
+
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));
+    gap:1px;background:var(--rule);border:1px solid var(--rule)}
+  .stat{background:var(--surface);padding:.9rem 1rem;display:flex;flex-direction:column;gap:.15rem}
+  .stat-val{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.5rem;
+    font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums;color:var(--accent)}
+  .stat-lab{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:.72rem;color:var(--muted)}
+
+  footer{border-top:1px solid var(--rule);padding-top:1.1rem;
+    font-size:.85rem;color:var(--faint);max-width:64ch}
+
+  @page{size:A4;margin:16mm 15mm 16mm}
+  @media print{
+    body{font-size:10.1pt;background:#fff;line-height:1.5}
+    .wrap{max-width:none;padding:0;gap:1.45rem}
+    h1{font-size:24pt}
+    footer{break-inside:avoid}
+    .sec-head,h1,h2{break-after:avoid}
+    tr{break-inside:avoid}
+    thead{display:table-header-group}
+    table{font-size:8.8pt}
+    .note{break-inside:avoid}
+    .stats{break-inside:avoid}
+  }
+  @media (max-width:40rem){
+    body{font-size:16px}
+    .wrap{padding:2.2rem 1.1rem 3.5rem;gap:2rem}
+    table{font-size:.82rem}
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="kicker">First Light Civil &middot; For the directors</div>
+    <h1>Getting FLC licensed for retaining walls</h1>
+    <p class="standfirst">What we need to do, what it costs, and what Alistair gets paid.</p>
+  </header>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">01</span><h2>Where we stand</h2></div>
+    <p>Any retaining wall job over <strong>$3,300</strong> legally needs a QBCC licence. FLC doesn't have one. Alistair has one, but it's <strong>his personally</strong> — a personal licence doesn't cover the company.</p>
+    <p>To get FLC its own licence we have to <strong>employ Alistair</strong> as our licensed builder. That's the law, not a preference: a company licence requires a licensed builder who is a director, secretary or employee. A subcontractor doesn't count.</p>
+    <div class="note warn">
+      <div class="note-label">Until the licence is issued</div>
+      <p><strong>We can't quote, sign or start any retaining wall over $3,300.</strong> Working unlicensed risks a fine around $43,000 — and worse, an unlicensed contractor <strong>can't legally be paid</strong> for the job.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">02</span><h2>What we're asking you to approve</h2></div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="idx">#</th><th>Decision</th></tr></thead>
+        <tbody>
+          <tr><td class="idx">1</td><td><strong>Apply for FLC's own QBCC licence</strong></td></tr>
+          <tr><td class="idx">2</td><td><strong>Employ Alistair as a casual employee</strong> — required by law to get the licence</td></tr>
+          <tr><td class="idx">3</td><td><strong>Pay him 5% of each wall</strong>, covering his wages and super</td></tr>
+          <tr><td class="idx">4</td><td><strong>Keep about $16,000–$24,000 of profit in the company</strong> instead of drawing it</td></tr>
+          <tr><td class="idx">5</td><td><strong>Take no wall work over $3,300</strong> until the licence comes through</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">03</span><h2>The deal with Alistair</h2></div>
+    <div class="scroll">
+      <table>
+        <tbody>
+          <tr><td>Employment</td><td><strong>Casual</strong> — job by job, no commitment either way</td></tr>
+          <tr class="row-em"><td>What he's paid</td><td>5% of each job, covering wages and super</td></tr>
+          <tr><td>Hourly rate</td><td>$70/hr — the legal backstop, not the real pay</td></tr>
+          <tr><td>His time per wall</td><td>A desk check before we quote, plus 2 site visits &asymp; 4.5 hours</td></tr>
+          <tr><td>Travel</td><td>Not paid time — covered by the rate, plus a per-km allowance</td></tr>
+          <tr><td>His main job</td><td>Tell us <em>before we quote</em> whether a wall is inside our licence and needs no engineer</td></tr>
+          <tr><td>What he doesn't do</td><td>He does <strong>not</strong> certify walls — an engineer does that</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note">
+      <div class="note-label">Why an hourly rate at all</div>
+      <p>The law says you must pay an employee for their time. So we pay him $70/hr as he works, then top him up to the full 5% when the job finishes. <strong>He gets 5%. The hourly rate is just paperwork that keeps us both safe.</strong></p>
+    </div>
+  </section>
+
+  <section class="paytable">
+    <div class="sec-head"><span class="sec-num">04</span><h2>What Alistair gets paid, by job value</h2></div>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Job value ex GST</th><th class="num">He gets (5%)</th><th class="num">Paid as he works</th><th class="num">Top-up at the end</th><th class="num">Of which super</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>$10,000</td><td class="num">$500</td><td class="num">$315</td><td class="num">$131</td><td class="num">$54</td></tr>
+          <tr><td>$11,000</td><td class="num">$550</td><td class="num">$315</td><td class="num">$176</td><td class="num">$59</td></tr>
+          <tr><td>$12,000</td><td class="num">$600</td><td class="num">$315</td><td class="num">$221</td><td class="num">$64</td></tr>
+          <tr><td>$13,000</td><td class="num">$650</td><td class="num">$315</td><td class="num">$265</td><td class="num">$70</td></tr>
+          <tr><td>$14,000</td><td class="num">$700</td><td class="num">$315</td><td class="num">$310</td><td class="num">$75</td></tr>
+          <tr class="row-em"><td>$15,000</td><td class="num">$750</td><td class="num">$315</td><td class="num">$355</td><td class="num">$80</td></tr>
+          <tr><td>$16,000</td><td class="num">$800</td><td class="num">$315</td><td class="num">$399</td><td class="num">$86</td></tr>
+          <tr><td>$17,000</td><td class="num">$850</td><td class="num">$315</td><td class="num">$444</td><td class="num">$91</td></tr>
+          <tr><td>$18,000</td><td class="num">$900</td><td class="num">$315</td><td class="num">$489</td><td class="num">$96</td></tr>
+          <tr><td>$19,000</td><td class="num">$950</td><td class="num">$315</td><td class="num">$533</td><td class="num">$102</td></tr>
+          <tr class="row-em"><td>$20,000</td><td class="num">$1,000</td><td class="num">$315</td><td class="num">$578</td><td class="num">$107</td></tr>
+          <tr><td>$21,000</td><td class="num">$1,050</td><td class="num">$315</td><td class="num">$622</td><td class="num">$113</td></tr>
+          <tr><td>$22,000</td><td class="num">$1,100</td><td class="num">$315</td><td class="num">$667</td><td class="num">$118</td></tr>
+          <tr><td>$23,000</td><td class="num">$1,150</td><td class="num">$315</td><td class="num">$712</td><td class="num">$123</td></tr>
+          <tr><td>$24,000</td><td class="num">$1,200</td><td class="num">$315</td><td class="num">$756</td><td class="num">$129</td></tr>
+          <tr class="row-em"><td>$25,000</td><td class="num">$1,250</td><td class="num">$315</td><td class="num">$801</td><td class="num">$134</td></tr>
+          <tr><td>$26,000</td><td class="num">$1,300</td><td class="num">$315</td><td class="num">$846</td><td class="num">$139</td></tr>
+          <tr><td>$27,000</td><td class="num">$1,350</td><td class="num">$315</td><td class="num">$890</td><td class="num">$145</td></tr>
+          <tr><td>$28,000</td><td class="num">$1,400</td><td class="num">$315</td><td class="num">$935</td><td class="num">$150</td></tr>
+          <tr><td>$29,000</td><td class="num">$1,450</td><td class="num">$315</td><td class="num">$980</td><td class="num">$155</td></tr>
+          <tr class="row-em"><td>$30,000</td><td class="num">$1,500</td><td class="num">$315</td><td class="num">$1,024</td><td class="num">$161</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Reading a row.</strong> An $18,000 wall costs us <strong>$900</strong> all up for Alistair. He gets $315 as he works his 4.5 hours, then a <strong>$489 top-up</strong> when the job finishes. $96 of the $900 goes to his super.</p>
+    <div class="note money">
+      <div class="note-label">Two things to remember when pricing</div>
+      <p>Add roughly <strong>$25–$55 per job</strong> for WorkCover, so budget about <strong>5.5%</strong> all in. And if a job drags on, every extra hour of his time adds <strong>$78</strong> and eats into the top-up.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">05</span><h2>What it costs to set up</h2></div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Item</th><th class="num">Cost</th></tr></thead>
+        <tbody>
+          <tr class="row-em"><td>QBCC licence application (fee + first year)</td><td class="num">$1,402.83</td></tr>
+          <tr><td>Yearly renewal after that</td><td class="num">~$670</td></tr>
+          <tr><td>Lawyer to check the employment agreement</td><td class="num">~$500&ndash;$1,500</td></tr>
+          <tr><td>WorkCover policy for Alistair</td><td class="num">small, based on wages</td></tr>
+          <tr><td>Everything else — forms, QLeave, financial declaration</td><td class="num">$0</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>So roughly <strong>$2,000–$3,000</strong> to get set up, most of it one-off.</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">06</span><h2>The money that has to sit in the company</h2></div>
+    <p>QBCC won't licence a company unless it holds a minimum amount of its own money. For our size that's:</p>
+    <div class="stats">
+      <div class="stat"><span class="stat-val">$12,000</span><span class="stat-lab">Must be in the company</span></div>
+      <div class="stat"><span class="stat-val">$16k&ndash;$24k</span><span class="stat-lab">Profit to keep back to get there</span></div>
+      <div class="stat"><span class="stat-val">$200,000</span><span class="stat-lab">Revenue cap at this level</span></div>
+    </div>
+    <p>It's more than $12,000 because tax takes a cut, and because we want a buffer — if the figure drops too far below what we told QBCC, we're forced into a paid accountant's report.</p>
+    <div class="note money">
+      <div class="note-label">The trade-off to decide</div>
+      <p><strong>Keeping profit back</strong> costs nothing but takes a quarter or two — and we can't take wall work in the meantime. <strong>Putting $12k–$20k in as a director loan or equity</strong> gets us licensed straight away. If there's wall work we want now, that's the better call.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">07</span><h2>What happens next</h2></div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="idx">#</th><th>Step</th></tr></thead>
+        <tbody>
+          <tr><td class="idx">1</td><td><strong>Look up licence 76041</strong> at <a href="https://my.qbcc.qld.gov.au/s/">my.qbcc.qld.gov.au</a> — is it FLC's or Alistair's? If it's his, we need to stop showing it as ours on the website and quotes.</td></tr>
+          <tr><td class="idx">2</td><td><strong>Ring QBCC on 139 333</strong> — confirm which licence class we should apply for, whether we need home warranty insurance on standalone walls, and what counts toward the revenue cap.</td></tr>
+          <tr><td class="idx">3</td><td><strong>Build the $12,000</strong> in the company, or decide to put it in.</td></tr>
+          <tr><td class="idx">4</td><td><strong>Get the employment agreement checked</strong> by a lawyer and signed — we can start this now, it isn't waiting on anything.</td></tr>
+          <tr><td class="idx">5</td><td><strong>Lodge the licence application</strong> — <a href="https://www.qbcc.qld.gov.au/sites/default/files/documents/form-licence-application-company.pdf">application form</a> — then the <a href="https://www.qbcc.qld.gov.au/sites/default/files/2021-09/form-licence-company-nominee-incoming.pdf">nominee form</a> naming Alistair.</td></tr>
+          <tr><td class="idx">6</td><td><strong>Set up payroll, WorkCover and QLeave</strong> before the first job.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Steps 1 and 2 cost nothing and take an afternoon</strong> — and everything else depends on the answers.</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">08</span><h2>Three things we have to get right</h2></div>
+    <div class="scroll">
+      <table>
+        <tbody>
+          <tr><td><strong>Alistair has to actually supervise</strong></td><td>He signs a short record at every site visit. If he signs off walls he never looked at, that's an offence for both of us and both licences are at risk.</td></tr>
+          <tr><td><strong>Stepped walls aren't small walls</strong></td><td>Two 800mm walls up a slope push against each other and need an engineer. Alistair checks this <em>before we quote</em>.</td></tr>
+          <tr><td><strong>He stays off the tools</strong></td><td>He's there to supervise. If he starts working on the walls, different employment rules kick in and the 5% deal stops working.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    Prepared August 2026. This is a plain-English summary — the full detail, sources and the draft employment agreement sit behind it. <strong>Not legal advice:</strong> a Queensland construction lawyer should review the agreement before anyone signs.
+  </footer>
+
+</div>
