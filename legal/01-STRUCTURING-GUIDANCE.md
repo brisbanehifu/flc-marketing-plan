@@ -2,7 +2,7 @@
 
 **Prepared for:** First Light Civil Pty Ltd (FLC) — Caboolture, QLD
 **Subject:** How to legally structure a casual employment agreement for a licensed builder who supervises FLC's retaining wall work
-**Date:** August 2026
+**Date:** August 2026 · **Revision 2** — updated for the 5% cost envelope and the sub-engineering wall scope
 
 > **Not legal advice.** This is a researched working draft to get you 90% of the way
 > there cheaply. Before anyone signs, have a Queensland construction/employment
@@ -13,19 +13,21 @@
 
 ## 1. The short answer
 
-Your instinct is right: **under section 42B of the *Queensland Building and
-Construction Commission Act 1991* (Qld), a company that holds a QBCC licence cannot
-carry out building work unless it has appointed a nominee, and that nominee must be a
-director, secretary or employee of the company.** An arm's-length contractor cannot be
-a nominee. So an employment agreement is the correct legal instrument.
+Your instinct is right: **under section 42B of the *Queensland Building and Construction
+Commission Act 1991* (Qld), a company that holds a QBCC licence cannot carry out building
+work unless it has appointed a nominee, and that nominee must be a director, secretary or
+employee of the company.** An arm's-length contractor cannot be a nominee. So an
+employment agreement is the correct legal instrument, and casual employment is permitted —
+nothing in the Act requires the nominee to be full-time.
 
-But three things need to change from what you described:
+Two things still need to change from your original brief:
 
 | What you said | What it actually needs to be |
 |---|---|
-| "Pay Alistair 5% of the job" | **Hourly rate + 5% project fee.** A pure percentage is unlawful for an employee. |
-| "Plan, check and sign off" | **"Adequately supervise"** — he cannot certify a retaining wall. That's an RPEQ engineer's job. |
-| "Casual because work is sporadic" | **Correct** — and casual genuinely fits here, if the paperwork and the practice match. |
+| "Pay Alistair 5% of the job" | **Hourly rate paid for every hour, with 5% as the total cost envelope.** A pure percentage is unlawful for an employee. |
+| "Plan, check and sign off" | **"Adequately supervise"** — he supervises, he does not certify. |
+
+And one thing gets **simpler** now that you've confirmed the wall sizes — see §2.2.
 
 ---
 
@@ -33,248 +35,299 @@ But three things need to change from what you described:
 
 ### 2.1 Why FLC needs a nominee at all
 
-FLC is an earthworks company, but retaining walls are **building work**. Once a
-retaining wall job is over **$3,300 (incl. GST)**, or the wall is over **1 metre high**
-(or retains a surcharge load), it falls inside the QBCC licensing regime and needs a
-licensed contractor in the correct class.
+FLC is an earthworks company, but retaining walls are **building work**. Once a retaining
+wall job exceeds **$3,300 incl. GST**, it falls inside the QBCC licensing regime and needs
+a licensed contractor in the correct class. Under $3,300, no licence is needed — but most
+real walls will clear that, so plan on being licensed.
 
-The relevant licence classes are:
+A company can hold the licence, but **only if it has a nominee** who personally holds a
+*contractor's licence* or a *nominee supervisor's licence* in the same class as the company
+licence, for the entire time the company holds it (s 42B). That's the requirement driving
+this whole exercise, and it applies regardless of how small the walls are.
 
-- **Structural landscaping (trade)** — retaining walls *below* the height that requires
-  engineering certification under the Building Regulation (practically, under 1m).
-- **Builder — restricted to structural landscaping** — the broader class; covers
-  retaining walls and structures generally, plus site prep, excavation, paving and
-  concrete associated with landscaping. **This is almost certainly the class FLC wants.**
-- A full builder class (e.g. Builder — Low Rise) if you ever go beyond that scope.
+### 2.2 Your smaller walls change the licence class — probably in your favour
 
-**A company can hold the licence, but only if it has a nominee** who personally holds a
-*contractor's licence* or a *nominee supervisor's licence* in the **same class** as the
-company licence — and holds it for the entire time the company holds its licence
-(QBCC Act s 42B).
+You've confirmed FLC only builds walls **under the height and length that requires
+engineering sign-off**. That matters, because there are two relevant classes:
 
-### 2.2 The nominee must be a director, secretary or employee
+| Class | Scope |
+|---|---|
+| **Structural landscaping (trade)** | Retaining walls **of a height that does not require engineering certification under a local law** — i.e. exactly your scope |
+| **Builder — restricted to structural landscaping** | Broader: retaining walls generally, plus decking, fencing, carports, pergolas, site prep, excavation, paving, concrete and irrigation associated with landscaping |
 
-This is the core of your question and the answer is yes — QBCC requires the nominee to
-be **a director, secretary or an employee** of the licensed company. A nominee cannot be
-an unconnected third party. Employing Alistair on a casual basis is the standard,
-accepted way to satisfy this where the work is intermittent.
+**If you genuinely stay under the engineering threshold, the narrower
+Structural landscaping (trade) class covers you** — cheaper and simpler to obtain and
+maintain. If you ever want the broader landscaping scope, or want headroom to take a wall
+that turns out to need engineering, the Builder restricted class is the one.
 
-**Nothing in the QBCC Act requires the nominee to be full-time or permanent.** What the
-Act requires is that supervision is *adequate* (s 43A). Casual is fine provided the
-supervision is real.
+> **Check this before you apply:** QBCC requires the nominee to hold the **same class** as
+> the company licence. If Alistair holds a *builder* class and you apply for a
+> *structural landscaping (trade)* company licence, the classes don't match on their face,
+> even though his licence is broader in scope. **Call QBCC on 139 333 and ask directly
+> which company class his licence can nominate for.** The simplest answer is usually to
+> match FLC's company class to whatever Alistair already holds. Don't guess this — a
+> mismatched application is a wasted fee and a delay.
 
-### 2.3 The trap: "licence lending"
+### 2.3 "Under 1 metre" is not the only trigger — and this is now Alistair's main job
 
-This is the single biggest risk in what you've described, so read this twice.
+Here's the thing worth paying him for. In Queensland a retaining wall escapes building
+approval and engineering certification only if **all** of these hold:
+
+- height under **1.0 m** (measured including retained soil);
+- **no surcharge load** above or behind it — no driveway, slab, pool, shed, vehicle or
+  building;
+- at least **1.5 m clear** of any building or other wall;
+- not part of a **pool barrier**;
+- not on a heritage or otherwise constrained site;
+- soil conditions are not poor (reactive clay, uncontrolled fill).
+
+**The trap is tiered walls.** Two 800 mm walls stepped up a slope are not two exempt
+walls. The upper wall surcharges the lower one, which significantly increases the load on
+the lower wall's footing, and the 1.5 m clearance rule bites as well. A tiered system
+should be assessed by an engineer, and drainage between tiers has to be designed so
+hydrostatic pressure behind the upper wall doesn't dump into the lower one. Sell two
+"small" walls as exempt, build them stepped, and you've built an unengineered engineered
+wall — outside your licence class, without approval, and uninsured if it moves.
+
+So the single most valuable duty in Alistair's agreement is **not** inspecting block
+courses. It's the **pre-start scope gate**: confirming, before FLC quotes or starts, that
+the wall genuinely sits inside the exemption and inside FLC's licence class — and stopping
+the job if it doesn't. That's clause 4.1(a)–(b) in the draft, and it's why he's worth 5%.
+
+### 2.4 The trap: "licence lending"
 
 If Alistair is an employee on paper but in practice just signs off on walls he didn't
-supervise, that is **licence lending** — and QBCC treats it as an offence for *both*
-parties, with long-term consequences for both licences.
+supervise, that is **licence lending** — an offence for *both* parties, with long-term
+consequences for both licences.
 
 Section 43A defines "adequate supervision" by reference to:
 - whether there is an actual **system of supervision**, and how it is implemented;
 - whether the work is in accordance with the **plans and specifications**;
 - whether the work meets the standard expected of a competent licence holder;
-- whether the level of **control, oversight and direction** is sufficient for the size
-  and complexity of the work.
+- whether the level of **control, oversight and direction** is sufficient for the size and
+  complexity of the building work.
 
-So the agreement must impose real duties, FLC must actually let him exercise them, and
-**you must keep the records** (see the Supervision Record in Schedule 2 of the draft).
-A one-page signed inspection record per job is what turns "nominee on paper" into
-"nominee in fact" if QBCC ever audits you.
+Note that last limb — the standard scales with complexity. Small unengineered walls need
+*less* supervision than a 3 m engineered wall, and QBCC's test accommodates that. It does
+not accommodate *no* supervision. Keep the Schedule 2 record; it's a two-minute job per
+visit and it's the whole evidentiary case if QBCC audits you.
 
-Practical guardrails, both satisfied here:
-- QBCC looks unfavourably on a nominee living **more than 300km** from the work being
-  supervised. Caboolture → Brisbane/Moreton Bay is fine.
-- A person may be nominee for more than one company, but only if they can genuinely
-  perform the role for all of them. Ask Alistair to disclose his other nominee roles —
-  there's a warranty for this in clause 5 of the draft.
+Practical guardrails, both fine here:
+- QBCC looks unfavourably on a nominee living **more than 300 km** from the work.
+  Caboolture → Brisbane/Moreton Bay is comfortable.
+- A person may be nominee for multiple companies only if they can genuinely perform the
+  role for all of them. Clause 5.3 requires Alistair to disclose his other appointments.
 
-### 2.4 Penalties if you get this wrong
+### 2.5 Penalties if you get this wrong
 
 Queensland's penalty unit is **$172.70** from 1 July 2026. Approximate maximums:
 
 - **s 42 (unlicensed building work):** 250 penalty units ≈ **$43,175** first offence;
-  300 units ≈ **$51,810**; 350 units ≈ **$60,445** for a third offence or tier 1
-  defective work, or up to 1 year's imprisonment.
-- **s 42B (company carrying out building work with no nominee):** up to 350 penalty
-  units ≈ **$60,445**. There is a grace period — no offence if the company has been
-  without a nominee for **less than 28 days**.
-- **s 42(3):** an unlicensed contractor is **not entitled to be paid** for the work.
-  They can only claim "reasonable remuneration", which excludes profit. On a $40k wall
-  that is a catastrophic outcome, and it is the reason this matters more than the fine.
+  300 units ≈ **$51,810**; 350 units ≈ **$60,445** for a third offence or tier 1 defective
+  work, or up to 1 year's imprisonment.
+- **s 42B (company carrying out building work with no nominee):** up to 350 penalty units
+  ≈ **$60,445**. No offence if the company has been without a nominee for **less than 28
+  days**.
+- **s 42(3):** an unlicensed contractor is **not entitled to be paid**. They can claim only
+  "reasonable remuneration", which excludes profit. That is the one that actually hurts.
 
-> Verify current penalty unit value and section numbers with your lawyer — penalty units
-> are indexed annually on 1 July.
+> Verify the current penalty unit value and section numbers with your lawyer — penalty
+> units are indexed annually on 1 July.
 
-### 2.5 ⚠️ Something you need to check before anything else
+### 2.6 ⚠️ Still outstanding: who holds licence 76041?
 
 Your marketing material advertises **"First Light Civil — QBCC #76041"** on the website,
-on quotes and in social posts. Your brief says firstlightcivil.com.au holds "the QBCC
-number for Alistair."
+quotes and social posts, but your brief describes 76041 as *Alistair's* number. Both can't
+be true. Either:
 
-**Those two statements can't both be true without a problem.** Either:
+- **(a)** 76041 is FLC Pty Ltd's own company licence — advertising it is correct, and
+  Alistair is being appointed as nominee to it; or
+- **(b)** 76041 is Alistair's *personal* licence and FLC has been advertising it as its
+  own. That's a separate advertising and licensing breach that this agreement does not
+  fix.
 
-- **(a)** 76041 is FLC Pty Ltd's own company licence — in which case advertising it is
-  correct, and Alistair is being appointed as nominee to that existing licence. Good.
-- **(b)** 76041 is Alistair Coleman's *personal* licence, and FLC has been advertising it
-  as its own. That is a licensing and advertising breach in its own right, independent
-  of the employment question, and it needs fixing immediately — not just papered over
-  with an employment agreement.
+If it's (b), the fix is for FLC to apply for its own company licence in the class settled
+under §2.2, nominating Alistair — and the advertised number changes to FLC's. Search
+licence 76041 at `my.qbcc.qld.gov.au` → Licence Search; the register shows the licensee
+name and class.
 
-I could not reach firstlightcivil.com.au or the QBCC public register from this
-environment (the network here only permits search). **Please confirm which it is by
-searching licence 76041 on the QBCC public register at
-`my.qbcc.qld.gov.au` → Licence Search.** The register will show whether the licensee is
-"First Light Civil Pty Ltd" or "Alistair Coleman", and the licence class.
+### 2.7 QBCC admin checklist
 
-- If it's **(b)**, the fix is: FLC applies for its own company licence in the
-  appropriate class, nominating Alistair — then the advertised number changes to FLC's
-  number, and this employment agreement is what supports that application.
-
-Everything below works either way, but the answer changes which QBCC form you lodge.
-
-### 2.6 QBCC admin checklist
-
-- [ ] Confirm who holds licence 76041 and in what class (see 2.5).
-- [ ] Confirm Alistair's licence is **current, unrestricted, and the same class** as the
-      company licence you need.
-- [ ] Lodge the QBCC **incoming nominee** form appointing Alistair to FLC's company
-      licence, attaching the signed employment agreement as evidence of the employment
-      relationship.
-- [ ] Meet QBCC's **Minimum Financial Requirements** for the company licence category
-      (annual reporting obligations apply).
-- [ ] Diarise: if Alistair ever ceases to be nominee, **QBCC must be notified within 14
-      days**, and you have **28 days** to appoint a replacement before you're committing
-      an offence. Clause 13 of the draft handles this.
-- [ ] Understand the flow-through: as nominee and employee, Alistair may be an
-      **"influential person"** for FLC. That means his personal history (bankruptcy,
-      exclusions, company failures) can affect FLC's licence — and FLC's problems can
-      affect him. Clause 5 requires mutual disclosure.
+- [ ] Confirm who holds licence 76041 and in what class (§2.6).
+- [ ] Confirm Alistair's licence class and expiry.
+- [ ] Call QBCC 139 333 to confirm which company licence class his licence can nominate
+      for (§2.2).
+- [ ] Apply for / confirm FLC's company licence in that class.
+- [ ] Lodge the QBCC **incoming nominee** form, attaching the signed employment agreement
+      as evidence of the employment relationship.
+- [ ] Meet QBCC's **Minimum Financial Requirements** for the licence category.
+- [ ] Diarise: if Alistair ceases as nominee, **QBCC must be notified within 14 days**, and
+      you have **28 days** to appoint a replacement. Clause 13 handles this.
+- [ ] Note that as nominee and employee, Alistair may be an **"influential person"** for
+      FLC — his personal history can affect FLC's licence and vice versa. Clause 5 requires
+      mutual disclosure.
 
 ---
 
 ## 3. The "plan, check and sign off" language — corrected
 
-You asked for the right wording, and this is where a lot of small builders get into
-trouble. **A licensed builder cannot certify a retaining wall.** Here's who does what on
-a wall over 1m in Queensland:
+**A licensed builder does not certify a retaining wall.** Even on your smaller walls, keep
+this language clean, because the moment a wall turns out to need engineering, the roles
+matter:
 
 | Role | Who | Document |
 |---|---|---|
-| Designs the wall and certifies the design complies with the NCC / AS 4678 | **RPEQ structural engineer** | **Form 15** — Compliance Certificate for Building Design or Specification |
+| Designs the wall and certifies the design | **RPEQ structural engineer** | **Form 15** — Compliance Certificate for Building Design or Specification |
 | Grants building approval | **Building certifier** | Development approval |
-| Inspects completed structural work against the approved design | **RPEQ / competent person** | **Form 16** — Inspection Certificate (and **Form 12** aspect certificates) |
-| **Builds it, and supervises it being built to the approved design** | **The licensed contractor — FLC, via its nominee Alistair** | Supervision records; final certificate to the certifier |
+| Inspects completed structural work | **RPEQ / competent person** | **Form 16** Inspection Certificate, **Form 12** aspect certificates |
+| **Builds it, and supervises it being built correctly** | **The licensed contractor — FLC, via nominee Alistair** | Supervision records |
 
-So the correct language for Alistair's duties is **not** "plan, check and sign off". It is:
+On your walls, the Form 15/16 row usually won't arise — that's the point of staying under
+the threshold. But clause 4 keeps those duties in as **conditional**, so that if a wall
+turns out to need engineering, the agreement already tells everyone what happens.
+
+The correct wording for Alistair's duties is:
 
 > *"…to adequately supervise the building work within the meaning of section 43A of the
-> QBCC Act, including reviewing the RPEQ-certified design documentation and approved
-> plans before work commences, inspecting the work at each nominated hold point,
-> verifying that the work as constructed conforms to the approved design, AS 4678 and
-> the National Construction Code, and coordinating the engineer's and certifier's
-> inspections and certificates."*
+> QBCC Act, including confirming before work commences that the proposed wall falls within
+> the exemption from building approval and within the scope of FLC's licence class,
+> inspecting the work at the nominated hold points, and verifying that the work as
+> constructed conforms to the manufacturer's specifications, AS 4678 and the National
+> Construction Code."*
 
-That's clause 4 of the draft, written out in full.
-
-**Never** describe Alistair in a contract, quote or marketing material as "certifying"
-or "signing off" a retaining wall. He supervises; the RPEQ certifies. Getting this
-wrong exposes FLC to a professional-indemnity gap — if a wall fails and the paperwork
-says your builder "certified" it, your insurer will have questions and the engineer's
-insurer will point at you.
+**Never** describe Alistair, in any contract, quote or marketing material, as "certifying"
+or "signing off" a retaining wall. He supervises; an RPEQ certifies.
 
 ---
 
-## 4. The pay structure — why 5% alone doesn't work, and what to do instead
+## 4. Making the 5% a total cost envelope
 
-### 4.1 The problem
+You've asked for **hourly wages + superannuation to come to approximately 5% of the job**.
+That's a cleaner brief than the original, and it's achievable — with one honest caveat at
+the end of this section.
 
-Alistair will be an **employee**, not a contractor. Employees must be paid at least the
-minimum for **every hour worked**. Paying only a percentage of job value breaches that
-the moment a job runs long or falls through.
+### 4.1 The arithmetic
 
-Concretely, the floor is whichever applies:
+Superannuation is **12% on top of** wages, so you work backwards from the envelope:
 
-- **Building and Construction General On-site Award 2020 (MA000020)** — if he's covered.
-  A CW3 tradesperson casual rate is **$39.03/hr** from 1 July 2026 (includes the 25%
-  casual loading and the $1.77/hr all-purpose industry allowance), plus a daily travel
-  allowance of **$22.41**. A licensed builder acting as nominee supervisor sits *well*
-  above CW3 — realistically CW5–CW8, or arguably award-free as a managerial/professional
-  employee. **Don't guess the classification — check it on the Fair Work Pay Calculator
-  and write the answer into the agreement.**
-- **National Minimum Wage** — $26.44/hr from 1 July 2026, if he's genuinely award-free.
+```
+Envelope (E)        = 5% × Contract Value (ex GST)
+Wages component (W) = E ÷ 1.12   = 4.464% of Contract Value
+Superannuation      = E − W      = 0.536% of Contract Value
+Budgeted hours (H)  = W ÷ hourly rate
+```
 
-Under the award, casuals also get a **minimum 4 hours' pay per engagement**, even if
-he's on site for 45 minutes.
+At an **$85/hr** casual rate (loading included), that gives you:
 
-Now do the maths on your 5% idea. A $30,000 wall pays $1,500. If he spends 6 hours
-across design review, two site inspections and final verification, that's $250/hr —
-fine, no issue. But a **$6,000 wall** pays $300, and if that job takes him 5 hours
-across two visits, he's on $60/hr — still fine. The problem case is a **job that goes
-sideways**: a $6,000 wall with a design dispute, three re-inspections and a defect
-rectification eats 15 hours for the same $300 = **$20/hr**. That's an underpayment, and
-underpayment claims come with penalties and 6 years of back-pay exposure.
+| Contract value (ex GST) | 5% envelope | Wages | Super | **Budgeted hours** |
+|---:|---:|---:|---:|---:|
+| $5,000 | $250 | $223 | $27 | **2.6 h** ⚠️ |
+| $7,500 | $375 | $335 | $40 | **3.9 h** ⚠️ |
+| $10,000 | $500 | $446 | $54 | **5.3 h** |
+| $15,000 | $750 | $670 | $80 | **7.9 h** |
+| $20,000 | $1,000 | $893 | $107 | **10.5 h** |
+| $30,000 | $1,500 | $1,339 | $161 | **15.8 h** |
 
-### 4.2 The fix — Option A (recommended)
+For small unengineered walls, 5–10 hours across a pre-start scope check, one or two site
+visits and a completion check is realistic. **The envelope works.**
 
-**Hourly rate for hours worked, plus 5% of job value as a project fee on top.**
+### 4.2 How to pay it — the mechanism
 
-- Alistair records his hours per job (Schedule 1 job sheet does this).
-- He's paid `hours × hourly rate` — always at or above the award floor.
-- **Plus** 5% of the ex-GST contract value of each retaining wall job he supervises,
-  paid as a project fee on completion.
+Do **not** simply pay 5%. Pay hourly, then top up to the envelope. Clause 6 does this:
 
-Why this is the right answer:
-- It is **bulletproof**. There is no scenario where he's underpaid.
-- It keeps your 5% intent fully intact — he still gets 5% of every job.
-- The hourly component on sporadic work is small in absolute terms. On the $30k wall
-  above, 6 hours at (say) $75/hr casual = $450, on top of the $1,500 fee. You've added
-  ~1.5% to the job cost to remove all of your Fair Work risk.
-- It's simple to run in payroll and simple to explain to Alistair.
+1. **Every hour worked is paid at the Hourly Rate.** Always. No exceptions. This is the
+   legal floor and it's non-negotiable.
+2. Each job carries a **Job Value Allowance** of 5% of contract value, being the target
+   total cost of wages + super.
+3. **Budgeted Hours** for that job go on the Schedule 1 job sheet, so both of you know the
+   scope before it starts.
+4. At practical completion, if wages actually paid are **less** than the wages component,
+   FLC pays the shortfall as a **completion payment**. So Alistair always receives the full
+   5%.
+5. If actual hours run **over** budget, the extra hours are still paid, and **there is no
+   clawback**. You cannot recover wages already paid.
 
-### 4.3 The fix — Option B (workable, more admin)
+This is deliberately the mirror image of the usual (and riskier) "percentage offset"
+arrangement. Because the hourly floor is paid first and topped up second, there is no
+scenario where he's underpaid, and no reliance on a set-off clause that a tribunal might
+not accept.
 
-**5% treated as an advance against wages, reconciled per job with a top-up.**
+**Everything is wages**, including the completion payment — so PAYG is withheld on all of
+it and super is 12% on all of it. That's what makes the `÷ 1.12` clean.
 
-Each job, you calculate `hours × minimum rate`. If the 5% exceeds that, the 5% is the
-payment. If it falls short, FLC pays the difference. This is the "offset" model.
+### 4.3 The honest caveat: 5% is a target, not a ceiling
 
-It's lawful if drafted carefully, but it's more bookkeeping, the offset has to be
-expressly agreed in writing in advance, and offsetting arrangements get picked apart in
-disputes. **Use Option A unless your accountant strongly prefers B.** Clause 6 of the
-draft is written for Option A, with Option B included as a marked alternative you can
-swap in.
+Where hours run over budget, the cost exceeds 5%. That isn't a drafting failure you can
+engineer around — it's the law. Manage it with scope discipline (clause 6.6 requires
+written approval before exceeding Budgeted Hours), not with pay.
 
-### 4.4 What to put in the "hourly rate" box
+**And there's a floor problem on small jobs.** If the Building and Construction General
+On-site Award applies, casuals get a **minimum 4 hours' pay per engagement** — even if
+he's on site for 45 minutes. At $85/hr that's $340 in wages plus $41 super = **$381**. For
+that to fit inside 5%, the job has to be worth about **$7,600**. Below that, a single
+compliant site visit already breaks the envelope.
 
-Set it deliberately, not at the floor. A QBCC-licensed builder carrying nominee
-liability for your company is not a CW3. Benchmark it against what a supervising builder
-commands in SEQ, add the casual loading, and write the number in. Setting it comfortably
-above award also strengthens the argument that he's a genuine senior employee rather
-than a contractor in disguise.
+Four ways to handle it, best first:
 
-### 4.5 On-costs you must budget for
+1. **Batch the site visits.** The 4-hour minimum is per *engagement*, not per site. One
+   half-day run past three small walls around Moreton Bay is one engagement, and the cost
+   splits three ways. For a Caboolture-based operator this is the natural rhythm anyway,
+   and it's completely legitimate.
+2. **Settle the award coverage question** (see §4.4). If Alistair is genuinely award-free,
+   there's no 4-hour minimum and small jobs stop being a problem entirely.
+3. **Set a minimum job size** for walls FLC takes on — most operators have one anyway.
+4. **Accept 6–8% on small jobs.** On a $5,000 wall the difference between 5% and 7% is
+   $100. It's not worth structuring around.
 
-The 5% is not the whole cost. On top of every dollar you pay him:
+### 4.4 The highest-leverage question you can ask your lawyer
 
-- **Superannuation — 12%** of ordinary time earnings. Casuals get the full 12%, on the
-  casual loading too. The project fee is very likely OTE as well, so **budget 12% on the
-  hourly *and* the 5%**.
-- **Payday super from 1 July 2026** — super must now be paid within **7 business days**
-  of paying wages. No more quarterly. Get this into your payroll setup *now*; the
-  Superannuation Guarantee Charge is not deductible and is unpleasant.
-- **WorkCover Queensland** — casual employees must be covered. Notify WorkCover and add
-  him to the policy. If he's injured on site uninsured, FLC wears it personally.
-- **QLeave** — building and construction workers in Queensland accrue portable long
-  service leave. FLC must register as an employer and lodge returns recording his
-  service days. Separately, the QLeave levy (0.575% of total cost) applies to projects
-  of $150,000+.
-- **PAYG withholding**, TFN declaration, payslips within 1 working day of paying, and
-  employee records kept for 7 years.
+**Is Alistair covered by the Building and Construction General On-site Award 2020
+(MA000020), or is he award-free?**
 
-Rough all-in cost of a $30,000 wall under Option A: $1,500 fee + ~$450 wages + ~$234
-super + WorkCover ≈ **$2,200, or ~7.3% of job value.** Price your walls with that in.
+- **If covered:** the floor is the award rate for his classification, plus 25% casual
+  loading, plus the $1.77/hr all-purpose industry allowance, plus a ~$22.41 daily travel
+  allowance, plus the 4-hour minimum engagement. A CW3 tradesperson casual is $39.03/hr
+  from 1 July 2026; a nominee supervisor sits well above CW3.
+- **If award-free** (genuinely professional/managerial — engaged for licensed technical
+  judgement rather than on-site trade work): the floor is just the National Minimum Wage,
+  **$26.44/hr** from 1 July 2026, with no minimum engagement and no allowances.
+
+Your $85 is comfortably above both floors, so this doesn't change his pay. It changes
+whether the **4-hour minimum** and the **travel allowance** apply — which is exactly what
+breaks the envelope on small jobs. It's a 10-minute question for the lawyer and it's worth
+more than any other item in this document. Don't assume the answer: he does attend site,
+which pulls toward coverage.
+
+### 4.5 Choosing the hourly rate
+
+The rate is a real lever, and it cuts both ways:
+
+| Hourly rate | Budgeted hours on a $20k wall | Job size where 5% covers one 4-hour visit |
+|---|---|---|
+| $70 | 12.8 h | $6,300 |
+| $85 | 10.5 h | $7,600 |
+| $100 | 8.9 h | $9,000 |
+
+A **lower** rate buys more supervision hours inside the envelope and lowers the small-job
+breakeven — but sits closer to the award floor and looks less like a senior licensed
+professional. A **higher** rate reads correctly for a licensed builder carrying nominee
+liability, and supports the argument that he's award-free, but buys fewer hours.
+
+**$80–$90 is the sweet spot** for a QBCC-licensed builder acting as nominee in SEQ. Set it
+deliberately and write it into clause 6.1.
+
+### 4.6 What the 5% actually has to cover
+
+Budget honestly. The 5% envelope covers wages and super. It does **not** cover:
+
+- **WorkCover Queensland** premium — casuals must be covered. Small, but real.
+- **QLeave** portable long service leave returns.
+- Payroll admin, and **payday super** from 1 July 2026 (super now due within **7 business
+  days** of paying wages, not quarterly — set this up in payroll now).
+- Any **vehicle or travel allowance** you agree in clause 8.
+
+Realistically you're at **5.5–6% all-in** on a normal job. Price your walls with that in,
+not 5%.
 
 ---
 
@@ -286,45 +339,36 @@ Since 26 August 2024, **s 15A of the Fair Work Act** defines a casual as someone
    (judged on the *practical reality*, not just the contract wording); **and**
 2. they're entitled to a **casual loading** or specific casual rate.
 
-Sporadic retaining wall jobs fit this well. To keep it that way:
+Sporadic wall jobs fit this well. To keep it that way:
 
 **Do:**
 - Offer each job as a **separate engagement** he can accept or decline (Schedule 1).
 - Pay the 25% casual loading and show it separately on the payslip.
-- Give him the **Casual Employment Information Statement** on day one — and again at 12
-  months (small business employers, from 26 August 2025). Also give the **Fair Work
-  Information Statement**.
+- Give him the **Casual Employment Information Statement** on day one and again at 12
+  months (small business employers, from 26 August 2025), plus the **Fair Work Information
+  Statement**.
 
 **Don't:**
 - Promise a roster, a minimum number of jobs, or ongoing work.
-- Let a "casual" pattern quietly become every Tuesday for a year — under the **Employee
-  Choice Pathway** he can then ask to convert to permanent, and if the reality is
-  permanent, the casual label won't save you.
+- Let "casual" quietly become every Tuesday for a year — under the **Employee Choice
+  Pathway** he can then ask to convert to permanent, and if the reality is permanent the
+  label won't save you.
 
-**And don't sham it.** If the only reason he's called an employee is to satisfy QBCC,
-while in reality he runs his own independent business and invoices you, that's sham
-contracting in reverse and it undermines the QBCC appointment too. Make it real: PAYG,
-super, WorkCover, actual direction from FLC, actual supervision by him.
+**And don't sham it.** If he's called an employee purely to satisfy QBCC while in reality
+running his own business and invoicing you, that undermines the QBCC appointment too. Make
+it real: PAYG, super, WorkCover, genuine direction from FLC, genuine supervision by him.
 
 ---
 
-## 6. What I need from you to finalise the draft
-
-The draft agreement is complete and usable, but has placeholders I couldn't fill
-because the website and the QBCC register weren't reachable from here:
+## 6. What I still need to finalise the draft
 
 1. **FLC's ABN and ACN**, and registered office address.
-2. **Who holds QBCC licence 76041** — FLC Pty Ltd or Alistair Coleman? (See §2.5.)
-3. **Alistair's QBCC licence number and class** (if different from 76041), and expiry.
+2. **Who holds QBCC licence 76041** — FLC Pty Ltd or Alistair Coleman? (§2.6)
+3. **Alistair's licence class and expiry**, and QBCC's answer on class matching (§2.2).
 4. **Alistair's full legal name and address.**
-5. **The hourly rate** you want to set, and his **award classification** (or confirmation
-   he's award-free) — check via the Fair Work Pay Calculator.
-6. Whether the 5% is calculated on **contract value ex-GST** (recommended) and whether
-   it applies to variations.
-7. Whether he uses **his own vehicle/tools** — determines if a vehicle allowance or tool
-   allowance clause is needed.
-
-Send those through and I'll produce the final version.
+5. **The hourly rate** (§4.5 — recommend $80–$90) and whether he's **award-covered** (§4.4).
+6. Whether the 5% applies to **approved variations** as well as the base contract value.
+7. Whether he uses **his own vehicle** — determines the clause 8 allowance.
 
 ---
 
@@ -335,22 +379,22 @@ Send those through and I'll produce the final version.
 - [QBCC Act s 42B — Carrying out building work without a nominee (AustLII)](https://classic.austlii.edu.au/au/legis/qld/consol_act/qbacca1991487/s42b.html)
 - [QBCC Act s 42 — Unlawful carrying out of building work (AustLII)](https://classic.austlii.edu.au/au/legis/qld/consol_act/qbacca1991487/s42.html)
 - [Understand when you are breaking the law (licence lending) — QBCC](https://www.qbcc.qld.gov.au/non-compliance/understand-when-you-are-breaking-law)
-- [Builder restricted to structural landscaping — QBCC](https://www.qbcc.qld.gov.au/licences/apply-licence/available-licences/builder/builder-restricted-structural-landscaping)
 - [Structural landscaping (trade) — QBCC](https://www.qbcc.qld.gov.au/licences/apply-licence/available-licences/other-trade/structural-landscaping-trade)
-- [The Role Of A Nominee Of A Company For A QBCC Licence — Stone Group Lawyers](https://www.stonegroup.com.au/nominee-role-company-qbcc-licence/)
-- [QBCC Nominee — facts you need to know — Klein Legal](https://kleinlegal.com.au/qbcc-nominee-facts-you-need-to-know/)
-- [Queensland Penalty Unit Value 2026 — Fraser Lawyers](https://www.fraserlawyers.com/queensland-penalty-unit-increase-july-2026/)
+- [Builder restricted to structural landscaping — QBCC](https://www.qbcc.qld.gov.au/licences/apply-licence/available-licences/builder/builder-restricted-structural-landscaping)
+- [Do landscapers need a QBCC licence in Queensland? — Salt Landscaping](https://saltlandscaping.com.au/learning-centre/qbcc-licensed-landscaper-queensland/)
+- [Retaining walls — approvals and requirements — Brisbane City Council](https://www.brisbane.qld.gov.au/building-and-planning/getting-started-on-your-project/residential-projects/retaining-wall)
+- [Retaining Wall Council Approval QLD — permits and requirements](https://retainingwallbuildersbrisbane.com.au/guides/council-approval)
+- [Retaining wall regulations QLD — Buildi](https://www.buildi.com.au/retaining-wall-regulations-qld/)
 - [Retaining Wall Certification QLD: Engineer, Certifier & QBCC Guide](https://www.sandstoneworld.com.au/retaining-wall-certification-in-qld/)
 - [Form 15 QLD Explained — When RPEQ Certification Is Required](https://trsc.au/blog/form-15-certification-queensland-rpeq-explained)
+- [Queensland Penalty Unit Value 2026 — Fraser Lawyers](https://www.fraserlawyers.com/queensland-penalty-unit-increase-july-2026/)
 - [Building and Construction General On-site Award 2020 [MA000020] — Fair Work Ombudsman](https://awards.fairwork.gov.au/MA000020.html)
 - [MA000020 casual guide — minimum engagement and loading](https://www.mygig.com.au/awards/building-and-construction-general-on-site-award)
 - [Building Award Pay Rates 2026 — MA000020](https://fairworkmate.com.au/tools/pay-rates/building)
 - [Piece rates and commission payments — Fair Work Ombudsman](https://www.fairwork.gov.au/pay-and-wages/minimum-wages/piece-rates-and-commission-payments)
 - [Minimum wages — Fair Work Ombudsman](https://www.fairwork.gov.au/pay-and-wages/minimum-wages)
 - [Changes to casual employment laws — Fair Work Commission fact sheet](https://www.fwc.gov.au/documents/resources/fact-sheet-changes-to-casual-employment-2024-08-19.pdf)
-- [Casual employees: a new definition, a new conversion process — DLA Piper](https://www.dlapiper.com/en/insights/publications/2024/03/casual-employees-a-new-definition-a-new-conversion-process-and-new-information-statements)
 - [Employee Choice Pathway — Master Builders](https://mba.org.au/employee-choice-pathway-casual-to-permanent-conversion/)
 - [How portable long service leave works — QLeave](https://www.qleave.qld.gov.au/building-and-construction/employers/how-portable-long-service-works)
-- [QLeave — Business Queensland](https://www.business.qld.gov.au/running-business/employing/legal-obligations/long-service-leave/construction-cleaning)
 - [Payday super for casual workers: July 2026 rules](https://www.rosterelf.com/blog/payday-super-casual-workers)
 - [Superannuation Guarantee Rate 2026/2027](https://amplify11.com.au/super-guarantee-rate-2026-2027-guide/)

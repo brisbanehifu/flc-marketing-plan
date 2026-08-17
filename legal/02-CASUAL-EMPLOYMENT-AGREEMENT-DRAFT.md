@@ -60,12 +60,18 @@ required by law.
 2.1 The Employee is appointed as FLC's **nominee** for the purposes of section 42B of the
 *Queensland Building and Construction Commission Act 1991* (Qld) (**"QBCC Act"**) in
 respect of FLC's QBCC licence number `[FLC licence no.]`, class
-`[e.g. Builder — restricted to structural landscaping]`.
+`[Structural landscaping (trade) — confirm with QBCC that this matches the Employee's own
+licence class; see §2.2 of the guidance note]`.
 
 2.2 The Employee reports to `[Director name]`, Director of FLC.
 
 2.3 The Employee is engaged principally in relation to **retaining wall building work**
 carried out by FLC in the Brisbane and Moreton Bay region.
+
+2.4 The parties acknowledge that FLC's retaining wall work is limited to walls that do
+**not** require engineering certification under a local law or the Building Regulation
+(**"Exempt Walls"**), and that FLC's licence class is limited accordingly. Work outside
+that scope is dealt with under clause 4.2.
 
 ---
 
@@ -77,8 +83,13 @@ at FLC's premises, and remotely as appropriate to the task.
 3.2 There are no set hours. Hours for each Engagement are as agreed in Schedule 1 and as
 reasonably required to discharge the duties in clause 4.
 
-3.3 The Employee will be paid for a **minimum of 4 hours for each attendance at a
-project site**, whether or not 4 hours are worked.
+3.3 The Employee will be paid for a **minimum of 4 hours for each engagement**, whether or
+not 4 hours are worked, where that minimum applies under the applicable modern award.
+
+3.3A A single engagement may cover **more than one project**. Where the Employee attends
+multiple sites in one engagement, the minimum in clause 3.3 applies once to that
+engagement, and the hours worked are apportioned between the projects concerned for the
+purposes of clause 6.
 
 3.4 The Employee must record all hours worked on each Engagement and submit them to FLC
 `[weekly / on completion of each Engagement]`. Payment of the Hourly Rate depends on
@@ -92,46 +103,71 @@ these records being submitted.
 building work carried out by FLC under FLC's QBCC licence, within the meaning of section
 43A of the QBCC Act. Without limiting that obligation, the Employee will:
 
-&nbsp;&nbsp;&nbsp;&nbsp;**(a) Pre-construction review** — review the RPEQ-certified
-structural design documentation (including any Form 15 Compliance Certificate for
-Building Design or Specification), the approved plans and specifications, the development
-or building approval conditions, and the geotechnical information, and advise FLC in
-writing of any matter that would prevent the work being constructed in accordance with
-that documentation;
+&nbsp;&nbsp;&nbsp;&nbsp;**(a) Pre-start scope assessment** *(the Employee's primary
+duty)* — before FLC quotes or commences any retaining wall, assess and confirm in writing
+whether the proposed wall is an Exempt Wall, having regard to at least:
 
-&nbsp;&nbsp;&nbsp;&nbsp;**(b) Scope and licensing check** — confirm before work commences
-that the proposed work falls within the scope of FLC's QBCC licence class, and advise FLC
-in writing where it does not;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) finished height, including retained
+soil;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) any surcharge load above or behind
+the wall (driveway, slab, pool, shed, vehicle access or building);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) proximity to any building or other
+retaining wall;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) whether the wall is tiered, stepped
+or terraced, or interacts with an existing wall;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(v) whether the wall forms part of a pool
+barrier;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(vi) soil and site conditions, including
+reactive clay, uncontrolled fill and drainage; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(vii) any heritage, easement or other site
+constraint;
+
+&nbsp;&nbsp;&nbsp;&nbsp;**(b) Licence scope check** — confirm before work commences that
+the proposed work falls within the scope of FLC's QBCC licence class, and advise FLC in
+writing where it does not;
 
 &nbsp;&nbsp;&nbsp;&nbsp;**(c) System of supervision** — establish and implement a system
-of supervision for the work that is sufficient for its size and complexity, including
-nominated inspection hold points;
+of supervision proportionate to the size and complexity of the work, including nominated
+inspection hold points;
 
 &nbsp;&nbsp;&nbsp;&nbsp;**(d) Inspection** — attend the site and inspect the work at each
-nominated hold point (at minimum: excavation and founding material, footings and
-reinforcement prior to pour, drainage and filter media, backfill and compaction, and
-completion), and record each inspection in the form of **Schedule 2**;
+nominated hold point (at minimum: excavation and founding material, wall construction,
+drainage and filter media, and backfill and compaction), and record each inspection in the
+form of **Schedule 2**;
 
 &nbsp;&nbsp;&nbsp;&nbsp;**(e) Verification** — verify that the work as constructed
-conforms to the approved design, the National Construction Code, **AS 4678
-*Earth-retaining structures*** and all other applicable standards, and direct
+conforms to the manufacturer's specifications, **AS 4678 *Earth-retaining structures***,
+the National Construction Code and all other applicable standards, and direct
 rectification of any work that does not;
 
-&nbsp;&nbsp;&nbsp;&nbsp;**(f) Coordination of certification** — arrange, attend and
-facilitate the inspections required by the RPEQ engineer and the building certifier, and
-obtain the certificates required for the work (including any Form 12 Aspect Inspection
-Certificate and Form 16 Inspection Certificate);
-
-&nbsp;&nbsp;&nbsp;&nbsp;**(g) Direction of personnel** — direct FLC's employees and
+&nbsp;&nbsp;&nbsp;&nbsp;**(f) Direction of personnel** — direct FLC's employees and
 subcontractors on site in relation to the manner of performance of the building work;
 
-&nbsp;&nbsp;&nbsp;&nbsp;**(h) Records** — maintain the supervision records required by
-clause 4.3 and provide them to FLC on request; and
+&nbsp;&nbsp;&nbsp;&nbsp;**(g) Records** — maintain the supervision records required by
+clause 4.4 and provide them to FLC on request; and
 
-&nbsp;&nbsp;&nbsp;&nbsp;**(i) Statutory duties** — perform all duties of a nominee under
+&nbsp;&nbsp;&nbsp;&nbsp;**(h) Statutory duties** — perform all duties of a nominee under
 the QBCC Act and comply with all reasonable and lawful directions of FLC.
 
-4.2 **Limits on the Employee's role.** The parties acknowledge that:
+4.2 **Where a wall is not an Exempt Wall.** If at any time the Employee forms the view
+that a proposed or partly constructed wall is not an Exempt Wall, he must notify FLC in
+writing immediately, and:
+
+&nbsp;&nbsp;&nbsp;&nbsp;(a) FLC must not commence or continue the work until an RPEQ
+structural engineer has been engaged, any required design certification (Form 15) and
+building approval have been obtained, and FLC has confirmed the work is within its licence
+class;
+
+&nbsp;&nbsp;&nbsp;&nbsp;(b) if the work proceeds, the Employee's duties extend to
+reviewing the RPEQ-certified design and approval conditions, and to arranging, attending
+and facilitating the inspections and certificates required by the engineer and the
+building certifier (including any Form 12 Aspect Inspection Certificate and Form 16
+Inspection Certificate); and
+
+&nbsp;&nbsp;&nbsp;&nbsp;(c) the additional time reasonably required is paid at the Hourly
+Rate under clause 6.1 and, if the Budgeted Hours are exceeded, clause 6.6 applies.
+
+4.3 **Limits on the Employee's role.** The parties acknowledge that:
 
 &nbsp;&nbsp;&nbsp;&nbsp;(a) structural design certification of a retaining wall is the
 function of a **Registered Professional Engineer of Queensland (RPEQ)**, not the Employee;
@@ -144,12 +180,13 @@ quotation, marketing material or communication, as certifying or "signing off" a
 wall design. The Employee **supervises** the building work; the RPEQ **certifies** the
 design.
 
-4.3 **Supervision records are a condition of employment.** The Employee must complete a
-Schedule 2 record for every site attendance. FLC must retain these records for not less
-than 7 years. Both parties acknowledge these records are the primary evidence of adequate
-supervision if QBCC audits FLC's licence.
+4.4 **Supervision records are a condition of employment.** The Employee must complete a
+Schedule 2 record for every site attendance and a scope assessment under clause 4.1(a) for
+every wall. FLC must retain these records for not less than 7 years. Both parties
+acknowledge these records are the primary evidence of adequate supervision if QBCC audits
+FLC's licence.
 
-4.4 **No licence lending.** The parties acknowledge that it is an offence for a person to
+4.5 **No licence lending.** The parties acknowledge that it is an offence for a person to
 allow their QBCC licence to be used by another person who does not hold the appropriate
 licence. Neither party will enter into or continue any arrangement under which the
 Employee is held out as nominee for building work he does not in fact adequately
@@ -194,62 +231,73 @@ may affect the other's licence.
 
 ## 6. Remuneration
 
-> **Option A (recommended) — hourly rate plus project fee.** Use this version.
-> Option B is set out at the end of this clause; delete whichever you do not use.
-
-### Option A
+> **Structure:** the Employee is paid an hourly rate for every hour worked. Each project
+> also carries a Job Value Allowance equal to 5% of the contract value, being the target
+> total cost of wages plus superannuation for that project. Where hours worked come in
+> under that allowance, the balance is paid to the Employee as a completion payment, so he
+> receives the full 5%. Where hours run over, the extra hours are paid and there is no
+> clawback.
 
 6.1 **Hourly Rate.** For each hour worked, FLC will pay the Employee
-**$`[rate]` per hour**, which is inclusive of a **25% casual loading**.
+**$`[rate — recommend $80–$90]` per hour**, which is inclusive of a **25% casual loading**.
 
 6.2 The Hourly Rate is at or above the minimum rate payable to the Employee under
 `[the Building and Construction General On-site Award 2020 (MA000020), classification
 [insert] / the National Minimum Wage, the Employee being award-free]`. FLC will increase
 the Hourly Rate as necessary so that it always at least equals that minimum.
 
-6.3 **Project Fee.** In addition to the Hourly Rate, FLC will pay the Employee a
-**Project Fee of 5% of the Contract Value** of each retaining wall project the Employee
-supervises under this Agreement.
+6.3 **Job Value Allowance.** For each retaining wall project the Employee supervises, FLC
+allocates a **Job Value Allowance equal to 5% of the Contract Value**, being the target
+total cost to FLC of the Employee's wages **and** superannuation for that project.
 
-6.4 In clause 6.3, **"Contract Value"** means the total amount payable by FLC's client
-for the retaining wall works under the relevant contract, **excluding GST**, and
-**`[including / excluding]`** approved variations. It excludes any amount that is not paid
-to FLC by reason of `[the client's insolvency / abandonment of the project]`.
+&nbsp;&nbsp;&nbsp;&nbsp;(a) **"Contract Value"** means the total amount payable by FLC's
+client for the retaining wall works under the relevant contract, **excluding GST**, and
+**`[including / excluding]`** approved variations.
 
-6.5 The Project Fee is payable in the pay period following **practical completion** of the
-relevant project.
+&nbsp;&nbsp;&nbsp;&nbsp;(b) The **Wages Component** of the Job Value Allowance is the Job
+Value Allowance divided by 1.12 (reflecting superannuation at 12%), being 4.464% of the
+Contract Value. If the superannuation guarantee rate changes, the divisor changes
+accordingly.
 
-6.6 **The Project Fee is paid in addition to, and not in substitution for, the Hourly
-Rate.** The Employee is entitled to the Hourly Rate for every hour worked regardless of
-whether any Project Fee becomes payable, and regardless of whether the project proceeds,
-is cancelled, or is unprofitable to FLC.
+&nbsp;&nbsp;&nbsp;&nbsp;(c) The **Budgeted Hours** for a project are the Wages Component
+divided by the Hourly Rate, and are recorded in Schedule 1 before the Engagement begins.
 
-6.7 The casual loading in clause 6.1 is paid in lieu of paid annual leave, paid
+6.4 **Completion Payment.** Within the pay period following practical completion of a
+project, FLC will compare the total wages paid to the Employee for that project against
+the Wages Component. If the wages paid are **less than** the Wages Component, FLC will pay
+the difference to the Employee as a **completion payment**. The completion payment is
+wages, is subject to PAYG withholding, and attracts superannuation under clause 7.
+
+6.5 **No clawback.** If the wages paid for a project **exceed** the Wages Component, no
+adjustment is made and **no amount is recoverable from the Employee**. FLC will not deduct,
+withhold or set off any amount against wages already earned.
+
+6.6 **Scope control.** The Employee must obtain FLC's written approval before exceeding
+the Budgeted Hours for a project. A failure to obtain approval is a performance matter
+between the parties and is **not** a basis for FLC to refuse or reduce payment for hours
+actually worked.
+
+6.7 **The Hourly Rate is the floor.** The Employee is entitled to the Hourly Rate for
+every hour worked regardless of whether any completion payment becomes payable, regardless
+of the Budgeted Hours, and regardless of whether the project proceeds, is cancelled, is
+varied, or is unprofitable to FLC. Nothing in this clause 6 operates to reduce payment for
+hours worked below the applicable statutory or award minimum.
+
+6.8 The casual loading in clause 6.1 is paid in lieu of paid annual leave, paid
 personal/carer's leave, paid compassionate leave, notice of termination, redundancy pay
 and payment for public holidays not worked.
 
-6.8 **Payment.** FLC will pay the Employee `[weekly / fortnightly]` by electronic transfer
+6.9 **Payment.** FLC will pay the Employee `[weekly / fortnightly]` by electronic transfer
 to an account nominated by the Employee, and will issue a payslip within one working day
 of each payment. FLC will withhold PAYG tax as required by law.
 
-> ### Option B — percentage with reconciliation (alternative; delete if using Option A)
->
-> *6.1B* FLC will pay the Employee a **Project Fee of 5% of the Contract Value** of each
-> retaining wall project the Employee supervises.
->
-> *6.2B* For each pay period, FLC will calculate the **Minimum Entitlement**: the hours
-> worked by the Employee in that period multiplied by the minimum hourly rate payable to
-> him under the applicable modern award or the National Minimum Wage (including the 25%
-> casual loading and all applicable allowances), subject to the 4-hour minimum engagement
-> in clause 3.3.
->
-> *6.3B* The Employee **agrees that the Project Fee is paid on account of, and may be set
-> off against, the Minimum Entitlement.** Where the Project Fee paid or payable in a pay
-> period is less than the Minimum Entitlement, FLC will pay the difference as a top-up in
-> that pay period. Where it exceeds the Minimum Entitlement, no further amount is payable.
->
-> *6.4B* FLC will record the reconciliation on each payslip. In no circumstances will the
-> Employee receive less than the Minimum Entitlement.
+> **Worked example.** Contract Value $20,000 ex GST; Hourly Rate $85.
+> Job Value Allowance = $1,000. Wages Component = $1,000 ÷ 1.12 = **$892.86**.
+> Superannuation = **$107.14**. Budgeted Hours = $892.86 ÷ $85 = **10.5 hours**.
+> If the Employee works 8 hours, he is paid $680 during the job and a **$212.86 completion
+> payment**, plus $107.14 super — $1,000 all in, exactly 5%.
+> If he works 14 hours, he is paid $1,190 plus $142.80 super — $1,332.80, or 6.7%. No
+> clawback applies.
 
 ---
 
@@ -263,8 +311,9 @@ default fund or the Employee's stapled fund if he makes no nomination.
 7.2 Contributions will be paid within the time required by law, including the payday
 superannuation requirements applying from 1 July 2026.
 
-7.3 Superannuation is payable on the Hourly Rate (including casual loading) and on the
-Project Fee to the extent each constitutes ordinary time earnings.
+7.3 Superannuation is payable on the Hourly Rate (including casual loading) and on any
+completion payment under clause 6.4, to the extent each constitutes ordinary time
+earnings.
 
 ---
 
@@ -427,16 +476,37 @@ of the Agreement continues.
 | FLC job number | |
 | Client | |
 | Description of retaining wall work | |
-| Wall height (max) | |
-| Retains surcharge load? | Yes / No |
-| RPEQ engineer | |
-| Form 15 design certificate received? | Yes / No — date: |
-| Building approval / certifier | |
-| Contract Value (ex GST) | $ |
-| **Project Fee at 5%** | $ |
-| Hourly Rate | $ |
-| Estimated hours | |
 | Expected start / completion | |
+
+**Scope assessment — clause 4.1(a)** *(complete before FLC quotes)*
+
+| Question | Answer |
+|---|---|
+| Finished height incl. retained soil | ......... mm |
+| Surcharge load above/behind (driveway, slab, pool, shed, vehicle, building)? | Yes / No |
+| Clear distance to nearest building or other wall | ......... m |
+| Tiered, stepped or terraced, or interacting with an existing wall? | Yes / No |
+| Part of a pool barrier? | Yes / No |
+| Soil / site conditions of concern (reactive clay, uncontrolled fill, drainage)? | Yes / No |
+| Heritage, easement or other site constraint? | Yes / No |
+| **Is this an Exempt Wall?** | **Yes / No** |
+| **Within FLC's QBCC licence class?** | **Yes / No** |
+
+*If either bolded answer is "No", clause 4.2 applies — do not quote or commence until an
+RPEQ engineer is engaged and the licence class is confirmed.*
+
+Nominee signature: ............................ Date: ....................
+
+**Commercials**
+
+| Field | Detail |
+|---|---|
+| Contract Value (ex GST) | $ |
+| **Job Value Allowance (5%)** | $ |
+| Wages Component (÷ 1.12) | $ |
+| Superannuation (12%) | $ |
+| Hourly Rate | $ |
+| **Budgeted Hours** (Wages Component ÷ Hourly Rate) | ......... h |
 
 **Offer.** FLC offers the Employee this Engagement on the terms of the Casual Employment
 Agreement dated `[date]`.
@@ -457,6 +527,16 @@ Employee: ............................ Date: ....................
 | | | |
 | | **Total** | |
 
+**Completion reconciliation — clause 6.4**
+
+| | |
+|---|---|
+| Wages paid for this project | $ |
+| Less Wages Component | $ |
+| **Completion payment due** (if positive) | $ |
+| Superannuation on total wages (12%) | $ |
+| Budgeted Hours exceeded? | Yes / No — written approval obtained: Yes / No / N/A |
+
 ---
 ---
 
@@ -470,14 +550,17 @@ supervision under s 43A of the QBCC Act.*
 
 **Hold point inspected** (tick):
 
-- [ ] Design and approval documentation reviewed (pre-start)
+- [ ] Scope assessment confirmed on site (still an Exempt Wall?)
 - [ ] Excavation / founding material
-- [ ] Footings and reinforcement prior to pour
 - [ ] Wall construction / block fill / core fill
 - [ ] Drainage, filter media and geofabric
 - [ ] Backfill and compaction
 - [ ] Completion / final inspection
 - [ ] Other: ............................
+
+**Sites covered by this engagement** (clause 3.3A — list all if batched):
+
+.................................................................................
 
 **Observations:**
 
@@ -485,7 +568,10 @@ supervision under s 43A of the QBCC Act.*
 
 .................................................................................
 
-**Does the work conform to the approved design, AS 4678 and the NCC?**  Yes / No
+**Does the work conform to the manufacturer's specifications, AS 4678 and the NCC?**  Yes / No
+
+**Any change on site that affects the Exempt Wall assessment?**  Yes / No — *if yes, stop
+work and apply clause 4.2*
 
 **Directions given (including any rectification required):**
 
