@@ -88,8 +88,10 @@ in clause 6.6.
 
 | Item | Cost |
 |---|---|
-| QBCC **company licence application fee** | Get current figure — [QBCC licence fees](https://www.qbcc.qld.gov.au/licences/apply-licence/licence-fees). Fees rose 1 July 2026. Low hundreds for a trade class. |
-| QBCC **annual renewal** | Same page |
+| QBCC application fee (company, SC1) | **$732.77** |
+| QBCC licence fee, first 12 months | **$670.06** |
+| **Total payable on application** | **$1,402.83** |
+| QBCC **annual renewal** | Not published — budget around **$670** and confirm with QBCC |
 | **Nominee appointment** form | Usually nil or nominal |
 | **MFR declaration** (SC1) | Nil — self-declared. Accountant fee only if you want it reviewed. |
 | **Net tangible assets $12,000** | ⚠️ Not a cost — a **balance-sheet requirement**. FLC must *hold* $12,000 in net tangible assets and keep holding it. **SC1 is the lowest category, so this is a hard floor** — and a Deed of Covenant can't be used to bridge a shortfall in SC1. See §2.7B of the guidance note for the fixes. |
@@ -99,7 +101,19 @@ in clause 6.6.
 
 ---
 
-## 4. ⚠️ Two things that will bite if ignored
+## 4. ⚠️ Three things that will bite if ignored
+
+**SC1 is for trade contractors only — and that decides how much money FLC needs.**
+
+| FLC's company licence class | Category | **NTA required** | Pre-tax profit to retain |
+|---|---|---:|---:|
+| **Structural landscaping (trade)** | SC1 | **$12,000** | ~$16,000 |
+| **Builder — restricted to structural landscaping** | **SC2** | **$46,000** | ~$61,000 |
+
+SC1 is **not available** to Builder, Builder restricted, or Builder – project management
+services applicants. So the class we apply for decides whether we need $12,000 or $46,000
+in the company — a **$34,000 swing**, and the biggest financial decision in this plan. Get
+the **trade** class if it's achievable. That's question (a) on the QBCC call.
 
 **SC1 caps FLC at $200,000 revenue.** At $30,000 a wall that's **fewer than seven walls a
 year** — before you count any earthworks revenue that QBCC treats as licensed building
@@ -120,7 +134,7 @@ licence fee, and it's a per-job cost outside the 5%.
 | # | Step | Who |
 |---|---|---|
 | 1 | Search **licence 76041** at `my.qbcc.qld.gov.au` → Licence Search. Is the licensee **FLC Pty Ltd** or **Alistair Coleman**? | FLC |
-| 2 | Call **QBCC 139 333** and ask three things: (a) what company class can Alistair's licence nominate for; (b) is a standalone retaining wall insurable under the Home Warranty Scheme; (c) does FLC's earthworks revenue count toward the SC1 cap | FLC |
+| 2 | Call **QBCC 139 333** and ask three things: **(a)** ⚠️ can Alistair's licence nominate for a **Structural landscaping (trade)** company licence, so FLC stays in **SC1**; **(b)** is a standalone retaining wall insurable under the Home Warranty Scheme; **(c)** does FLC's earthworks revenue count toward the SC1 cap | FLC |
 | 3 | Build NTA by **retaining profits** — retain **~$16,000 pre-tax** to land $12,000 after tax; target **$18,000–$20,000** for buffer. Plant is hired, so NTA is pure working capital — measure it **net of GST, PAYG, super and tax provisions**, and declare a sustainable figure, not a peak (§2.7E). Confirm turnover stays under **$200,000** | FLC / accountant |
 | 3a | ⚠️ **Until NTA is there and the licence is issued, FLC must not quote, sign or start any retaining wall over $3,300** | FLC |
 | 4 | **Apply for FLC's company licence** in the class from step 2, financial category **SC1**, with an MFR declaration | FLC |

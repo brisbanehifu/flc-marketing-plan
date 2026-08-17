@@ -61,6 +61,11 @@ Structural landscaping (trade) class covers you** — cheaper and simpler to obt
 maintain. If you ever want the broader landscaping scope, or want headroom to take a wall
 that turns out to need engineering, the Builder restricted class is the one.
 
+> ⚠️ **This choice now carries a $34,000 consequence.** SC1 — the cheap financial category
+> with the $12,000 NTA requirement — is **available to trade contractors only**. A Builder
+> restricted class licence forces FLC into SC2 and **$46,000 of net tangible assets**. See
+> §2.7G before deciding anything about class.
+
 > **Check this before you apply:** QBCC requires the nominee to hold the **same class** as
 > the company licence. If Alistair holds a *builder* class and you apply for a
 > *structural landscaping (trade)* company licence, the classes don't match on their face,
@@ -344,25 +349,70 @@ accountant for a realistic month-by-month projection to $16,000–$24,000 retain
 know when FLC can actually apply — and how long the §2.7D restriction on taking wall work
 has to hold.
 
-**The costs.** I could not retrieve current dollar figures — `qbcc.qld.gov.au` is blocked
-from this session, and fees were increased on 1 July 2026 so any older figure would be
-wrong. Rather than guess at numbers you'd be budgeting against, here's what to price and
-where:
+### 2.7F The cost of the licence — confirmed
 
-| Cost | Where to get the figure |
+For a **company licence in financial category SC1**, the fees effective
+**1 July 2026 – 30 June 2027** are:
+
+| Component | Amount |
+|---|---:|
+| Application fee | **$732.77** |
+| Licence fee, first 12 months | **$670.06** |
+| **Total payable on application** | **$1,402.83** |
+
+Sourced from the QBCC company licence application form. *(This corrects an earlier
+estimate in this note of "low hundreds" — it is roughly three times that.)*
+
+| Other cost | Amount |
 |---|---|
-| Company licence **application fee** | [QBCC licence fees page](https://www.qbcc.qld.gov.au/licences/apply-licence/licence-fees) — varies by class and financial category |
-| **Annual renewal fee** | Same page |
-| Nominee appointment | Usually nil or nominal — confirm on the same page |
-| MFR declaration | Nil if self-declared; your accountant may charge to review |
-| **Home warranty insurance** | Per job — see below, and it is much bigger than the licence fees |
-| WorkCover Queensland | Premium on wages declared |
-| QLeave | Employer registration and returns |
+| **Annual renewal** | Not published in the sources reachable here. Budget around the **$670.06** annual licence fee component and confirm with QBCC |
+| Nominee appointment | Usually nil or nominal — confirm on the call |
+| MFR declaration | **Nil** — self-declared on the application form |
+| **Home warranty insurance** | Per job — see §2.7H, and potentially much bigger than the licence fee |
+| WorkCover Queensland | Premium on declared wages |
+| QLeave | Registration and returns only — **no cost** at FLC's job sizes |
 
-In the scheme of things the licence fees are a rounding error against a single wall. The
-one worth checking properly is the next item.
+$1,402.83 is roughly one $30,000 wall's worth of Alistair's 5%. Real money for a
+bootstrapped business, but not the item that decides anything. The next two are.
 
-### 2.7A ⚠️ Home warranty insurance — check this before you price another wall
+### 2.7G ⚠️ SC1 is only available to trade contractors — and this decides your NTA
+
+This is the most consequential thing in this note.
+
+**SC1 is not available to Builder, Builder restricted, or Builder – project management
+services applicants. It is open to trade contractors only.**
+
+That links the licence class straight to how much money FLC must hold:
+
+| If FLC's company licence class is… | Financial category | **NTA required** | Pre-tax profit to retain |
+|---|---|---:|---:|
+| **Structural landscaping (trade)** | SC1 | **$12,000** | ~$16,000 |
+| **Builder — restricted to structural landscaping** | SC1 unavailable → **SC2** | **$46,000** | ~$61,000 |
+
+**The difference is $34,000 of net tangible assets, or about $45,000 of pre-tax profit to
+retain.** For a bootstrapped business that is the difference between a quarter or two of
+saving and a year or more.
+
+So the licence class question is no longer just about scope — **it is the single biggest
+financial decision in this whole exercise.** FLC wants the **trade** class if it is at all
+achievable.
+
+The complication is the one already flagged in §2.2: QBCC requires the nominee to hold a
+class matching the company's. If Alistair holds a **builder** class, the question is
+whether he can nominate for a **structural landscaping (trade)** company licence — keeping
+FLC in SC1 — or whether FLC is pushed into a builder-class company licence and therefore
+into SC2 and $46,000.
+
+**Put this at the top of the QBCC call.** Ask it directly:
+
+> *"Our builder holds licence class [X]. Can he be the nominee for a company licence in
+> Structural landscaping (trade)? We need to stay in financial category SC1."*
+
+If the answer is no, the options are for Alistair to add a structural landscaping (trade)
+licence to his own ticket, or for FLC to fund $46,000 of NTA. Adding the trade licence
+will almost certainly be cheaper.
+
+### 2.7H ⚠️ Home warranty insurance — check this before you price another wall
 
 Queensland Home Warranty Scheme premiums are **compulsory for residential construction
 work over $3,300**, they're paid by the contractor, and QBCC's guidance states that

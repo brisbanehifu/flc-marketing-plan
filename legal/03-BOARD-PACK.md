@@ -94,6 +94,20 @@ FLC sits in the smallest category, **SC1**.
 | Net tangible assets (NTA) | **$12,000** |
 | How we prove it | **Self-declaration** on the application form — no accountant's report needed |
 
+### ⚠️ But SC1 is only open to trade contractors
+
+**SC1 is not available to Builder, Builder restricted, or Builder – project management
+services applicants.** So the licence class we apply for decides how much money we need:
+
+| Our company licence class | Category | **NTA required** | Pre-tax profit to retain |
+|---|---|---:|---:|
+| **Structural landscaping (trade)** | SC1 | **$12,000** | ~$16,000 |
+| **Builder — restricted to structural landscaping** | **SC2** | **$46,000** | ~$61,000 |
+
+**That is a $34,000 swing, and the biggest financial decision in this plan.** We want the
+trade class. If Alistair's licence can't nominate for it, adding a structural landscaping
+(trade) licence to his own ticket will almost certainly cost less than funding $46,000.
+
 **SC1 is the lowest category — there is nothing below it.** The $12,000 is a hard floor,
 and a Deed of Covenant (a director guarantee) is **not available** in SC1.
 
@@ -146,8 +160,10 @@ licensed immediately, then let retained profits build on top.
 
 | Item | Cost |
 |---|---|
-| QBCC company licence application fee | Confirm current figure — see forms table. Low hundreds for a trade class |
-| Annual renewal | Same source |
+| QBCC application fee (company, SC1) | **$732.77** |
+| QBCC licence fee, first 12 months | **$670.06** |
+| **Total payable on application** | **$1,402.83** |
+| Annual renewal | Not published — budget around **$670**, confirm with QBCC |
 | Nominee appointment | Nil or nominal |
 | MFR declaration (SC1) | **Nil** — self-declared on the application form |
 | Net tangible assets $12,000 | **Not a cost** — a balance-sheet holding requirement |
@@ -207,8 +223,9 @@ licensed immediately, then let retained profits build on top.
 
 ### The three questions for QBCC
 
-> 1. *"Our builder holds licence class **[X]**. What class of company licence can he be
->    nominee for?"*
+> 1. ⚠️ *"Our builder holds licence class **[X]**. Can he be nominee for a company licence
+>    in **Structural landscaping (trade)**? We need to stay in financial category
+>    **SC1**."* — **the $34,000 question**
 > 2. *"We build standalone retaining walls for homeowners, $7,500 to $30,000, not part of
 >    any other building work. Is that insurable work under the Queensland Home Warranty
 >    Scheme?"*
@@ -226,6 +243,7 @@ licensed immediately, then let retained profits build on top.
 | **Licence lending** | If Alistair signs off walls he didn't supervise, it's an offence for **both** parties and damages both licences | Schedule 2 record every visit — it's the evidence |
 | **Tiered walls** | Two 800mm walls stepped up a slope aren't two exempt walls — the upper surcharges the lower. Building it as exempt means an unengineered engineered wall, outside our licence, uninsured if it moves | Schedule 1 scope assessment before we quote |
 | **Alistair goes on the tools** | Could pull him under the building award — 4-hour minimum engagements, allowances, and the 5% model stops working | Clause 4.5 of the agreement |
+| **Wrong licence class forces SC2** | SC1 is trade-contractors only. A Builder restricted class means **$46,000** NTA instead of $12,000 | Question (a) on the QBCC call — settle it before applying |
 | **Outgrowing SC1** | At $30k a wall, $200,000 is **fewer than seven walls a year**. Exceeding declared revenue is a breach | Half-year check; move to SC2 before crossing |
 | **NTA dipping** | Below $12,000 breaches SC1; a 30% fall forces a paid MFR report | Hold $18k–$20k buffer |
 | **Home warranty insurance** | Unresolved. If it applies to standalone walls it's a per-job cost **outside** the 5% | Question 2 on the QBCC call |
@@ -240,7 +258,7 @@ licensed immediately, then let retained profits build on top.
 | Which company licence class matches Alistair's | Directors | The application |
 | Home warranty insurance on standalone walls | Directors | Wall pricing |
 | Whether earthworks revenue counts toward the SC1 cap | Directors | Category choice |
-| Current QBCC application and renewal fees | Directors | Budget |
+| QBCC annual renewal fee | Directors | Budget |
 | FLC ABN, ACN, registered office | Directors | The agreement |
 | Per-kilometre vehicle allowance rate | Directors | The agreement |
 | Accountant's projection: when does NTA reach $18k? | Accountant | Application timing |
