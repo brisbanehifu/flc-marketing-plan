@@ -105,8 +105,24 @@ services applicants.** So the licence class we apply for decides how much money 
 | **Builder — restricted to structural landscaping** | **SC2** | **$46,000** | ~$61,000 |
 
 **That is a $34,000 swing, and the biggest financial decision in this plan.** We want the
-trade class. If Alistair's licence can't nominate for it, adding a structural landscaping
-(trade) licence to his own ticket will almost certainly cost less than funding $46,000.
+trade class.
+
+**The catch:** the nominee must hold **the same class** as the company — a name match, not
+a scope test. If Alistair holds only a Builder class, he does not hold the trade class, and
+a broader licence does not substitute for it. He would need to add
+**Structural landscaping (trade)** to his own ticket. FLC can't do it for him; it attaches
+to his licence.
+
+| Alistair's situation | **Cost to him** |
+|---|---:|
+| Adding a class to an existing nominee supervisor licence | **$250.73** |
+| A new nominee supervisor licence | **$501.46** |
+
+Financial requirements don't apply to supervisor licences, so this adds no NTA burden.
+**$250–$500 against $34,000** — not a close call, if it comes to that.
+
+⚠️ **This is a contingency, not a plan.** We don't yet know what class Alistair holds. If he
+already holds Structural landscaping (trade), none of this arises.
 
 **SC1 is the lowest category — there is nothing below it.** The $12,000 is a hard floor,
 and a Deed of Covenant (a director guarantee) is **not available** in SC1.

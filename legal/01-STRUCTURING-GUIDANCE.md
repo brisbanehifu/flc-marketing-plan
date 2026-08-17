@@ -408,9 +408,54 @@ into SC2 and $46,000.
 > *"Our builder holds licence class [X]. Can he be the nominee for a company licence in
 > Structural landscaping (trade)? We need to stay in financial category SC1."*
 
-If the answer is no, the options are for Alistair to add a structural landscaping (trade)
-licence to his own ticket, or for FLC to fund $46,000 of NTA. Adding the trade licence
-will almost certainly be cheaper.
+### 2.7G(i) Why Alistair might need to add a trade class — and what it costs
+
+This part confused on first telling, so here it is step by step.
+
+**The nominee rule is a name-match, not a scope test.** QBCC requires the nominee to hold a
+licence **in the same class as the company's licence**. Not a bigger class, not one that
+covers the same work — *the same class*.
+
+So the chain runs:
+
+| Step | |
+|---|---|
+| 1 | FLC needs its own company licence |
+| 2 | FLC wants that licence in **Structural landscaping (trade)**, because only trade classes get SC1 and its $12,000 NTA |
+| 3 | The nominee must personally hold **Structural landscaping (trade)** |
+| 4 | If Alistair holds only a **Builder** class, he does not hold that class — his licence is *broader*, but broader is not *the same* |
+| 5 | So he adds Structural landscaping (trade) to his own ticket, and the match is made |
+
+Think of it as a dropdown on a form. FLC's says *Structural landscaping (trade)*. Alistair's
+has to say the same words. A bigger licence doesn't tick the box, because it's a different
+entry on the list, not a higher one.
+
+**FLC cannot do this for him.** The nominee requirement attaches to the individual's
+licence, so it has to be Alistair's application.
+
+**What it costs him.** A **nominee supervisor** licence is the cheap route — it lets him be
+a nominee without contracting in his own right in that class, and financial requirements
+(maximum revenue, NTA) don't apply to supervisor applicants at all. Fees effective
+**1 July 2026 – 30 June 2027**:
+
+| Alistair's situation | Application fee | First 12 months | **Total** |
+|---|---:|---:|---:|
+| **Adding a class** to an existing nominee supervisor licence | $250.73 | N/A | **$250.73** |
+| **New** nominee supervisor licence | $250.73 | $250.73 | **$501.46** |
+
+QBCC also charges a reduced fee generally where someone already holds a current individual
+licence and applies for another class.
+
+**So the comparison is $250–$500 against $34,000 of net tangible assets.** That is the
+entire point of this section. If the class match is the only thing standing between FLC and
+SC1, buying the match is not a close call.
+
+**Confirm two things on the call**, because both come from secondary sources rather than
+QBCC's own fee page, which I could not reach:
+
+1. That a Builder class genuinely can't nominate for a trade-class company licence.
+2. Whether Alistair can hold a nominee supervisor class alongside his existing contractor
+   licence, and what QBCC would charge him.
 
 ### 2.7H ⚠️ Home warranty insurance — check this before you price another wall
 

@@ -115,6 +115,12 @@ services applicants. So the class we apply for decides whether we need $12,000 o
 in the company — a **$34,000 swing**, and the biggest financial decision in this plan. Get
 the **trade** class if it's achievable. That's question (a) on the QBCC call.
 
+**If Alistair holds only a Builder class**, he'd need to add Structural landscaping (trade)
+to his own licence so it matches FLC's — the nominee rule is a name match, not a scope
+test. Cost to him: **$250.73** to add a class to an existing nominee supervisor licence, or
+**$501.46** for a new one. No financial requirements attach to supervisor licences. This is
+a contingency — we don't yet know what class he holds.
+
 **SC1 caps FLC at $200,000 revenue.** At $30,000 a wall that's **fewer than seven walls a
 year** — before you count any earthworks revenue that QBCC treats as licensed building
 work. Exceeding your declared Maximum Revenue is itself a breach. When you call QBCC, ask
