@@ -2,7 +2,8 @@
 
 **Prepared for:** First Light Civil Pty Ltd (FLC) — Caboolture, QLD
 **Subject:** How to legally structure a casual employment agreement for a licensed builder who supervises FLC's retaining wall work
-**Date:** August 2026 · **Revision 2** — updated for the 5% cost envelope and the sub-engineering wall scope
+**Date:** August 2026 · **Revision 3** — award-free basis, two visits per wall,
+Brisbane-wide, and what FLC must obtain from QBCC
 
 > **Not legal advice.** This is a researched working draft to get you 90% of the way
 > there cheaply. Before anyone signs, have a Queensland construction/employment
@@ -151,16 +152,103 @@ under §2.2, nominating Alistair — and the advertised number changes to FLC's.
 licence 76041 at `my.qbcc.qld.gov.au` → Licence Search; the register shows the licensee
 name and class.
 
-### 2.7 QBCC admin checklist
+### 2.7 What FLC actually has to get from QBCC, and what it costs
+
+You asked what FLC needs to do — and yes, there is an application, assuming licence 76041
+turns out to be Alistair's rather than FLC's (§2.6). **A licence held by an individual
+does not license the company.** If FLC Pty Ltd is the entity signing contracts with
+homeowners, FLC Pty Ltd needs its own licence.
+
+**Alistair doesn't need to do anything to his own licence.** Section 42B accepts a nominee
+who holds *either* a contractor's licence or a nominee supervisor's licence. If he holds a
+contractor's licence he already qualifies. The direction of travel is the other way: **FLC
+applies for the company class that matches what Alistair already holds** (§2.2).
+
+**What FLC applies for:** a **company contractor's licence** in that class.
+
+**What the application requires:**
+
+| Requirement | Detail |
+|---|---|
+| **Nominee** | Alistair, holding the matching class — the signed employment agreement is your evidence of the employment relationship |
+| **Financial category** | SC1 or SC2 (below) |
+| **Entity details** | ACN, ABN, directors, registered office |
+| **Suitability** | No director or influential person may be an excluded individual or otherwise banned |
+| **Nominee form** | The "incoming nominee" form, lodged with or after the licence application |
+
+**Financial category — this is the part people underestimate.** FLC self-declares a
+Maximum Revenue and must hold the matching Net Tangible Assets:
+
+| Category | Maximum Revenue | Minimum NTA |
+|---|---|---|
+| **SC1** | up to **$200,000** | **$12,000** |
+| **SC2** | up to **$800,000** | **$46,000** |
+
+Both categories allow an **MFR declaration** rather than a full accountant's MFR report,
+which keeps the cost down. Two traps:
+
+- **Maximum Revenue is FLC's construction turnover, not just the retaining wall
+  revenue.** FLC is an earthworks business — pick the category that covers the whole
+  licensed operation, and remember exceeding your declared Maximum Revenue is itself a
+  breach.
+- **Companies in SC1/SC2 still lodge annual financial information with QBCC.** The
+  March 2025 exemption from annual reporting applies to *individual sole traders* only.
+  Being a company, FLC doesn't get that relief. Budget for the annual lodgement.
+
+**The costs.** I could not retrieve current dollar figures — `qbcc.qld.gov.au` is blocked
+from this session, and fees were increased on 1 July 2026 so any older figure would be
+wrong. Rather than guess at numbers you'd be budgeting against, here's what to price and
+where:
+
+| Cost | Where to get the figure |
+|---|---|
+| Company licence **application fee** | [QBCC licence fees page](https://www.qbcc.qld.gov.au/licences/apply-licence/licence-fees) — varies by class and financial category |
+| **Annual renewal fee** | Same page |
+| Nominee appointment | Usually nil or nominal — confirm on the same page |
+| MFR declaration | Nil if self-declared; your accountant may charge to review |
+| **Home warranty insurance** | Per job — see below, and it is much bigger than the licence fees |
+| WorkCover Queensland | Premium on wages declared |
+| QLeave | Employer registration and returns |
+
+In the scheme of things the licence fees are a rounding error against a single wall. The
+one worth checking properly is the next item.
+
+### 2.7A ⚠️ Home warranty insurance — check this before you price another wall
+
+Queensland Home Warranty Scheme premiums are **compulsory for residential construction
+work over $3,300**, they're paid by the contractor, and QBCC's guidance states that
+associated work including **retaining walls** performed under a residential contract is
+included in the insurable value.
+
+What I could not confirm from the sources reachable here is whether a **standalone**
+retaining wall contract on a residential property is insurable work in its own right, as
+distinct from a wall bundled into a larger residential build. That distinction decides
+whether FLC pays a premium on every wall or none of them, and at your job sizes it's worth
+far more than the licence fee.
+
+**Ask QBCC directly on 139 333:** *"We're a licensed contractor building standalone
+retaining walls for homeowners, $7,500 to $30,000, not part of any other building work. Is
+that insurable work under the Queensland Home Warranty Scheme, and do we need to pay a
+premium and lodge a notification for each one?"*
+
+If the answer is yes, the premium is a per-job cost that sits **outside** the 5% envelope
+and needs to go into your wall pricing.
+
+### 2.8 QBCC admin checklist
 
 - [ ] Confirm who holds licence 76041 and in what class (§2.6).
 - [ ] Confirm Alistair's licence class and expiry.
 - [ ] Call QBCC 139 333 to confirm which company licence class his licence can nominate
-      for (§2.2).
-- [ ] Apply for / confirm FLC's company licence in that class.
+      for (§2.2), **and** whether standalone retaining walls are insurable work under the
+      Home Warranty Scheme (§2.7A).
+- [ ] Get current application and renewal fees from the QBCC licence fees page (§2.7).
+- [ ] Choose the financial category — SC1 or SC2 — against FLC's **whole** construction
+      turnover, and confirm FLC holds the matching NTA (§2.7).
+- [ ] Apply for FLC's company licence in that class.
 - [ ] Lodge the QBCC **incoming nominee** form, attaching the signed employment agreement
       as evidence of the employment relationship.
-- [ ] Meet QBCC's **Minimum Financial Requirements** for the licence category.
+- [ ] Diarise the **annual financial information lodgement** — companies in SC1/SC2 are
+      not exempt.
 - [ ] Diarise: if Alistair ceases as nominee, **QBCC must be notified within 14 days**, and
       you have **28 days** to appoint a replacement. Clause 13 handles this.
 - [ ] Note that as nominee and employee, Alistair may be an **"influential person"** for
@@ -261,88 +349,115 @@ Where hours run over budget, the cost exceeds 5%. That isn't a drafting failure 
 engineer around — it's the law. Manage it with scope discipline (clause 6.6 requires
 written approval before exceeding Budgeted Hours), not with pay.
 
-### 4.3A The real constraint is visits, not job size
+### 4.3A How this works on FLC's actual operating pattern
 
-If the Building and Construction General On-site Award applies, casuals get a **minimum 4
-hours' pay per engagement** — even if Alistair is on site for 45 minutes. At $85/hr that's
-$340 in wages plus $41 super = **$381 per engagement**, and a separate day is a separate
-engagement.
+FLC has confirmed the operating parameters: **Alistair is treated as award-free** (see
+§4.4), **two visits per wall**, jobs are **Brisbane-wide**, all jobs are **above $7,500**,
+and **only one job runs at a time** — so batching visits across sites isn't available.
 
-So the binding constraint is **not** "is the job big enough". It's **how many separate
-times he turns up**. Each visit needs roughly **$7,600 of contract value behind it** to
-stay inside 5%:
+Award-free is the parameter that does the work here. It removes the award's **4-hour
+minimum engagement**, which was the thing breaking the model. Without it, a 90-minute
+completion check costs 90 minutes, not four hours.
 
-| Contract value | 5% envelope | Visits it funds (at $381 each) |
-|---:|---:|:---|
-| $7,500 | $375 | **0.98** — not quite one visit |
-| $10,000 | $500 | 1.3 |
-| $15,000 | $750 | **2.0** |
-| $20,000 | $1,000 | 2.6 |
-| $30,000 | $1,500 | **3.9** |
+**The arithmetic.** Every paid hour costs the Hourly Rate plus 12% super. For that to fit
+inside 5%, each hour needs `Hourly Rate × 1.12 ÷ 0.05` of job value behind it:
 
-A wall that gets a pre-start scope check, one construction inspection and a completion
-check — three separate days — costs **$1,142** in wages and super. On a $7,500 job that's
-**15%**, not 5%. On a $22,800 job it lands on 5%.
+| Hourly Rate | Job value needed per paid hour |
+|---|---|
+| $70 | $1,568 |
+| $85 | $1,904 |
+| $100 | $2,240 |
 
-**Rule of thumb: budget about $7,600 of job value per site visit.** Two visits needs a
-~$15,000 wall; three visits needs a ~$23,000 wall.
+**Realistic hours per wall, two visits, one job at a time:**
 
-Four ways to handle it, best first:
+| Activity | Hours |
+|---|---|
+| Pre-start scope assessment (from quote, photos, your measure-up) | 0.5–1.0 |
+| Visit 1 — construction inspection | 1.5–2.0 |
+| Visit 2 — completion inspection | 1.0–1.5 |
+| Records and admin | 0.5 |
+| **Total** | **~4.5 h** |
 
-1. **Cut the visit count, not the supervision.** Section 43A scales supervision to the
-   size and complexity of the work — small exempt walls genuinely need less than a 3 m
-   engineered wall. For most walls, the pre-start scope assessment can be done from the
-   quote, photos and a site measure-up you're already doing, and one combined
-   mid-construction/completion visit is defensible. **Two engagements per wall, not three.**
-2. **Batch across jobs.** The 4-hour minimum is per *engagement*, not per site. One
-   half-day run past three walls around Moreton Bay is one engagement, and the $381 splits
-   three ways to $127 each. Same for doing a week's scope assessments in one sitting. For
-   a Caboolture-based operator this is the natural rhythm anyway, and clause 3.3A of the
-   agreement is written to allow it.
-3. **Settle the award coverage question** (see §4.4). If Alistair is award-free there is
-   **no 4-hour minimum at all** — a 90-minute completion check costs $128 instead of $381,
-   and this entire problem disappears. This is the single highest-value question in this
-   document.
-4. **Accept that jobs under about $15,000 will run over 5%.** On a $10,000 wall with two
-   visits you're at $762, or 7.6%. The difference against 5% is $262. Price it in rather
-   than structuring around it.
+At **$70/hr**, 4.5 hours costs $315 in wages plus $38 super = **$353**. On a $7,500 job
+that's 4.7% — inside the envelope. On a $20,000 job it's 1.8%, so the completion payment
+tops him up the rest of the way to the full 5%.
 
-### 4.4 The highest-leverage question you can ask your lawyer
+### 4.3B The insight that makes this easy
 
-**Is Alistair covered by the Building and Construction General On-site Award 2020
-(MA000020), or is he award-free?**
+Because of the completion payment in clause 6.4, **on any job where the hours cost less
+than the envelope, Alistair receives exactly 5% — no more, no less.** The Hourly Rate only
+matters in the rare case where hours *exceed* the envelope.
 
-- **If covered:** the floor is the award rate for his classification, plus 25% casual
-  loading, plus the $1.77/hr all-purpose industry allowance, plus a ~$22.41 daily travel
-  allowance, plus the 4-hour minimum engagement. A CW3 tradesperson casual is $39.03/hr
-  from 1 July 2026; a nominee supervisor sits well above CW3.
-- **If award-free** (genuinely professional/managerial — engaged for licensed technical
-  judgement rather than on-site trade work): the floor is just the National Minimum Wage,
-  **$26.44/hr** from 1 July 2026, with no minimum engagement and no allowances.
+So the Hourly Rate is not really the pay mechanism. **It's a safety floor.** Set it low
+enough that it never binds on a normal job, and the 5% works exactly as you intended,
+every time.
 
-Your $85 is comfortably above both floors, so this doesn't change his pay. It changes
-whether the **4-hour minimum** and the **travel allowance** apply — which is exactly what
-breaks the envelope on small jobs. It's a 10-minute question for the lawyer and it's worth
-more than any other item in this document. Don't assume the answer: he does attend site,
-which pulls toward coverage.
+The break-even — the job size at which 4.5 hours exactly consumes the envelope:
+
+| Hourly Rate | Break-even job value | Verdict against FLC's $7,500 floor |
+|---|---|---|
+| **$70** | **$7,056** | ✅ Every job fits |
+| $75 | $7,560 | ⚠️ Marginal at $7,500 |
+| $85 | $8,568 | ❌ Jobs under $8,600 run over 5% |
+
+**Recommendation: $70/hr.** At that rate every job FLC takes lands at exactly 5%, and the
+mechanism is invisible in normal operation. Note this reverses the $80–90 suggested in
+revision 2 — that advice assumed award coverage, where a higher rate helped establish
+seniority. Award-free, the rate's only job is to sit high enough to be credible for a
+master builder (it's 2.6× the national minimum wage) and low enough not to bind.
+
+**Travel time.** Brisbane-wide means real travel — Caboolture to the southside is around
+an hour each way. If travel counted as paid hours, a 90-minute inspection would cost 3.5
+hours and the model breaks again. Clause 8.3 therefore provides that **the Hourly Rate
+covers travel, and only on-site and desk time is counted as paid hours.** For an
+award-free employee this is safe: 4.5 paid hours plus 4 hours travel at $315 total is an
+effective $37/hr against a $26.44 minimum. Make sure the clause is explicit and that
+Alistair understands it before signing — the mileage or vehicle allowance in clause 8.2 is
+how you compensate him for the running costs.
+
+### 4.4 The award-free position — and the one thing to keep true
+
+FLC's position is that **Alistair is not covered by a modern award**: he is a fully
+qualified master builder holding a QBCC licence, engaged for licensed technical judgement
+and supervision rather than on-site trade work. That's a reasonable position and the
+documents are drafted on it.
+
+Two things worth knowing.
+
+**First, what makes it hold.** Award-free status turns on the *work actually performed*,
+not the job title or the rate. The design here supports it: two short supervisory visits,
+document review, no tools, no hands-on construction. **Keep it that way.** The moment
+Alistair starts laying block, running a machine or working a day on the tools with the
+crew, coverage under the Building and Construction General On-site Award becomes arguable,
+and with it the 4-hour minimum engagement and the industry and travel allowances. Clause
+4.3 of the agreement records that his role is supervisory.
+
+**Second, the downside is contained.** Clauses 6.2 and 14.4 provide that statutory and
+award minimums prevail over anything in the agreement. So if the award-free assumption
+ever turned out to be wrong, the agreement doesn't become unlawful and it doesn't need to
+be rewritten — FLC would simply owe a back-pay top-up to the correct rate. That's the
+right way to carry this risk, and it's why the clauses are drafted that way.
+
+For reference, the two possible floors:
+
+| | Floor |
+|---|---|
+| **Award-free** (FLC's position) | National Minimum Wage **$26.44/hr**, no minimum engagement, no allowances |
+| If covered by MA000020 | Classification rate + 25% casual loading + $1.77/hr industry allowance + ~$22.41 daily travel allowance + **4-hour minimum engagement**. CW3 casual is $39.03/hr from 1 July 2026 |
+
+Worth mentioning to the lawyer during the review, but as a confirmation rather than an
+open question.
 
 ### 4.5 Choosing the hourly rate
 
-The rate is a real lever, and it cuts both ways:
+See §4.3B — **$70/hr is the recommendation**, because it's the rate at which every job
+above FLC's $7,500 floor lands at exactly 5%. It is 2.6× the national minimum wage, which
+is credible for a licensed builder, and low enough that the floor never binds in normal
+operation.
 
-| Hourly rate | Budgeted hours on a $20k wall | Job size where 5% covers one 4-hour visit |
-|---|---|---|
-| $70 | 12.8 h | $6,300 |
-| $85 | 10.5 h | $7,600 |
-| $100 | 8.9 h | $9,000 |
-
-A **lower** rate buys more supervision hours inside the envelope and lowers the small-job
-breakeven — but sits closer to the award floor and looks less like a senior licensed
-professional. A **higher** rate reads correctly for a licensed builder carrying nominee
-liability, and supports the argument that he's award-free, but buys fewer hours.
-
-**$80–$90 is the sweet spot** for a QBCC-licensed builder acting as nominee in SEQ. Set it
-deliberately and write it into clause 6.1.
+If you'd rather set it higher for optics, understand what you're buying: at $85 any job
+under $8,600 costs more than 5%, and at $100 anything under $10,100 does. Given jobs start
+at $7,500, that's a real and recurring overage rather than an edge case.
 
 ### 4.6 What the 5% actually has to cover
 
@@ -394,9 +509,11 @@ it real: PAYG, super, WorkCover, genuine direction from FLC, genuine supervision
 2. **Who holds QBCC licence 76041** — FLC Pty Ltd or Alistair Coleman? (§2.6)
 3. **Alistair's licence class and expiry**, and QBCC's answer on class matching (§2.2).
 4. **Alistair's full legal name and address.**
-5. **The hourly rate** (§4.5 — recommend $80–$90) and whether he's **award-covered** (§4.4).
+5. Confirmation of the **hourly rate** — recommended **$70** (§4.3B / §4.5).
 6. Whether the 5% applies to **approved variations** as well as the base contract value.
-7. Whether he uses **his own vehicle** — determines the clause 8 allowance.
+7. Whether he uses **his own vehicle**, and the **per-kilometre rate** for clause 8.2 —
+   this matters more now that jobs are Brisbane-wide and travel time is unpaid (§4.3B).
+8. QBCC's answer on **home warranty insurance** for standalone retaining walls (§2.7A).
 
 ---
 

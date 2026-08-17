@@ -66,7 +66,7 @@ licence class; see §2.2 of the guidance note]`.
 2.2 The Employee reports to `[Director name]`, Director of FLC.
 
 2.3 The Employee is engaged principally in relation to **retaining wall building work**
-carried out by FLC in the Brisbane and Moreton Bay region.
+carried out by FLC across Brisbane and South East Queensland.
 
 2.4 The parties acknowledge that FLC's retaining wall work is limited to walls that do
 **not** require engineering certification under a local law or the Building Regulation
@@ -77,8 +77,9 @@ that scope is dealt with under clause 4.2.
 
 ## 3. Location and hours
 
-3.1 Work will be performed at FLC project sites in the Brisbane and Moreton Bay region,
-at FLC's premises, and remotely as appropriate to the task.
+3.1 Work will be performed at FLC project sites across Brisbane and South East Queensland,
+at FLC's premises, and remotely as appropriate to the task. The Employee acknowledges that
+FLC's project locations are not limited to any particular suburb or local government area.
 
 3.2 There are no set hours. Hours for each Engagement are as agreed in Schedule 1 and as
 reasonably required to discharge the duties in clause 4.
@@ -178,7 +179,13 @@ function of a **Registered Professional Engineer of Queensland (RPEQ)**, not the
 &nbsp;&nbsp;&nbsp;&nbsp;(c) the Employee will not be described by FLC, in any contract,
 quotation, marketing material or communication, as certifying or "signing off" a retaining
 wall design. The Employee **supervises** the building work; the RPEQ **certifies** the
-design.
+design; and
+
+&nbsp;&nbsp;&nbsp;&nbsp;(d) the Employee's role is **supervisory and technical**. He is not
+engaged to perform on-site trade or construction work, to operate plant, or to work on the
+tools, and FLC will not direct him to do so. If the parties wish to change this, the
+Agreement must be varied in writing and the pay arrangements reviewed, because it may
+alter which industrial instrument applies to the Employee.
 
 4.4 **Supervision records are a condition of employment.** The Employee must complete a
 Schedule 2 record for every site attendance and a scope assessment under clause 4.1(a) for
@@ -239,12 +246,15 @@ may affect the other's licence.
 > clawback.
 
 6.1 **Hourly Rate.** For each hour worked, FLC will pay the Employee
-**$`[rate — recommend $80–$90]` per hour**, which is inclusive of a **25% casual loading**.
+**$`[rate — recommended $70]` per hour**, which is inclusive of a **25% casual loading**.
 
-6.2 The Hourly Rate is at or above the minimum rate payable to the Employee under
-`[the Building and Construction General On-site Award 2020 (MA000020), classification
-[insert] / the National Minimum Wage, the Employee being award-free]`. FLC will increase
-the Hourly Rate as necessary so that it always at least equals that minimum.
+6.2 The parties have entered into this Agreement on the basis that the Employee is **not
+covered by a modern award**, being engaged for licensed technical judgement and
+supervision rather than on-site trade work, and that the applicable minimum is therefore
+the National Minimum Wage. The Hourly Rate is at or above that minimum. If a modern award
+does apply to the Employee, **that award prevails** and FLC will pay the Employee at not
+less than the applicable award rate, including any loading, allowance and minimum
+engagement it prescribes, and will make good any shortfall.
 
 6.3 **Job Value Allowance.** For each retaining wall project the Employee supervises, FLC
 allocates a **Job Value Allowance equal to 5% of the Contract Value**, being the target
@@ -291,13 +301,13 @@ and payment for public holidays not worked.
 to an account nominated by the Employee, and will issue a payslip within one working day
 of each payment. FLC will withhold PAYG tax as required by law.
 
-> **Worked example.** Contract Value $20,000 ex GST; Hourly Rate $85.
+> **Worked example.** Contract Value $20,000 ex GST; Hourly Rate $70.
 > Job Value Allowance = $1,000. Wages Component = $1,000 ÷ 1.12 = **$892.86**.
-> Superannuation = **$107.14**. Budgeted Hours = $892.86 ÷ $85 = **10.5 hours**.
-> If the Employee works 8 hours, he is paid $680 during the job and a **$212.86 completion
-> payment**, plus $107.14 super — $1,000 all in, exactly 5%.
-> If he works 14 hours, he is paid $1,190 plus $142.80 super — $1,332.80, or 6.7%. No
-> clawback applies.
+> Superannuation = **$107.14**. Budgeted Hours = $892.86 ÷ $70 = **12.75 hours**.
+> If the Employee works 4.5 hours — a typical two-visit wall — he is paid $315 during the
+> job and a **$577.86 completion payment**, plus $107.14 super. Total $1,000, exactly 5%.
+> If he works 15 hours, he is paid $1,050 plus $126 super — $1,176, or 5.9%. No clawback
+> applies.
 
 ---
 
@@ -326,12 +336,21 @@ approval.
 8.2 `[Vehicle: The Employee will use his own vehicle and FLC will pay a vehicle allowance
 of $[amount] per kilometre / FLC will provide a vehicle.]`
 
-8.3 `[Travel: Where the Building and Construction General On-site Award 2020 applies, FLC
-will pay the daily fares and travel allowance prescribed by that award for each day the
-Employee attends a site.]`
+8.3 **Travel time.** The Employee's paid hours are the hours spent on site and on
+associated document review, assessment and record-keeping. **Travel to and from project
+sites is not counted as paid hours**; the Hourly Rate in clause 6.1 is set on the basis
+that it compensates the Employee for travel within FLC's ordinary operating area of
+Brisbane and South East Queensland, and clause 8.2 compensates him for vehicle running
+costs.
 
-8.4 `[Tools and PPE: The Employee will provide his own [hand tools / measuring and testing
-equipment]. FLC will provide all personal protective equipment.]`
+8.4 Clause 8.3 does not operate to reduce the Employee's total pay for any period below
+the minimum payable under the *Fair Work Act 2009* (Cth) or any applicable modern award
+calculated across all hours that constitute work. If a modern award applies to the
+Employee and prescribes a fares and travel allowance, FLC will pay that allowance in
+addition to the Hourly Rate.
+
+8.5 `[Tools and PPE: The Employee will provide his own [measuring and testing equipment].
+FLC will provide all personal protective equipment.]`
 
 ---
 
