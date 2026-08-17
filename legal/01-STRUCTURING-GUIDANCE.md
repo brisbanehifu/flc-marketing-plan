@@ -184,16 +184,22 @@ Maximum Revenue and must hold the matching Net Tangible Assets:
 | **SC1** | up to **$200,000** | **$12,000** |
 | **SC2** | up to **$800,000** | **$46,000** |
 
-Both categories allow an **MFR declaration** rather than a full accountant's MFR report,
-which keeps the cost down. Two traps:
+**FLC's position: SC1.** Maximum Revenue $200,000, NTA $12,000, MFR declaration rather
+than a full accountant's report. That keeps the setup cheap. Three things to watch:
 
-- **Maximum Revenue is FLC's construction turnover, not just the retaining wall
-  revenue.** FLC is an earthworks business — pick the category that covers the whole
-  licensed operation, and remember exceeding your declared Maximum Revenue is itself a
-  breach.
+- **$200,000 is not much headroom.** Most FLC walls are $30,000 or under, so SC1 caps you
+  at **fewer than seven walls a year** — before counting any earthworks revenue QBCC
+  treats as licensed building work. Exceeding your declared Maximum Revenue is itself a
+  breach, so move to **SC2** ($800,000 / $46,000 NTA) *before* you cross the line, not
+  after. Diarise a check at half-year.
+- **Ask QBCC which revenue counts.** FLC is primarily an earthworks business. Whether
+  earthworks turnover counts toward Maximum Revenue changes whether SC1 is realistic at
+  all. Put this on the same call as the licence class question.
+- **The $12,000 NTA is a holding requirement, not a fee.** FLC must hold $12,000 in net
+  tangible assets and keep holding it — it isn't money spent once.
 - **Companies in SC1/SC2 still lodge annual financial information with QBCC.** The
   March 2025 exemption from annual reporting applies to *individual sole traders* only.
-  Being a company, FLC doesn't get that relief. Budget for the annual lodgement.
+  Being a company, FLC doesn't get that relief.
 
 **The costs.** I could not retrieve current dollar figures — `qbcc.qld.gov.au` is blocked
 from this session, and fees were increased on 1 July 2026 so any older figure would be
