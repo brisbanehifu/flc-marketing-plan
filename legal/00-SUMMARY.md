@@ -121,7 +121,8 @@ licence fee, and it's a per-job cost outside the 5%.
 |---|---|---|
 | 1 | Search **licence 76041** at `my.qbcc.qld.gov.au` → Licence Search. Is the licensee **FLC Pty Ltd** or **Alistair Coleman**? | FLC |
 | 2 | Call **QBCC 139 333** and ask three things: (a) what company class can Alistair's licence nominate for; (b) is a standalone retaining wall insurable under the Home Warranty Scheme; (c) does FLC's earthworks revenue count toward the SC1 cap | FLC |
-| 3 | Confirm FLC holds **$12,000 net tangible assets** and that turnover stays under **$200,000** | FLC / accountant |
+| 3 | Build NTA by **retaining profits** — retain **~$16,000 pre-tax** to land $12,000 after tax; target **$18,000–$20,000** NTA for buffer. Confirm turnover stays under **$200,000** | FLC / accountant |
+| 3a | ⚠️ **Until NTA is there and the licence is issued, FLC must not quote, sign or start any retaining wall over $3,300** | FLC |
 | 4 | **Apply for FLC's company licence** in the class from step 2, financial category **SC1**, with an MFR declaration | FLC |
 | 5 | Fill the placeholders in the agreement: ABN/ACN, addresses, licence numbers, **$70/hr**, per-km allowance | FLC |
 | 6 | **Lawyer review** of the agreement | Solicitor |

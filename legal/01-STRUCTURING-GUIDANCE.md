@@ -242,6 +242,66 @@ exercise, so it's worth solving the balance sheet instead.
 cause is almost certainly that assets are held outside the company or a director loan is
 sitting on the wrong side of the ledger. That's an accountant's afternoon, not a crisis.
 
+### 2.7C FLC's chosen route: retained profits
+
+**Decision: FLC will build the $12,000 by retaining profits rather than drawing them.**
+That works, and it's the cleanest of the four options because it leaves no loan or
+guarantee behind. Three things to get right.
+
+**1. Retain roughly $16,000 of profit, not $12,000.** Retained profits only lift NTA to the
+extent they stay in the company *after tax*. At the 25% base-rate company tax rate,
+$16,000 of pre-tax profit leaves about $12,000 once tax is provided for — and until that
+tax is paid, the provision sits on the balance sheet as a liability reducing NTA. Retain
+$12,000 pre-tax and you land around $9,000 of NTA, which fails.
+
+| Target NTA | Pre-tax profit to retain |
+|---:|---:|
+| $12,000 (the bare minimum) | ~$16,000 |
+| $18,000 (recommended) | ~$24,000 |
+| $20,000 (comfortable) | ~$26,700 |
+
+**2. The money has to actually stay in the company.** "Retained profits" is not an
+accounting entry that creates assets — it means not drawing the cash out. The profit has to
+remain as a real asset: cash at bank, or receivables. Declare a dividend or run it out
+through drawings and NTA goes straight back down.
+
+**3. Build a buffer — don't sit on exactly $12,000.** Two reasons:
+
+- Dropping below $12,000 at any point breaches the SC1 requirement.
+- If NTA falls **30% or more** below the figure last reported to QBCC, the licensee must
+  lodge an **MFR report within 30 days** of becoming aware. Sitting at $12,000, a $3,600
+  dip trips that wire — and an MFR report means paying an accountant, which is exactly the
+  cost SC1 was chosen to avoid.
+
+**Target $18,000–$20,000 NTA.** Normal trading movement then never triggers either problem.
+
+### 2.7D ⚠️ The timing problem this creates
+
+NTA must be met **at the time of application**, so **FLC cannot apply for the licence until
+the balance sheet already shows the money.** Accumulating $16,000–$24,000 of retained
+profit takes a quarter or two.
+
+**In the meantime, FLC must not contract for retaining wall work over $3,300.** Not quote
+it, not sign it, not start it. Unlicensed contracting under s 42 carries penalties around
+$43,175 for a first offence, and — worse — an unlicensed contractor **is not entitled to be
+paid**, recovering only "reasonable remuneration" with no profit. If FLC is currently
+taking wall jobs on the strength of licence 76041 and that licence turns out to be
+Alistair's personal one (§2.6), **that exposure is live right now**, not a future risk.
+
+So there's a real trade-off between the two viable routes:
+
+| Route | Speed | Cost | Leaves behind |
+|---|---|---|---|
+| **Retained profits** | A quarter or two | Nil | Nothing — cleanest |
+| **Director capital injection** | Immediate | $12k–$20k of the director's cash into the company as equity | Equity in the company, recoverable later |
+
+If FLC has wall work it wants to take **now**, injecting capital gets the licence moving
+immediately, and retained profits then build on top of it rather than being the sole
+source. If there's no wall work in the pipeline for the next few months, retained profits
+alone are fine and cost nothing.
+
+**Either way, the sequencing rule is the same: licence first, wall contracts second.**
+
 **The costs.** I could not retrieve current dollar figures — `qbcc.qld.gov.au` is blocked
 from this session, and fees were increased on 1 July 2026 so any older figure would be
 wrong. Rather than guess at numbers you'd be budgeting against, here's what to price and
