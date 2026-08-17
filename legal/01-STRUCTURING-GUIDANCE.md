@@ -261,23 +261,51 @@ Where hours run over budget, the cost exceeds 5%. That isn't a drafting failure 
 engineer around — it's the law. Manage it with scope discipline (clause 6.6 requires
 written approval before exceeding Budgeted Hours), not with pay.
 
-**And there's a floor problem on small jobs.** If the Building and Construction General
-On-site Award applies, casuals get a **minimum 4 hours' pay per engagement** — even if
-he's on site for 45 minutes. At $85/hr that's $340 in wages plus $41 super = **$381**. For
-that to fit inside 5%, the job has to be worth about **$7,600**. Below that, a single
-compliant site visit already breaks the envelope.
+### 4.3A The real constraint is visits, not job size
+
+If the Building and Construction General On-site Award applies, casuals get a **minimum 4
+hours' pay per engagement** — even if Alistair is on site for 45 minutes. At $85/hr that's
+$340 in wages plus $41 super = **$381 per engagement**, and a separate day is a separate
+engagement.
+
+So the binding constraint is **not** "is the job big enough". It's **how many separate
+times he turns up**. Each visit needs roughly **$7,600 of contract value behind it** to
+stay inside 5%:
+
+| Contract value | 5% envelope | Visits it funds (at $381 each) |
+|---:|---:|:---|
+| $7,500 | $375 | **0.98** — not quite one visit |
+| $10,000 | $500 | 1.3 |
+| $15,000 | $750 | **2.0** |
+| $20,000 | $1,000 | 2.6 |
+| $30,000 | $1,500 | **3.9** |
+
+A wall that gets a pre-start scope check, one construction inspection and a completion
+check — three separate days — costs **$1,142** in wages and super. On a $7,500 job that's
+**15%**, not 5%. On a $22,800 job it lands on 5%.
+
+**Rule of thumb: budget about $7,600 of job value per site visit.** Two visits needs a
+~$15,000 wall; three visits needs a ~$23,000 wall.
 
 Four ways to handle it, best first:
 
-1. **Batch the site visits.** The 4-hour minimum is per *engagement*, not per site. One
-   half-day run past three small walls around Moreton Bay is one engagement, and the cost
-   splits three ways. For a Caboolture-based operator this is the natural rhythm anyway,
-   and it's completely legitimate.
-2. **Settle the award coverage question** (see §4.4). If Alistair is genuinely award-free,
-   there's no 4-hour minimum and small jobs stop being a problem entirely.
-3. **Set a minimum job size** for walls FLC takes on — most operators have one anyway.
-4. **Accept 6–8% on small jobs.** On a $5,000 wall the difference between 5% and 7% is
-   $100. It's not worth structuring around.
+1. **Cut the visit count, not the supervision.** Section 43A scales supervision to the
+   size and complexity of the work — small exempt walls genuinely need less than a 3 m
+   engineered wall. For most walls, the pre-start scope assessment can be done from the
+   quote, photos and a site measure-up you're already doing, and one combined
+   mid-construction/completion visit is defensible. **Two engagements per wall, not three.**
+2. **Batch across jobs.** The 4-hour minimum is per *engagement*, not per site. One
+   half-day run past three walls around Moreton Bay is one engagement, and the $381 splits
+   three ways to $127 each. Same for doing a week's scope assessments in one sitting. For
+   a Caboolture-based operator this is the natural rhythm anyway, and clause 3.3A of the
+   agreement is written to allow it.
+3. **Settle the award coverage question** (see §4.4). If Alistair is award-free there is
+   **no 4-hour minimum at all** — a 90-minute completion check costs $128 instead of $381,
+   and this entire problem disappears. This is the single highest-value question in this
+   document.
+4. **Accept that jobs under about $15,000 will run over 5%.** On a $10,000 wall with two
+   visits you're at $762, or 7.6%. The difference against 5% is $262. Price it in rather
+   than structuring around it.
 
 ### 4.4 The highest-leverage question you can ask your lawyer
 
