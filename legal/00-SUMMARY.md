@@ -92,7 +92,7 @@ in clause 6.6.
 | QBCC **annual renewal** | Same page |
 | **Nominee appointment** form | Usually nil or nominal |
 | **MFR declaration** (SC1) | Nil — self-declared. Accountant fee only if you want it reviewed. |
-| **Net tangible assets $12,000** | ⚠️ Not a cost — a **balance-sheet requirement**. FLC must *hold* $12,000 in net tangible assets and keep holding it. |
+| **Net tangible assets $12,000** | ⚠️ Not a cost — a **balance-sheet requirement**. FLC must *hold* $12,000 in net tangible assets and keep holding it. **SC1 is the lowest category, so this is a hard floor** — and a Deed of Covenant can't be used to bridge a shortfall in SC1. See §2.7B of the guidance note for the fixes. |
 | **Lawyer review** of the agreement | ~$500–$1,500 for a 30–60 minute review *(estimate)* |
 | WorkCover policy | Add Alistair — premium on declared wages |
 | QLeave employer registration | Nil |

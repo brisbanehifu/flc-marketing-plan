@@ -201,6 +201,47 @@ than a full accountant's report. That keeps the setup cheap. Three things to wat
   March 2025 exemption from annual reporting applies to *individual sole traders* only.
   Being a company, FLC doesn't get that relief.
 
+There is also a **current ratio** test alongside NTA: current assets must be at least equal
+to current liabilities (1:1). People remember the NTA number and forget this one.
+
+### 2.7B What if FLC's net tangible assets aren't $12,000?
+
+Then FLC can't hold the licence until they are. **SC1 is the lowest category — there's
+nothing below it.** The $12,000 is a hard floor, not a sliding scale.
+
+And the usual escape hatch is closed to you: a **Deed of Covenant and Assurance**, where a
+director or related entity guarantees the shortfall, is **only available to licensees in
+categories 1 to 7. SC1 and SC2 contractors cannot rely on a deed.** The assets have to be
+genuinely inside FLC.
+
+What actually works, cheapest first:
+
+1. **Convert a director loan into equity.** If a director has lent money *to* FLC, that
+   loan is a liability dragging NTA down. Converting it to share capital removes the
+   liability without anyone finding new money. This is the most common fix and usually the
+   easiest.
+2. **Move plant into the company.** FLC is an earthworks business — an excavator, bobcat
+   or truck owned outright covers $12,000 several times over at written-down value. If the
+   gear sits in a director's name or a family trust rather than in FLC Pty Ltd, that alone
+   may be the whole problem. Watch the offset: financed plant brings its liability with it.
+3. **Inject capital.** A director puts cash into the company as equity. $12,000 sitting in
+   the business account is a tangible asset. Blunt, but immediate.
+4. **Pay down liabilities**, or **retain profits** instead of drawing them out.
+
+Two things that don't count: **goodwill and brand value** are intangible and excluded, and
+**money FLC has lent to a director or related entity** is heavily scrutinised — a
+related-entity loan only counts as an asset if that entity itself passes a 1:1 current
+ratio and NTA of at least $0.
+
+**If none of that gets FLC to $12,000**, the company can't be licensed, and the only
+remaining structure is that FLC doesn't contract for retaining walls at all — a licensed
+entity does, and FLC stays out of that part of the job. That defeats the purpose of this
+exercise, so it's worth solving the balance sheet instead.
+
+**Practical read:** $12,000 is a low bar for a business with plant. If FLC is short, the
+cause is almost certainly that assets are held outside the company or a director loan is
+sitting on the wrong side of the ledger. That's an accountant's afternoon, not a crisis.
+
 **The costs.** I could not retrieve current dollar figures — `qbcc.qld.gov.au` is blocked
 from this session, and fees were increased on 1 July 2026 so any older figure would be
 wrong. Rather than guess at numbers you'd be budgeting against, here's what to price and
