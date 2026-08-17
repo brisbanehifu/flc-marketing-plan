@@ -193,7 +193,7 @@ licensed immediately, then let retained profits build on top.
 
 | What | Where |
 |---|---|
-| **Check licence 76041** — is it FLC's or Alistair's? | [myQBCC Portal](https://my.qbcc.qld.gov.au/s/) → Licence Search |
+| **Look up the class of licence 76041** (Alistair's) | [myQBCC Portal](https://my.qbcc.qld.gov.au/s/) → Licence Search |
 | **Company licence application form** *(includes the SC1 MFR declaration)* | [form-licence-application-company.pdf](https://www.qbcc.qld.gov.au/sites/default/files/documents/form-licence-application-company.pdf) |
 | **SC1 MFR declaration** *(standalone version)* | [form-mfr-declaration-sc-1.pdf](https://www.qbcc.qld.gov.au/sites/default/files/2021-09/form-mfr-declaration-sc-1.pdf) |
 | **Incoming nominee form** — appoints Alistair | [form-licence-company-nominee-incoming.pdf](https://www.qbcc.qld.gov.au/sites/default/files/2021-09/form-licence-company-nominee-incoming.pdf) |
@@ -221,7 +221,8 @@ licensed immediately, then let retained profits build on top.
 
 | # | Step | Who | Status |
 |---|---|---|---|
-| 1 | Search **licence 76041** on the myQBCC portal. FLC's or Alistair's? | Directors | **Do first** |
+| 1 | 🔴 **Remove licence 76041 from the website, quotes, email footers, socials and signage** — it is Alistair's personal licence, not FLC's | Directors | **Today** |
+| 1a | Look up **what class** 76041 is — it decides SC1 vs SC2 | Directors | **Do first** |
 | 2 | **Call QBCC 139 333** — three questions (below) | Directors | **Do first** |
 | 3 | Confirm Alistair's licence class and expiry | Directors | |
 | 4 | Build NTA to $18,000–$20,000 via retained profits | Directors / accountant | In progress |
@@ -233,7 +234,7 @@ licensed immediately, then let retained profits build on top.
 | 10 | Lodge the **incoming nominee form**, attaching the signed agreement | Directors | After licence |
 | 11 | Payroll setup — PAYG, super 12% within 7 business days, payslips | Bookkeeper | |
 | 12 | Add Alistair to **WorkCover**; register with **QLeave** | Directors | |
-| 13 | If step 1 shows 76041 is Alistair's — **fix the licence number on the website, quotes and socials** | Directors | **Urgent if applicable** |
+| 13 | Once FLC's licence issues, put **FLC's own** number on the website, quotes and socials | Directors | After licence |
 | 14 | Give Alistair the Fair Work and Casual Employment Information Statements | Directors | At signing |
 | 15 | From job one — Schedule 1 before every quote, Schedule 2 every visit, keep 7 years | Both | Ongoing |
 
@@ -255,7 +256,7 @@ licensed immediately, then let retained profits build on top.
 | Risk | Why it matters | Our control |
 |---|---|---|
 | **Working unlicensed** | Penalties ~$43,175 first offence, **and an unlicensed contractor isn't entitled to be paid** — only "reasonable remuneration", no profit | Take no wall work over $3,300 until licensed (step 5) |
-| **Advertising a licence that isn't ours** | If 76041 is Alistair's personal licence, advertising it as FLC's is a breach in its own right — **and it may be happening right now** | Step 1, then step 13 |
+| 🔴 **Advertising a licence that isn't ours** | **Confirmed.** 76041 is Alistair's personal licence and FLC is advertising it as its own. That is a breach in its own right, separate from unlicensed contracting, and **it is live today** | Step 1 — remove it today, no need to wait for anything |
 | **Licence lending** | If Alistair signs off walls he didn't supervise, it's an offence for **both** parties and damages both licences | Schedule 2 record every visit — it's the evidence |
 | **Tiered walls** | Two 800mm walls stepped up a slope aren't two exempt walls — the upper surcharges the lower. Building it as exempt means an unengineered engineered wall, outside our licence, uninsured if it moves | Schedule 1 scope assessment before we quote |
 | **Alistair goes on the tools** | Could pull him under the building award — 4-hour minimum engagements, allowances, and the 5% model stops working | Clause 4.5 of the agreement |
@@ -270,7 +271,7 @@ licensed immediately, then let retained profits build on top.
 
 | Item | Owner | Blocking |
 |---|---|---|
-| Who holds licence 76041 | Directors | Everything |
+| What **class** licence 76041 is | Directors | SC1 vs SC2 decision |
 | Which company licence class matches Alistair's | Directors | The application |
 | Home warranty insurance on standalone walls | Directors | Wall pricing |
 | Whether earthworks revenue counts toward the SC1 cap | Directors | Category choice |

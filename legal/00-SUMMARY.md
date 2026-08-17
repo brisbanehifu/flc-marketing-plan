@@ -19,7 +19,7 @@ itself is `02-CASUAL-EMPLOYMENT-AGREEMENT-DRAFT.md`.
 | **Area** | Brisbane and South East Queensland — no suburb limit |
 | **Wall scope** | Only walls **below the engineering-certification threshold** |
 | **His job** | **Supervise** — and gate the scope. He does **not** certify walls; an RPEQ does. |
-| **QBCC licence class** | Match FLC's company class to whatever Alistair already holds — confirm with QBCC |
+| **QBCC licence class** | Match FLC's company class to Alistair's — **his class is still unknown**, and it decides SC1 vs SC2 |
 | **Financial category** | **SC1** — max revenue $200,000, net tangible assets $12,000 |
 | **Home warranty insurance** | ⏳ **To be determined** — see §4 |
 
@@ -139,7 +139,8 @@ licence fee, and it's a per-job cost outside the 5%.
 
 | # | Step | Who |
 |---|---|---|
-| 1 | Search **licence 76041** at `my.qbcc.qld.gov.au` → Licence Search. Is the licensee **FLC Pty Ltd** or **Alistair Coleman**? | FLC |
+| 1 | 🔴 **Remove licence 76041 from the website, quotes, email footers, socials and signage.** It is Alistair's personal licence, not FLC's — advertising it as ours is a breach on its own, and it is live today | FLC |
+| 1a | Find out **what class** licence 76041 is — it decides whether we need $12,000 or $46,000 in the company | FLC |
 | 2 | Call **QBCC 139 333** and ask three things: **(a)** ⚠️ can Alistair's licence nominate for a **Structural landscaping (trade)** company licence, so FLC stays in **SC1**; **(b)** is a standalone retaining wall insurable under the Home Warranty Scheme; **(c)** does FLC's earthworks revenue count toward the SC1 cap | FLC |
 | 3 | Build NTA by **retaining profits** — retain **~$16,000 pre-tax** to land $12,000 after tax; target **$18,000–$20,000** for buffer. Plant is hired, so NTA is pure working capital — measure it **net of GST, PAYG, super and tax provisions**, and declare a sustainable figure, not a peak (§2.7E). Confirm turnover stays under **$200,000** | FLC / accountant |
 | 3a | ⚠️ **Until NTA is there and the licence is issued, FLC must not quote, sign or start any retaining wall over $3,300** | FLC |
@@ -151,7 +152,7 @@ licence fee, and it's a per-job cost outside the 5%.
 | 9 | Set up payroll: PAYG withholding, TFN declaration, **super at 12% within 7 business days of each pay run** (payday super), payslips within 1 working day | FLC |
 | 10 | Add Alistair to the **WorkCover Queensland** policy | FLC |
 | 11 | Register with **QLeave** and lodge returns | FLC |
-| 12 | If step 1 showed 76041 is Alistair's — **fix the advertised licence number** on the website, quotes and social posts | FLC |
+| 12 | Once FLC's own licence issues, put **FLC's** licence number on the website, quotes and social posts | FLC |
 | 13 | Give Alistair the **Fair Work Information Statement** and **Casual Employment Information Statement** (again at 12 months) | FLC |
 | 14 | From job one: complete **Schedule 1** before quoting and **Schedule 2** at every site visit. Keep both for 7 years. | Both |
 

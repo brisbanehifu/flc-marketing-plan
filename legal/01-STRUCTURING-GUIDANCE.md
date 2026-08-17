@@ -140,27 +140,38 @@ Queensland's penalty unit is **$172.70** from 1 July 2026. Approximate maximums:
 > Verify the current penalty unit value and section numbers with your lawyer — penalty
 > units are indexed annually on 1 July.
 
-### 2.6 ⚠️ Still outstanding: who holds licence 76041?
+### 2.6 ✅ Confirmed: licence 76041 is Alistair's personal licence
 
-Your marketing material advertises **"First Light Civil — QBCC #76041"** on the website,
-quotes and social posts, but your brief describes 76041 as *Alistair's* number. Both can't
-be true. Either:
+**FLC has confirmed that QBCC licence 76041 is Alistair Coleman's personal licence, not a
+company licence held by First Light Civil Pty Ltd.**
 
-- **(a)** 76041 is FLC Pty Ltd's own company licence — advertising it is correct, and
-  Alistair is being appointed as nominee to it; or
-- **(b)** 76041 is Alistair's *personal* licence and FLC has been advertising it as its
-  own. That's a separate advertising and licensing breach that this agreement does not
-  fix.
+Two things follow, and both are now facts rather than contingencies:
 
-If it's (b), the fix is for FLC to apply for its own company licence in the class settled
-under §2.2, nominating Alistair — and the advertised number changes to FLC's. Search
-licence 76041 at `my.qbcc.qld.gov.au` → Licence Search; the register shows the licensee
-name and class.
+**1. FLC is not licensed.** There is no company licence to appoint a nominee to. FLC must
+apply for one from scratch (§2.7), and until it is issued FLC cannot lawfully contract for
+retaining wall work over $3,300 (§2.7D).
+
+**2. FLC is advertising a licence it does not hold — right now.** The website, quotes and
+social posts carry *"First Light Civil — QBCC #76041"*. That number belongs to Alistair
+personally. Presenting another party's licence as the company's own is a breach in its own
+right, separate from the unlicensed-contracting problem, and it is live today.
+
+> **Fix this first, before anything else in this note.** Remove or correct the licence
+> number wherever it appears: website, quote templates, email footers, social profiles,
+> vehicle signage, flyers. It costs nothing and it stops the exposure growing. Do not wait
+> for the licence application.
+
+Once FLC holds its own licence, the advertised number becomes FLC's company licence number.
+Alistair's personal number should never appear as FLC's.
+
+**Still unknown: what class 76041 is.** We have the number but not the class, and the class
+drives everything in §2.2 and §2.7G — including whether FLC lands in SC1 at $12,000 or SC2
+at $46,000. Look it up at `my.qbcc.qld.gov.au` → Licence Search, or ask Alistair.
 
 ### 2.7 What FLC actually has to get from QBCC, and what it costs
 
-You asked what FLC needs to do — and yes, there is an application, assuming licence 76041
-turns out to be Alistair's rather than FLC's (§2.6). **A licence held by an individual
+You asked what FLC needs to do — and yes, there is an application. Licence 76041 is
+Alistair's personal licence (§2.6), so FLC holds nothing. **A licence held by an individual
 does not license the company.** If FLC Pty Ltd is the entity signing contracts with
 homeowners, FLC Pty Ltd needs its own licence.
 
@@ -287,9 +298,9 @@ profit takes a quarter or two.
 **In the meantime, FLC must not contract for retaining wall work over $3,300.** Not quote
 it, not sign it, not start it. Unlicensed contracting under s 42 carries penalties around
 $43,175 for a first offence, and — worse — an unlicensed contractor **is not entitled to be
-paid**, recovering only "reasonable remuneration" with no profit. If FLC is currently
-taking wall jobs on the strength of licence 76041 and that licence turns out to be
-Alistair's personal one (§2.6), **that exposure is live right now**, not a future risk.
+paid**, recovering only "reasonable remuneration" with no profit. FLC has been trading on
+licence 76041, which is **Alistair's personal licence** (§2.6), so **that exposure is live
+right now** — not a future risk.
 
 So there's a real trade-off between the two viable routes:
 
@@ -480,7 +491,9 @@ and needs to go into your wall pricing.
 
 ### 2.8 QBCC admin checklist
 
-- [ ] Confirm who holds licence 76041 and in what class (§2.6).
+- [x] ~~Confirm who holds licence 76041~~ — **confirmed: Alistair's personal licence** (§2.6).
+- [ ] 🔴 **Remove licence 76041 from FLC's website, quotes, email footers, socials and signage** — do this today (§2.6).
+- [ ] Find out what **class** licence 76041 is — it decides SC1 vs SC2 (§2.7G).
 - [ ] Confirm Alistair's licence class and expiry.
 - [ ] Call QBCC 139 333 to confirm which company licence class his licence can nominate
       for (§2.2), **and** whether standalone retaining walls are insurable work under the
@@ -766,7 +779,7 @@ it real: PAYG, super, WorkCover, genuine direction from FLC, genuine supervision
 ## 6. What I still need to finalise the draft
 
 1. **FLC's ABN and ACN**, and registered office address.
-2. **Who holds QBCC licence 76041** — FLC Pty Ltd or Alistair Coleman? (§2.6)
+2. ~~Who holds licence 76041~~ — **confirmed: Alistair's** (§2.6). Still needed: **what class it is**.
 3. **Alistair's licence class and expiry**, and QBCC's answer on class matching (§2.2).
 4. **Alistair's full legal name and address.**
 5. Confirmation of the **hourly rate** — recommended **$70** (§4.3B / §4.5).
