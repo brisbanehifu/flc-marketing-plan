@@ -30,13 +30,46 @@ itself is `02-CASUAL-EMPLOYMENT-AGREEMENT-DRAFT.md`.
 Hourly rate $70. Alistair works ~4.5 hours per wall = $315 in wages, paid as he goes. The
 **top-up** at completion brings him to exactly 5%.
 
-| Job value (ex GST) | **5% = total cost** | Wages | Super | Paid during job | Top-up at completion |
-|---:|---:|---:|---:|---:|---:|
-| $7,500 | **$375** | $335 | $40 | $315 | $20 |
-| $10,000 | **$500** | $446 | $54 | $315 | $131 |
-| $15,000 | **$750** | $670 | $80 | $315 | $355 |
-| $20,000 | **$1,000** | $893 | $107 | $315 | $578 |
-| $30,000 | **$1,500** | $1,339 | $161 | $315 | $1,024 |
+| Job value (ex GST) | **5% = total cost** | Wages | Super | Paid during job | Top-up at completion | All-in incl. WorkCover* |
+|---:|---:|---:|---:|---:|---:|---:|
+| $10,000 | **$500** | $446 | $54 | $315 | $131 | ~$513 |
+| $11,000 | **$550** | $491 | $59 | $315 | $176 | ~$565 |
+| $12,000 | **$600** | $536 | $64 | $315 | $221 | ~$616 |
+| $13,000 | **$650** | $580 | $70 | $315 | $265 | ~$667 |
+| $14,000 | **$700** | $625 | $75 | $315 | $310 | ~$719 |
+| $15,000 | **$750** | $670 | $80 | $315 | $355 | ~$770 |
+| $16,000 | **$800** | $714 | $86 | $315 | $399 | ~$821 |
+| $17,000 | **$850** | $759 | $91 | $315 | $444 | ~$873 |
+| $18,000 | **$900** | $804 | $96 | $315 | $489 | ~$924 |
+| $19,000 | **$950** | $848 | $102 | $315 | $533 | ~$975 |
+| $20,000 | **$1,000** | $893 | $107 | $315 | $578 | ~$1,027 |
+| $21,000 | **$1,050** | $937 | $113 | $315 | $622 | ~$1,078 |
+| $22,000 | **$1,100** | $982 | $118 | $315 | $667 | ~$1,129 |
+| $23,000 | **$1,150** | $1,027 | $123 | $315 | $712 | ~$1,181 |
+| $24,000 | **$1,200** | $1,071 | $129 | $315 | $756 | ~$1,232 |
+| $25,000 | **$1,250** | $1,116 | $134 | $315 | $801 | ~$1,283 |
+| $26,000 | **$1,300** | $1,161 | $139 | $315 | $846 | ~$1,335 |
+| $27,000 | **$1,350** | $1,205 | $145 | $315 | $890 | ~$1,386 |
+| $28,000 | **$1,400** | $1,250 | $150 | $315 | $935 | ~$1,438 |
+| $29,000 | **$1,450** | $1,295 | $155 | $315 | $980 | ~$1,489 |
+| $30,000 | **$1,500** | $1,339 | $161 | $315 | $1,024 | ~$1,540 |
+
+\* WorkCover estimated at 3% of wages — **confirm your actual policy rate** and reprice if
+it differs. Excludes the km allowance and home warranty insurance.
+
+**How to read a row.** Take the $18,000 wall. The whole cost of having Alistair on it is
+**$900**. You pay him $315 as he works his ~4.5 hours, then **$489** as a top-up when the
+job completes, and $96 goes to his super. Add roughly $24 for WorkCover and you're at
+**$924**.
+
+**Below $10,000?** The 5% still applies, but the hours start to bite: at $7,500 the
+envelope is $375 against $315 of wages, so the top-up shrinks to $20. Under about $7,000
+the hours cost more than 5% and the job runs slightly over. See §4.3B of the guidance note.
+
+**If a job runs long.** These rows assume ~4.5 hours. Every extra hour adds **$78** ($70
+wages + $8 super) and comes out of the top-up first. Once the extra hours exceed the
+top-up, the job costs more than 5% — that's the point of the written-approval requirement
+in clause 6.6.
 
 **On top of the 5%, per job:**
 
