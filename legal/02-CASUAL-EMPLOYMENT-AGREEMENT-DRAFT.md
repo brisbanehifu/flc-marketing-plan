@@ -140,10 +140,15 @@ and must not allow work to proceed contrary to his written direction under claus
 
 ## 5. Licences and disclosure
 
-**5.1** The Employee warrants he holds, and will maintain, a current QBCC
-`[contractor's / nominee supervisor's]` licence no. `[licence no.]`, class `[class]`,
-matching FLC's company licence class and free of any condition preventing him acting as
-nominee.
+**5.1** The Employee warrants he holds, and will maintain, a current QBCC **contractor's
+licence no. 76041, class Builder — Low Rise, expiring 16 March 2027**, together with any
+further class required to match FLC's company licence class, free of any condition
+preventing him acting as nominee.
+
+**5.1A** The Employee must **renew licence 76041 before 16 March 2027** and give FLC
+evidence of renewal. FLC will diarise the date. The parties acknowledge that if the licence
+lapses, FLC has no nominee, must notify QBCC within 14 days, and commits an offence if it
+remains without a nominee for 28 days or more (clause 12.3).
 
 **5.2** He must notify FLC **within 2 business days** if his licence is suspended,
 cancelled, conditioned or expires; if he becomes bankrupt or an excluded individual; or if

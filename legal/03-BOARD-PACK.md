@@ -9,7 +9,7 @@
 
 | # | Decision | Detail |
 |---|---|---|
-| 1 | **Apply for FLC's own QBCC company licence** | Class to match Alistair Coleman's existing licence |
+| 1 | **Apply for FLC's own QBCC company licence** | Aim for **Structural landscaping (trade)** so we sit in SC1 — confirm with QBCC first |
 | 2 | **Employ Alistair Coleman as a casual employee** | Required by law — he must be an employee to be our nominee |
 | 3 | **Pay him 5% of each wall**, all-in | Wages + super. ~$1,500 on a $30k job |
 | 4 | **Retain ~$16,000–$24,000 of profit** | To meet the $12,000 net tangible assets test |
@@ -107,22 +107,25 @@ services applicants.** So the licence class we apply for decides how much money 
 **That is a $34,000 swing, and the biggest financial decision in this plan.** We want the
 trade class.
 
-**The catch:** the nominee must hold **the same class** as the company — a name match, not
-a scope test. If Alistair holds only a Builder class, he does not hold the trade class, and
-a broader licence does not substitute for it. He would need to add
-**Structural landscaping (trade)** to his own ticket. FLC can't do it for him; it attaches
-to his licence.
+### ✅ Confirmed: Alistair holds Builder — Low Rise
 
-| Alistair's situation | **Cost to him** |
+**QBCC Contractor Licence 76041 — ALISTAIR J COLEMAN — Builder – Low Rise — expires
+16/03/27.**
+
+That is a **builder** class. So if FLC's company licence simply matches his, **FLC is
+locked out of SC1 and needs $46,000 rather than $12,000.**
+
+**Recommendation: Alistair adds Structural landscaping (trade) to his own licence, and FLC
+applies for a company licence in that class, in SC1.**
+
+| | |
 |---|---:|
-| Adding a class to an existing nominee supervisor licence | **$250.73** |
-| A new nominee supervisor licence | **$501.46** |
+| Cost to Alistair to add the class | **$250.73 – $501.46** |
+| Capital it saves FLC | **$34,000** |
 
-Financial requirements don't apply to supervisor licences, so this adds no NTA burden.
-**$250–$500 against $34,000** — not a close call, if it comes to that.
+Confirm with QBCC before either party lodges anything — see the questions in §8.
 
-⚠️ **This is a contingency, not a plan.** We don't yet know what class Alistair holds. If he
-already holds Structural landscaping (trade), none of this arises.
+📅 **Diary: Alistair's licence expires 16 March 2027.** If it lapses, FLC has no nominee.
 
 **SC1 is the lowest category — there is nothing below it.** The $12,000 is a hard floor,
 and a Deed of Covenant (a director guarantee) is **not available** in SC1.
@@ -222,9 +225,9 @@ licensed immediately, then let retained profits build on top.
 | # | Step | Who | Status |
 |---|---|---|---|
 | 1 | 🔴 **Remove licence 76041 from the website, quotes, email footers, socials and signage** — it is Alistair's personal licence, not FLC's | Directors | **Today** |
-| 1a | Look up **what class** 76041 is — it decides SC1 vs SC2 | Directors | **Do first** |
+| 1a | 📅 Diarise **16 March 2027** — Alistair's licence expiry. If it lapses FLC has no nominee | Directors | Now |
 | 2 | **Call QBCC 139 333** — three questions (below) | Directors | **Do first** |
-| 3 | Confirm Alistair's licence class and expiry | Directors | |
+| 3 | ~~Confirm Alistair's licence class~~ ✅ **Done** — Contractor Licence 76041, Builder — Low Rise, expires 16/03/27 | Directors | Done |
 | 4 | Build NTA to $18,000–$20,000 via retained profits | Directors / accountant | In progress |
 | 5 | ⚠️ **Take no wall work over $3,300 until the licence is issued** | All | **Live now** |
 | 6 | Lodge the **company licence application** with the SC1 declaration | Directors | After step 4 |
@@ -240,9 +243,10 @@ licensed immediately, then let retained profits build on top.
 
 ### The three questions for QBCC
 
-> 1. ⚠️ *"Our builder holds licence class **[X]**. Can he be nominee for a company licence
->    in **Structural landscaping (trade)**? We need to stay in financial category
->    **SC1**."* — **the $34,000 question**
+> 1. ⚠️ *"Our nominee holds **Contractor Licence 76041, Builder — Low Rise**. Does that
+>    cover retaining wall construction? And can he nominate for a **Structural landscaping
+>    (trade)** company licence, so we sit in financial category **SC1**?"*
+>    — **the $34,000 question**
 > 2. *"We build standalone retaining walls for homeowners, $7,500 to $30,000, not part of
 >    any other building work. Is that insurable work under the Queensland Home Warranty
 >    Scheme?"*
@@ -271,7 +275,7 @@ licensed immediately, then let retained profits build on top.
 
 | Item | Owner | Blocking |
 |---|---|---|
-| What **class** licence 76041 is | Directors | SC1 vs SC2 decision |
+| Does Builder — Low Rise cover retaining walls? Can Alistair nominate for a trade-class company licence? | Directors | The whole application |
 | Which company licence class matches Alistair's | Directors | The application |
 | Home warranty insurance on standalone walls | Directors | Wall pricing |
 | Whether earthworks revenue counts toward the SC1 cap | Directors | Category choice |

@@ -164,9 +164,26 @@ right, separate from the unlicensed-contracting problem, and it is live today.
 Once FLC holds its own licence, the advertised number becomes FLC's company licence number.
 Alistair's personal number should never appear as FLC's.
 
-**Still unknown: what class 76041 is.** We have the number but not the class, and the class
-drives everything in §2.2 and §2.7G — including whether FLC lands in SC1 at $12,000 or SC2
-at $46,000. Look it up at `my.qbcc.qld.gov.au` → Licence Search, or ask Alistair.
+**✅ The class is now confirmed.** Alistair's card reads:
+
+| | |
+|---|---|
+| Licence type | **Contractor Licence** |
+| Holder | **ALISTAIR J COLEMAN** |
+| Class | **Builder — Low Rise** |
+| Number | **76041** |
+| Expiry | **16/03/27** |
+
+Two consequences, both dealt with in §2.7G:
+
+1. **It is a *contractor's* licence**, which is one of the two licence types s 42B accepts
+   for a nominee. No problem there.
+2. **It is a *builder* class**, which means matching it would push FLC out of SC1 and into
+   SC2 — $46,000 of net tangible assets instead of $12,000.
+
+📅 **Diarise 16 March 2027.** If the licence lapses, FLC has no nominee: notify QBCC within
+14 days, and FLC commits an offence if it stays without one for 28 days (clause 12.3 of the
+agreement, and clause 5.1A now requires him to renew and show evidence).
 
 ### 2.7 What FLC actually has to get from QBCC, and what it costs
 
@@ -419,7 +436,28 @@ into SC2 and $46,000.
 > *"Our builder holds licence class [X]. Can he be the nominee for a company licence in
 > Structural landscaping (trade)? We need to stay in financial category SC1."*
 
-### 2.7G(i) Why Alistair might need to add a trade class — and what it costs
+### 2.7G(i) Alistair holds Builder — Low Rise: what that means, and what to do
+
+**Confirmed: Contractor Licence 76041, class Builder — Low Rise, expiry 16/03/27.**
+
+Builder — Low Rise is a **builder** class. Applying that same class for FLC's company
+licence would be the simplest paperwork, but it **locks FLC out of SC1** — builders start at
+SC2, $46,000 NTA. For a bootstrapped company that is the wrong trade-off.
+
+**Recommendation: Alistair adds Structural landscaping (trade), FLC applies for that class
+in SC1.** $250–$500 from him, against $34,000 of capital FLC would otherwise have to find.
+
+There is also a **scope** question worth resolving in the same call. Builder — Low Rise
+covers Class 1 and Class 10 buildings up to three storeys, and a retaining wall is a
+Class 10b structure, so on its face it should cover this work. But at least one industry
+source states that retaining walls fall to specialist trade classes rather than the builder
+classes. **I could not settle that from the sources reachable here**, and it matters: if
+retaining walls really do need the trade class, Alistair needs it regardless of the
+financial category, and the recommendation above is not merely cheaper — it is required.
+
+**One call answers both.** See the script below.
+
+
 
 This part confused on first telling, so here it is step by step.
 
@@ -461,12 +499,18 @@ licence and applies for another class.
 entire point of this section. If the class match is the only thing standing between FLC and
 SC1, buying the match is not a close call.
 
-**Confirm two things on the call**, because both come from secondary sources rather than
-QBCC's own fee page, which I could not reach:
+**The script for the call — QBCC 139 333:**
 
-1. That a Builder class genuinely can't nominate for a trade-class company licence.
-2. Whether Alistair can hold a nominee supervisor class alongside his existing contractor
-   licence, and what QBCC would charge him.
+> *"Our nominee holds Contractor Licence 76041, class Builder — Low Rise.*
+> *(1) Does that class cover retaining wall construction, or do we need Structural
+> landscaping (trade)?*
+> *(2) Can he nominate for a company licence in Structural landscaping (trade), so the
+> company sits in financial category SC1?*
+> *(3) If he needs to add that class, can he hold it alongside his contractor licence, and
+> what is the fee?"*
+
+All three answers come from one conversation, and together they decide whether FLC needs
+$12,000 or $46,000. Nothing should be lodged before that call.
 
 ### 2.7H ⚠️ Home warranty insurance — check this before you price another wall
 
@@ -493,7 +537,9 @@ and needs to go into your wall pricing.
 
 - [x] ~~Confirm who holds licence 76041~~ — **confirmed: Alistair's personal licence** (§2.6).
 - [ ] 🔴 **Remove licence 76041 from FLC's website, quotes, email footers, socials and signage** — do this today (§2.6).
-- [ ] Find out what **class** licence 76041 is — it decides SC1 vs SC2 (§2.7G).
+- [x] ~~Find out what class licence 76041 is~~ — **Builder — Low Rise, expiry 16/03/27**.
+- [ ] 📞 Call QBCC 139 333 with the three-part script in §2.7G(i) — decides $12,000 vs $46,000.
+- [ ] 📅 Diarise **16 March 2027**, Alistair's licence expiry.
 - [ ] Confirm Alistair's licence class and expiry.
 - [ ] Call QBCC 139 333 to confirm which company licence class his licence can nominate
       for (§2.2), **and** whether standalone retaining walls are insurable work under the
@@ -779,7 +825,9 @@ it real: PAYG, super, WorkCover, genuine direction from FLC, genuine supervision
 ## 6. What I still need to finalise the draft
 
 1. **FLC's ABN and ACN**, and registered office address.
-2. ~~Who holds licence 76041~~ — **confirmed: Alistair's** (§2.6). Still needed: **what class it is**.
+2. ~~Who holds licence 76041, and its class~~ — **confirmed: Alistair's Contractor Licence
+   76041, Builder — Low Rise, expiry 16/03/27** (§2.6). Still needed: QBCC's answer on
+   class and scope (§2.7G(i)).
 3. **Alistair's licence class and expiry**, and QBCC's answer on class matching (§2.2).
 4. **Alistair's full legal name and address.**
 5. Confirmation of the **hourly rate** — recommended **$70** (§4.3B / §4.5).

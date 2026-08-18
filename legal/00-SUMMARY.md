@@ -19,7 +19,8 @@ itself is `02-CASUAL-EMPLOYMENT-AGREEMENT-DRAFT.md`.
 | **Area** | Brisbane and South East Queensland — no suburb limit |
 | **Wall scope** | Only walls **below the engineering-certification threshold** |
 | **His job** | **Supervise** — and gate the scope. He does **not** certify walls; an RPEQ does. |
-| **QBCC licence class** | Match FLC's company class to Alistair's — **his class is still unknown**, and it decides SC1 vs SC2 |
+| **Alistair's licence** | ✅ **Contractor Licence 76041, Builder — Low Rise, expires 16/03/27** |
+| **QBCC licence class** | ⚠️ **Decision needed.** Builder — Low Rise is a *builder* class, so matching it puts FLC in SC2 ($46,000). Aim for a **Structural landscaping (trade)** company licence in SC1 ($12,000) — see §4 |
 | **Financial category** | **SC1** — max revenue $200,000, net tangible assets $12,000 |
 | **Home warranty insurance** | ⏳ **To be determined** — see §4 |
 
@@ -115,11 +116,12 @@ services applicants. So the class we apply for decides whether we need $12,000 o
 in the company — a **$34,000 swing**, and the biggest financial decision in this plan. Get
 the **trade** class if it's achievable. That's question (a) on the QBCC call.
 
-**If Alistair holds only a Builder class**, he'd need to add Structural landscaping (trade)
-to his own licence so it matches FLC's — the nominee rule is a name match, not a scope
-test. Cost to him: **$250.73** to add a class to an existing nominee supervisor licence, or
-**$501.46** for a new one. No financial requirements attach to supervisor licences. This is
-a contingency — we don't yet know what class he holds.
+**Alistair holds Builder — Low Rise.** That is a builder class, so if FLC's company licence
+matches his, **FLC is locked out of SC1 and needs $46,000, not $12,000.**
+
+**Recommendation: Alistair adds Structural landscaping (trade) to his own ticket, and FLC
+applies for that class in SC1.** Cost to him **$250.73–$501.46**; saves FLC **$34,000** of
+capital. Confirm with QBCC before either party lodges anything.
 
 **SC1 caps FLC at $200,000 revenue.** At $30,000 a wall that's **fewer than seven walls a
 year** — before you count any earthworks revenue that QBCC treats as licensed building
@@ -140,11 +142,11 @@ licence fee, and it's a per-job cost outside the 5%.
 | # | Step | Who |
 |---|---|---|
 | 1 | 🔴 **Remove licence 76041 from the website, quotes, email footers, socials and signage.** It is Alistair's personal licence, not FLC's — advertising it as ours is a breach on its own, and it is live today | FLC |
-| 1a | Find out **what class** licence 76041 is — it decides whether we need $12,000 or $46,000 in the company | FLC |
-| 2 | Call **QBCC 139 333** and ask three things: **(a)** ⚠️ can Alistair's licence nominate for a **Structural landscaping (trade)** company licence, so FLC stays in **SC1**; **(b)** is a standalone retaining wall insurable under the Home Warranty Scheme; **(c)** does FLC's earthworks revenue count toward the SC1 cap | FLC |
+| 1a | 📅 Diarise **16 March 2027** — Alistair's licence expiry. If it lapses, FLC has no nominee | FLC |
+| 2 | Call **QBCC 139 333**. ⚠️ **(a)** *"Our nominee holds Contractor Licence 76041, Builder — Low Rise. Does that cover retaining wall construction, and can he nominate for a **Structural landscaping (trade)** company licence so we sit in **SC1**?"* **(b)** Is a standalone retaining wall insurable under the Home Warranty Scheme? **(c)** Does FLC's earthworks revenue count toward the SC1 cap? | FLC |
 | 3 | Build NTA by **retaining profits** — retain **~$16,000 pre-tax** to land $12,000 after tax; target **$18,000–$20,000** for buffer. Plant is hired, so NTA is pure working capital — measure it **net of GST, PAYG, super and tax provisions**, and declare a sustainable figure, not a peak (§2.7E). Confirm turnover stays under **$200,000** | FLC / accountant |
 | 3a | ⚠️ **Until NTA is there and the licence is issued, FLC must not quote, sign or start any retaining wall over $3,300** | FLC |
-| 4 | **Apply for FLC's company licence** in the class from step 2, financial category **SC1**, with an MFR declaration | FLC |
+| 4 | **Apply for FLC's company licence** — aim for **Structural landscaping (trade)**, category **SC1**, with the MFR declaration | FLC |
 | 5 | Fill the placeholders in the agreement: ABN/ACN, addresses, licence numbers, **$70/hr**, per-km allowance | FLC |
 | 6 | **Lawyer review** of the agreement | Solicitor |
 | 7 | **Sign** the agreement | Both |
