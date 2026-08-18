@@ -1,7 +1,9 @@
 # FLC × Alistair Coleman — Summary, Costs and Steps
 
-**One-page summary.** Detail and sources are in `01-STRUCTURING-GUIDANCE.md`; the agreement
-itself is `02-CASUAL-EMPLOYMENT-AGREEMENT-DRAFT.md`.
+**Internal working summary.** The document that goes to the directors is
+`03-DIRECTOR-PACK.html` (exported as `exports/FLC-Director-Pack.pdf`). Full detail and
+sources are in `01-STRUCTURING-GUIDANCE.md`; the contract itself is
+`02-CASUAL-EMPLOYMENT-AGREEMENT-DRAFT.md`.
 
 ---
 
