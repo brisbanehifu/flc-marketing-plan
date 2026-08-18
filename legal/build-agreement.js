@@ -26,14 +26,14 @@ const run = (t, o = {}) => new TextRun({ text: t, size: o.size ?? 20, bold: o.bo
 const h1 = (t) => new Paragraph({
   heading: HeadingLevel.HEADING_1,
   spacing: { before: 360, after: 160 },
-  children: [new TextRun({ text: t, size: 26, bold: true, color: ACCENT, font: 'Calibri' })],
+  children: [new TextRun({ text: t, size: 28, bold: true, color: ACCENT, font: 'Calibri' })],
   border: { bottom: { style: BorderStyle.SINGLE, size: 8, color: RULE, space: 6 } },
 });
 
 const h2 = (t) => new Paragraph({
   heading: HeadingLevel.HEADING_2,
   spacing: { before: 240, after: 100 },
-  children: [new TextRun({ text: t, size: 21, bold: true, font: 'Calibri' })],
+  children: [new TextRun({ text: t, size: 23, bold: true, font: 'Calibri' })],
 });
 
 // numbered clause: bold number + text
@@ -41,8 +41,8 @@ const cl = (num, text, opts = {}) => new Paragraph({
   spacing: { before: 60, after: 100, line: 276 },
   indent: { left: 640, hanging: 640 },
   children: [
-    new TextRun({ text: num + '\t', bold: true, size: 20, font: 'Calibri' }),
-    ...(Array.isArray(text) ? text : [new TextRun({ text, size: 20, font: 'Calibri' })]),
+    new TextRun({ text: num + '\t', bold: true, size: 22, font: 'Calibri' }),
+    ...(Array.isArray(text) ? text : [new TextRun({ text, size: 22, font: 'Calibri' })]),
   ],
   tabStops: [{ type: TabStopType.LEFT, position: 640 }],
 });
@@ -50,7 +50,7 @@ const cl = (num, text, opts = {}) => new Paragraph({
 const bullet = (text) => new Paragraph({
   numbering: { reference: 'dash', level: 0 },
   spacing: { before: 40, after: 60, line: 276 },
-  children: Array.isArray(text) ? text : [new TextRun({ text, size: 20, font: 'Calibri' })],
+  children: Array.isArray(text) ? text : [new TextRun({ text, size: 22, font: 'Calibri' })],
 });
 
 const noBorders = {
@@ -83,7 +83,7 @@ function table(rows, widths, opts = {}) {
           spacing: { before: 0, after: 0, line: 260 },
           alignment: opts.rightCols && opts.rightCols.includes(ci) ? AlignmentType.RIGHT : undefined,
           children: Array.isArray(c) ? c : [new TextRun({
-            text: String(c), size: 19, font: 'Calibri',
+            text: String(c), size: 21, font: 'Calibri',
             bold: (header && ri === 0) || undefined,
             color: (header && ri === 0) ? GREY : undefined,
           })],
@@ -97,8 +97,8 @@ const fillRow = (label) => new Paragraph({
   spacing: { before: 200, after: 40 },
   tabStops: [{ type: TabStopType.LEFT, position: 3200 }],
   children: [
-    new TextRun({ text: label + '\t', size: 20, font: 'Calibri' }),
-    new TextRun({ text: ' '.repeat(60), size: 20, font: 'Calibri', underline: {} }),
+    new TextRun({ text: label + '\t', size: 22, font: 'Calibri' }),
+    new TextRun({ text: ' '.repeat(60), size: 22, font: 'Calibri', underline: {} }),
   ],
 });
 
@@ -118,28 +118,28 @@ const callout = (label, text) => new Table({
       shading: { type: ShadingType.CLEAR, fill: SOFT },
       margins: { top: 160, bottom: 160, left: 200, right: 200 },
       children: [
-        new Paragraph({ spacing: { after: 60 }, children: [new TextRun({ text: label.toUpperCase(), size: 16, bold: true, color: GREY, font: 'Calibri', characterSpacing: 20 })] }),
-        new Paragraph({ spacing: { after: 0, line: 276 }, children: Array.isArray(text) ? text : [new TextRun({ text, size: 20, font: 'Calibri' })] }),
+        new Paragraph({ spacing: { after: 60 }, children: [new TextRun({ text: label.toUpperCase(), size: 17, bold: true, color: GREY, font: 'Calibri', characterSpacing: 20 })] }),
+        new Paragraph({ spacing: { after: 0, line: 276 }, children: Array.isArray(text) ? text : [new TextRun({ text, size: 22, font: 'Calibri' })] }),
       ],
     })],
   })],
 });
 
-const F = (t) => new TextRun({ text: t, size: 20, font: 'Calibri', color: 'A0392B', bold: true }); // fill-in field
-const B = (t) => new TextRun({ text: t, size: 20, font: 'Calibri', bold: true });
-const T = (t) => new TextRun({ text: t, size: 20, font: 'Calibri' });
-const I = (t) => new TextRun({ text: t, size: 20, font: 'Calibri', italics: true });
+const F = (t) => new TextRun({ text: t, size: 22, font: 'Calibri', color: 'A0392B', bold: true }); // fill-in field
+const B = (t) => new TextRun({ text: t, size: 22, font: 'Calibri', bold: true });
+const T = (t) => new TextRun({ text: t, size: 22, font: 'Calibri' });
+const I = (t) => new TextRun({ text: t, size: 22, font: 'Calibri', italics: true });
 
 const children = [];
 
 // ---------- Title block ----------
 children.push(new Paragraph({
   spacing: { after: 60 },
-  children: [new TextRun({ text: 'CASUAL EMPLOYMENT AGREEMENT', size: 34, bold: true, font: 'Calibri' })],
+  children: [new TextRun({ text: 'CASUAL EMPLOYMENT AGREEMENT', size: 36, bold: true, font: 'Calibri' })],
 }));
 children.push(new Paragraph({
   spacing: { after: 200 },
-  children: [new TextRun({ text: 'Builder — QBCC Nominee Supervisor', size: 24, color: ACCENT, font: 'Calibri' })],
+  children: [new TextRun({ text: 'Builder — QBCC Nominee Supervisor', size: 26, color: ACCENT, font: 'Calibri' })],
   border: { bottom: { style: BorderStyle.SINGLE, size: 12, color: ACCENT, space: 8 } },
 }));
 
@@ -313,8 +313,8 @@ children.push(fillRow('Signature'));
 children.push(fillRow('Date'));
 
 // ================= SCHEDULE 1 =================
-children.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 60 }, children: [new TextRun({ text: 'SCHEDULE 1', size: 30, bold: true, font: 'Calibri' })] }));
-children.push(new Paragraph({ spacing: { after: 200 }, children: [new TextRun({ text: 'Engagement Confirmation', size: 24, color: ACCENT, font: 'Calibri' })], border: { bottom: { style: BorderStyle.SINGLE, size: 12, color: ACCENT, space: 8 } } }));
+children.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 60 }, children: [new TextRun({ text: 'SCHEDULE 1', size: 32, bold: true, font: 'Calibri' })] }));
+children.push(new Paragraph({ spacing: { after: 200 }, children: [new TextRun({ text: 'Engagement Confirmation', size: 26, color: ACCENT, font: 'Calibri' })], border: { bottom: { style: BorderStyle.SINGLE, size: 12, color: ACCENT, space: 8 } } }));
 children.push(p([I('One per wall. Complete the scope assessment before FLC quotes.')], { after: 200 }));
 
 children.push(table([
@@ -379,8 +379,8 @@ children.push(table([
 ], [W - 3600, 3600]));
 
 // ================= SCHEDULE 2 =================
-children.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 60 }, children: [new TextRun({ text: 'SCHEDULE 2', size: 30, bold: true, font: 'Calibri' })] }));
-children.push(new Paragraph({ spacing: { after: 200 }, children: [new TextRun({ text: 'Site Supervision Record', size: 24, color: ACCENT, font: 'Calibri' })], border: { bottom: { style: BorderStyle.SINGLE, size: 12, color: ACCENT, space: 8 } } }));
+children.push(new Paragraph({ pageBreakBefore: true, spacing: { after: 60 }, children: [new TextRun({ text: 'SCHEDULE 2', size: 32, bold: true, font: 'Calibri' })] }));
+children.push(new Paragraph({ spacing: { after: 200 }, children: [new TextRun({ text: 'Site Supervision Record', size: 26, color: ACCENT, font: 'Calibri' })], border: { bottom: { style: BorderStyle.SINGLE, size: 12, color: ACCENT, space: 8 } } }));
 children.push(p([I('One per site visit. Keep for 7 years. This is FLC\'s evidence of adequate supervision under section 43A of the QBCC Act.')], { after: 200 }));
 
 children.push(table([
@@ -435,7 +435,7 @@ const doc = new Document({
   },
   styles: {
     default: {
-      document: { run: { font: 'Calibri', size: 20 } },
+      document: { run: { font: 'Calibri', size: 22 } },
     },
   },
   sections: [{
@@ -451,7 +451,7 @@ const doc = new Document({
           spacing: { after: 200 },
           tabStops: [{ type: TabStopType.RIGHT, position: W }],
           border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: RULE, space: 4 } },
-          children: [new TextRun({ text: 'First Light Civil Pty Ltd  ·  Casual Employment Agreement\tDRAFT', size: 16, color: GREY, font: 'Calibri' })],
+          children: [new TextRun({ text: 'First Light Civil Pty Ltd  ·  Casual Employment Agreement\tDRAFT', size: 17, color: GREY, font: 'Calibri' })],
         })],
       }),
     },
@@ -459,7 +459,7 @@ const doc = new Document({
       default: new Footer({
         children: [new Paragraph({
           alignment: AlignmentType.CENTER,
-          children: [new TextRun({ children: ['Page ', PageNumber.CURRENT, ' of ', PageNumber.TOTAL_PAGES], size: 16, color: GREY, font: 'Calibri' })],
+          children: [new TextRun({ children: ['Page ', PageNumber.CURRENT, ' of ', PageNumber.TOTAL_PAGES], size: 17, color: GREY, font: 'Calibri' })],
         })],
       }),
     },
